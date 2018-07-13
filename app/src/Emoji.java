@@ -1,39 +1,39 @@
 public class Emoji {
 
-    private String mCodePoints;
-    private String mStatus;
-    private String mEmoji;
-    private String mName;
+    private String codePoints;
+    private String status;
+    private String emoji;
+    private String name;
 
     public String getCodePoints() {
-        return mCodePoints;
+        return codePoints;
     }
 
     public void setCodePoints(String codePoints) {
-        mCodePoints = codePoints;
+        this.codePoints = codePoints;
     }
 
     public String getStatus() {
-        return mStatus;
+        return status;
     }
 
     public void setStatus(String status) {
-        mStatus = status;
+        this.status = status;
     }
 
     public String getEmoji() {
-        return mEmoji;
+        return emoji;
     }
 
     public void setEmoji(String emoji) {
-        mEmoji = emoji;
+        this.emoji = emoji;
     }
 
     public String getName() {
-        return mName;
+        return name;
     }
 
     public void setName(String name) {
-        mName = name;
+        this.name = name;
     }
 }

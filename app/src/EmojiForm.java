@@ -1,79 +1,44 @@
-package com.andforce;
-
-import org.json.*;
-import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public class EmojiForm {
-	
-    private String document;
+    private Date date;
+
     private String version;
-    private ArrayList<Groups> groups;
-    private String date;
-    
-    
-	public EmojiForm () {
-		
-	}	
-        
-    public EmojiForm (JSONObject json) {
-    
-        this.document = json.optString("document");
-        this.version = json.optString("version");
 
-        this.groups = new ArrayList<Groups>();
-        JSONArray arrayGroups = json.optJSONArray("groups");
-        if (null != arrayGroups) {
-            int groupsLength = arrayGroups.length();
-            for (int i = 0; i < groupsLength; i++) {
-                JSONObject item = arrayGroups.optJSONObject(i);
-                if (null != item) {
-                    this.groups.add(new Groups(item));
-                }
-            }
-        }
-        else {
-            JSONObject item = json.optJSONObject("groups");
-            if (null != item) {
-                this.groups.add(new Groups(item));
-            }
-        }
+    private String document;
 
-        this.date = json.optString("date");
+    private List<Group> groups;
 
-    }
-    
-    public String getDocument() {
-        return this.document;
+    public Date getDate() {
+        return date;
     }
 
-    public void setDocument(String document) {
-        this.document = document;
+    public void setDate(Date date) {
+        this.date = date;
     }
 
     public String getVersion() {
-        return this.version;
+        return version;
     }
 
     public void setVersion(String version) {
         this.version = version;
     }
 
-    public ArrayList<Groups> getGroups() {
-        return this.groups;
+    public String getDocument() {
+        return document;
     }
 
-    public void setGroups(ArrayList<Groups> groups) {
+    public void setDocument(String document) {
+        this.document = document;
+    }
+
+    public List<Group> getGroups() {
+        return groups;
+    }
+
+    public void setGroups(List<Group> groups) {
         this.groups = groups;
     }
-
-    public String getDate() {
-        return this.date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-
-    
 }

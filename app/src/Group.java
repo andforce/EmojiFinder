@@ -2,23 +2,23 @@ import java.util.List;
 
 public class Group {
 
-    private String mType;
+    private String type;
 
-    private List<SubGroup> mSubGroups;
+    private List<SubGroup> subGroups;
 
     public String getType() {
-        return mType;
+        return type;
     }
 
     public void setType(String type) {
-        mType = type;
+        this.type = type;
     }
 
     public List<SubGroup> getSubGroups() {
-        return mSubGroups;
+        return subGroups;
     }
 
     public void setSubGroups(List<SubGroup> subGroups) {
-        mSubGroups = subGroups;
+        this.subGroups = subGroups;
     }
 }

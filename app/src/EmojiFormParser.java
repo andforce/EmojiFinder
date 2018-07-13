@@ -53,7 +53,7 @@ public class EmojiFormParser {
                         i++;
                     } else if (line.startsWith("# For documentation and usage, see ")) {
                         String doc = line.replace("# For documentation and usage, see ", "");
-                        emojiForm.setDocumentation(doc);
+                        emojiForm.setDocument(doc);
                         i++;
                     }
                 } else {
