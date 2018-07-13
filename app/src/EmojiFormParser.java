@@ -79,26 +79,7 @@ public class EmojiFormParser {
 
                         subGroups.add(subGroup);
                     } else if (!line.equals("") && !line.startsWith("#")) {
-                        Emoji emoji = new Emoji();
-                        String[] tmps = line.split(" ; ");
-                        String codePoints = "\\u" + tmps[0].trim().replace(" " ,"\\u");
-
-                        String[] tmps2 = tmps[1].split(" # ");
-                        String status = tmps2[0].trim();
-
-                        String tmps3 = tmps2[1];
-
-                        int spaceIndex = tmps3.indexOf(" ");
-
-                        String emojiStr = tmps3.substring(0, spaceIndex);
-
-                        String name = tmps3.substring(spaceIndex, tmps3.length()).trim();
-
-                        emoji.setCodePoints(codePoints);
-                        emoji.setStatus(status);
-                        emoji.setEmoji(emojiStr);
-                        emoji.setName(name);
-                        emojis.add(emoji);
+                        parseEmoji(emojis, line);
 
                     } else if (line.startsWith("#EOF")) {
                         emojiForm.setGroups(groups);
@@ -122,4 +103,60 @@ public class EmojiFormParser {
         return emojiForm;
     }
 
+    public List<Emoji> parseEmojis(){
+        File file = new File(mEmojiFile);
+
+        BufferedReader bufferedReader = null;
+
+        List<Emoji> emojis = new ArrayList<>();
+
+        int i = 0;
+        try {
+            bufferedReader = new BufferedReader(new FileReader(file));
+            String line = null;
+            while ((line = bufferedReader.readLine()) != null) {
+
+                if (!line.equals("") && !line.startsWith("#")) {
+                    parseEmoji(emojis, line);
+
+                }
+
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (bufferedReader != null){
+                try {
+                    bufferedReader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return emojis;
+    }
+
+    private void parseEmoji(List<Emoji> emojis, String line) {
+        Emoji emoji = new Emoji();
+        String[] tmps = line.split(" ; ");
+        String codePoints = "\\u" + tmps[0].trim().replace(" " ,"\\u");
+
+        String[] tmps2 = tmps[1].split(" # ");
+        String status = tmps2[0].trim();
+
+        String tmps3 = tmps2[1];
+
+        int spaceIndex = tmps3.indexOf(" ");
+
+        String emojiStr = tmps3.substring(0, spaceIndex);
+
+        String name = tmps3.substring(spaceIndex, tmps3.length()).trim();
+
+        emoji.setCodePoints(codePoints);
+        emoji.setStatus(status);
+        emoji.setEmoji(emojiStr);
+        emoji.setName(name);
+        emojis.add(emoji);
+    }
 }
