@@ -1,5 +1,3 @@
-package com.andforce;
-
 public class Emoji {
 
     private String mCodePoints;

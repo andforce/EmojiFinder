@@ -1,5 +1,3 @@
-package com.andforce;
-
 import java.util.List;
 
 public class SubGroup {
