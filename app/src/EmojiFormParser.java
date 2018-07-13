@@ -74,7 +74,7 @@ public class EmojiFormParser {
                         emojis = new ArrayList<>();
 
                         String type = line.replace("# subgroup: ", "");
-                        subGroup.setType(type);
+                        subGroup.setSubType(type);
                         subGroup.setEmojis(emojis);
 
                         subGroups.add(subGroup);

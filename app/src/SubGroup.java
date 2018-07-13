@@ -2,16 +2,16 @@ import java.util.List;
 
 public class SubGroup {
 
-    private String mType;
+    private String mSubType;
 
     private List<Emoji> mEmojis;
 
-    public String getType() {
-        return mType;
+    public String getSubType() {
+        return mSubType;
     }
 
-    public void setType(String type) {
-        mType = type;
+    public void setSubType(String subType) {
+        mSubType = subType;
     }
 
 

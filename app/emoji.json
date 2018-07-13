@@ -7,7 +7,7 @@
       "mType": "Smileys \u0026 People",
       "mSubGroups": [
         {
-          "mType": "face-positive",
+          "mSubType": "face-positive",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F600",
@@ -150,7 +150,7 @@
           ]
         },
         {
-          "mType": "face-neutral",
+          "mSubType": "face-neutral",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F914",
@@ -317,7 +317,7 @@
           ]
         },
         {
-          "mType": "face-negative",
+          "mSubType": "face-negative",
           "mEmojis": [
             {
               "mCodePoints": "\\u2639\\uFE0F",
@@ -472,7 +472,7 @@
           ]
         },
         {
-          "mType": "face-sick",
+          "mSubType": "face-sick",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F637",
@@ -513,7 +513,7 @@
           ]
         },
         {
-          "mType": "face-role",
+          "mSubType": "face-role",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F607",
@@ -578,7 +578,7 @@
           ]
         },
         {
-          "mType": "face-fantasy",
+          "mSubType": "face-fantasy",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F608",
@@ -661,7 +661,7 @@
           ]
         },
         {
-          "mType": "cat-face",
+          "mSubType": "cat-face",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F63A",
@@ -720,7 +720,7 @@
           ]
         },
         {
-          "mType": "monkey-face",
+          "mSubType": "monkey-face",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F648",
@@ -743,7 +743,7 @@
           ]
         },
         {
-          "mType": "skin-tone",
+          "mSubType": "skin-tone",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3FB",
@@ -778,7 +778,7 @@
           ]
         },
         {
-          "mType": "person",
+          "mSubType": "person",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F476",
@@ -1143,7 +1143,7 @@
           ]
         },
         {
-          "mType": "person-role",
+          "mSubType": "person-role",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F468\\u200D\\u2695\\uFE0F",
@@ -4238,7 +4238,7 @@
           ]
         },
         {
-          "mType": "person-fantasy",
+          "mSubType": "person-fantasy",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F47C",
@@ -5671,7 +5671,7 @@
           ]
         },
         {
-          "mType": "person-gesture",
+          "mSubType": "person-gesture",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F64D",
@@ -7296,7 +7296,7 @@
           ]
         },
         {
-          "mType": "person-activity",
+          "mSubType": "person-activity",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F486",
@@ -8801,7 +8801,7 @@
           ]
         },
         {
-          "mType": "person-sport",
+          "mSubType": "person-sport",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F93A",
@@ -11200,7 +11200,7 @@
           ]
         },
         {
-          "mType": "family",
+          "mSubType": "family",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F46B",
@@ -11463,7 +11463,7 @@
           ]
         },
         {
-          "mType": "body",
+          "mSubType": "body",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F933",
@@ -12896,7 +12896,7 @@
           ]
         },
         {
-          "mType": "emotion",
+          "mSubType": "emotion",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F48B",
@@ -13117,7 +13117,7 @@
           ]
         },
         {
-          "mType": "clothing",
+          "mSubType": "clothing",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F453",
@@ -13367,7 +13367,7 @@
       "mType": "Animals \u0026 Nature",
       "mSubGroups": [
         {
-          "mType": "animal-mammal",
+          "mSubType": "animal-mammal",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F435",
@@ -13696,7 +13696,7 @@
           ]
         },
         {
-          "mType": "animal-bird",
+          "mSubType": "animal-bird",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F983",
@@ -13797,7 +13797,7 @@
           ]
         },
         {
-          "mType": "animal-amphibian",
+          "mSubType": "animal-amphibian",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F438",
@@ -13808,7 +13808,7 @@
           ]
         },
         {
-          "mType": "animal-reptile",
+          "mSubType": "animal-reptile",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F40A",
@@ -13861,7 +13861,7 @@
           ]
         },
         {
-          "mType": "animal-marine",
+          "mSubType": "animal-marine",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F433",
@@ -13944,7 +13944,7 @@
           ]
         },
         {
-          "mType": "animal-bug",
+          "mSubType": "animal-bug",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F40C",
@@ -14033,7 +14033,7 @@
           ]
         },
         {
-          "mType": "plant-flower",
+          "mSubType": "plant-flower",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F490",
@@ -14104,7 +14104,7 @@
           ]
         },
         {
-          "mType": "plant-other",
+          "mSubType": "plant-other",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F331",
@@ -14192,7 +14192,7 @@
       "mType": "Food \u0026 Drink",
       "mSubGroups": [
         {
-          "mType": "food-fruit",
+          "mSubType": "food-fruit",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F347",
@@ -14299,7 +14299,7 @@
           ]
         },
         {
-          "mType": "food-vegetable",
+          "mSubType": "food-vegetable",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F951",
@@ -14382,7 +14382,7 @@
           ]
         },
         {
-          "mType": "food-prepared",
+          "mSubType": "food-prepared",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F35E",
@@ -14555,7 +14555,7 @@
           ]
         },
         {
-          "mType": "food-asian",
+          "mSubType": "food-asian",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F371",
@@ -14662,7 +14662,7 @@
           ]
         },
         {
-          "mType": "food-sweet",
+          "mSubType": "food-sweet",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F366",
@@ -14751,7 +14751,7 @@
           ]
         },
         {
-          "mType": "drink",
+          "mSubType": "drink",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F37C",
@@ -14840,7 +14840,7 @@
           ]
         },
         {
-          "mType": "dishware",
+          "mSubType": "dishware",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F962",
@@ -14892,7 +14892,7 @@
       "mType": "Travel \u0026 Places",
       "mSubGroups": [
         {
-          "mType": "place-map",
+          "mSubType": "place-map",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F30D",
@@ -14945,7 +14945,7 @@
           ]
         },
         {
-          "mType": "place-geographic",
+          "mSubType": "place-geographic",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3D4\\uFE0F",
@@ -15046,7 +15046,7 @@
           ]
         },
         {
-          "mType": "place-building",
+          "mSubType": "place-building",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3DF\\uFE0F",
@@ -15225,7 +15225,7 @@
           ]
         },
         {
-          "mType": "place-religious",
+          "mSubType": "place-religious",
           "mEmojis": [
             {
               "mCodePoints": "\\u26EA",
@@ -15266,7 +15266,7 @@
           ]
         },
         {
-          "mType": "place-other",
+          "mSubType": "place-other",
           "mEmojis": [
             {
               "mCodePoints": "\\u26F2",
@@ -15385,7 +15385,7 @@
           ]
         },
         {
-          "mType": "transport-ground",
+          "mSubType": "transport-ground",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F682",
@@ -15660,7 +15660,7 @@
           ]
         },
         {
-          "mType": "transport-water",
+          "mSubType": "transport-water",
           "mEmojis": [
             {
               "mCodePoints": "\\u2693",
@@ -15731,7 +15731,7 @@
           ]
         },
         {
-          "mType": "transport-air",
+          "mSubType": "transport-air",
           "mEmojis": [
             {
               "mCodePoints": "\\u2708\\uFE0F",
@@ -15826,7 +15826,7 @@
           ]
         },
         {
-          "mType": "hotel",
+          "mSubType": "hotel",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F6CE\\uFE0F",
@@ -15849,7 +15849,7 @@
           ]
         },
         {
-          "mType": "time",
+          "mSubType": "time",
           "mEmojis": [
             {
               "mCodePoints": "\\u231B",
@@ -16058,7 +16058,7 @@
           ]
         },
         {
-          "mType": "sky \u0026 weather",
+          "mSubType": "sky \u0026 weather",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F311",
@@ -16446,7 +16446,7 @@
       "mType": "Activities",
       "mSubGroups": [
         {
-          "mType": "event",
+          "mSubType": "event",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F383",
@@ -16589,7 +16589,7 @@
           ]
         },
         {
-          "mType": "award-medal",
+          "mSubType": "award-medal",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F396\\uFE0F",
@@ -16636,7 +16636,7 @@
           ]
         },
         {
-          "mType": "sport",
+          "mSubType": "sport",
           "mEmojis": [
             {
               "mCodePoints": "\\u26BD",
@@ -16803,7 +16803,7 @@
           ]
         },
         {
-          "mType": "game",
+          "mSubType": "game",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3AF",
@@ -16952,7 +16952,7 @@
           ]
         },
         {
-          "mType": "arts \u0026 crafts",
+          "mSubType": "arts \u0026 crafts",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3AD",
@@ -16998,7 +16998,7 @@
       "mType": "Objects",
       "mSubGroups": [
         {
-          "mType": "sound",
+          "mSubType": "sound",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F507",
@@ -17057,7 +17057,7 @@
           ]
         },
         {
-          "mType": "music",
+          "mSubType": "music",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3BC",
@@ -17134,7 +17134,7 @@
           ]
         },
         {
-          "mType": "musical-instrument",
+          "mSubType": "musical-instrument",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3B7",
@@ -17175,7 +17175,7 @@
           ]
         },
         {
-          "mType": "phone",
+          "mSubType": "phone",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F4F1",
@@ -17222,7 +17222,7 @@
           ]
         },
         {
-          "mType": "computer",
+          "mSubType": "computer",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F50B",
@@ -17335,7 +17335,7 @@
           ]
         },
         {
-          "mType": "light \u0026 video",
+          "mSubType": "light \u0026 video",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3A5",
@@ -17448,7 +17448,7 @@
           ]
         },
         {
-          "mType": "book-paper",
+          "mSubType": "book-paper",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F4D4",
@@ -17567,7 +17567,7 @@
           ]
         },
         {
-          "mType": "money",
+          "mSubType": "money",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F4B0",
@@ -17638,7 +17638,7 @@
           ]
         },
         {
-          "mType": "mail",
+          "mSubType": "mail",
           "mEmojis": [
             {
               "mCodePoints": "\\u2709\\uFE0F",
@@ -17733,7 +17733,7 @@
           ]
         },
         {
-          "mType": "writing",
+          "mSubType": "writing",
           "mEmojis": [
             {
               "mCodePoints": "\\u270F\\uFE0F",
@@ -17816,7 +17816,7 @@
           ]
         },
         {
-          "mType": "office",
+          "mSubType": "office",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F4BC",
@@ -18007,7 +18007,7 @@
           ]
         },
         {
-          "mType": "lock",
+          "mSubType": "lock",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F512",
@@ -18054,7 +18054,7 @@
           ]
         },
         {
-          "mType": "tool",
+          "mSubType": "tool",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F528",
@@ -18227,7 +18227,7 @@
           ]
         },
         {
-          "mType": "science",
+          "mSubType": "science",
           "mEmojis": [
             {
               "mCodePoints": "\\u2697\\uFE0F",
@@ -18280,7 +18280,7 @@
           ]
         },
         {
-          "mType": "medical",
+          "mSubType": "medical",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F489",
@@ -18297,7 +18297,7 @@
           ]
         },
         {
-          "mType": "household",
+          "mSubType": "household",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F6AA",
@@ -18404,7 +18404,7 @@
           ]
         },
         {
-          "mType": "other-object",
+          "mSubType": "other-object",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F6AC",
@@ -18450,7 +18450,7 @@
       "mType": "Symbols",
       "mSubGroups": [
         {
-          "mType": "transport-sign",
+          "mSubType": "transport-sign",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3E7",
@@ -18533,7 +18533,7 @@
           ]
         },
         {
-          "mType": "warning",
+          "mSubType": "warning",
           "mEmojis": [
             {
               "mCodePoints": "\\u26A0\\uFE0F",
@@ -18634,7 +18634,7 @@
           ]
         },
         {
-          "mType": "arrow",
+          "mSubType": "arrow",
           "mEmojis": [
             {
               "mCodePoints": "\\u2B06\\uFE0F",
@@ -18849,7 +18849,7 @@
           ]
         },
         {
-          "mType": "religion",
+          "mSubType": "religion",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F6D0",
@@ -18980,7 +18980,7 @@
           ]
         },
         {
-          "mType": "zodiac",
+          "mSubType": "zodiac",
           "mEmojis": [
             {
               "mCodePoints": "\\u2648",
@@ -19063,7 +19063,7 @@
           ]
         },
         {
-          "mType": "av-symbol",
+          "mSubType": "av-symbol",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F500",
@@ -19266,7 +19266,7 @@
           ]
         },
         {
-          "mType": "other-symbol",
+          "mSubType": "other-symbol",
           "mEmojis": [
             {
               "mCodePoints": "\\u2640\\uFE0F",
@@ -19595,7 +19595,7 @@
           ]
         },
         {
-          "mType": "keycap",
+          "mSubType": "keycap",
           "mEmojis": [
             {
               "mCodePoints": "\\u0023\\uFE0F\\u20E3",
@@ -19750,7 +19750,7 @@
           ]
         },
         {
-          "mType": "alphanum",
+          "mSubType": "alphanum",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F4AF",
@@ -19792,31 +19792,31 @@
               "mCodePoints": "\\u1F170\\uFE0F",
               "mStatus": "fully-qualified",
               "mEmoji": "🅰️",
-              "mName": "A button (blood type)"
+              "mName": "A button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F170",
               "mStatus": "non-fully-qualified",
               "mEmoji": "🅰",
-              "mName": "A button (blood type)"
+              "mName": "A button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F18E",
               "mStatus": "fully-qualified",
               "mEmoji": "🆎",
-              "mName": "AB button (blood type)"
+              "mName": "AB button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F171\\uFE0F",
               "mStatus": "fully-qualified",
               "mEmoji": "🅱️",
-              "mName": "B button (blood type)"
+              "mName": "B button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F171",
               "mStatus": "non-fully-qualified",
               "mEmoji": "🅱",
-              "mName": "B button (blood type)"
+              "mName": "B button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F191",
@@ -19882,13 +19882,13 @@
               "mCodePoints": "\\u1F17E\\uFE0F",
               "mStatus": "fully-qualified",
               "mEmoji": "🅾️",
-              "mName": "O button (blood type)"
+              "mName": "O button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F17E",
               "mStatus": "non-fully-qualified",
               "mEmoji": "🅾",
-              "mName": "O button (blood type)"
+              "mName": "O button (blood subType)"
             },
             {
               "mCodePoints": "\\u1F197",
@@ -20055,7 +20055,7 @@
           ]
         },
         {
-          "mType": "geometric",
+          "mSubType": "geometric",
           "mEmojis": [
             {
               "mCodePoints": "\\u25AA\\uFE0F",
@@ -20221,7 +20221,7 @@
       "mType": "Flags",
       "mSubGroups": [
         {
-          "mType": "flag",
+          "mSubType": "flag",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3C1",
@@ -20286,7 +20286,7 @@
           ]
         },
         {
-          "mType": "country-flag",
+          "mSubType": "country-flag",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F1E6\\u1F1E8",
@@ -21839,7 +21839,7 @@
           ]
         },
         {
-          "mType": "subdivision-flag",
+          "mSubType": "subdivision-flag",
           "mEmojis": [
             {
               "mCodePoints": "\\u1F3F4\\uE0067\\uE0062\\uE0065\\uE006E\\uE0067\\uE007F",
