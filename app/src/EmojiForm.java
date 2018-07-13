@@ -1,44 +1,79 @@
-import java.util.Date;
-import java.util.List;
+package com.andforce;
+
+import org.json.*;
+import java.util.ArrayList;
 
 public class EmojiForm {
-    private Date mDate;
+	
+    private String document;
+    private String version;
+    private ArrayList<Groups> groups;
+    private String date;
+    
+    
+	public EmojiForm () {
+		
+	}	
+        
+    public EmojiForm (JSONObject json) {
+    
+        this.document = json.optString("document");
+        this.version = json.optString("version");
 
-    private String mVersion;
+        this.groups = new ArrayList<Groups>();
+        JSONArray arrayGroups = json.optJSONArray("groups");
+        if (null != arrayGroups) {
+            int groupsLength = arrayGroups.length();
+            for (int i = 0; i < groupsLength; i++) {
+                JSONObject item = arrayGroups.optJSONObject(i);
+                if (null != item) {
+                    this.groups.add(new Groups(item));
+                }
+            }
+        }
+        else {
+            JSONObject item = json.optJSONObject("groups");
+            if (null != item) {
+                this.groups.add(new Groups(item));
+            }
+        }
 
-    private String mDocumentation;
+        this.date = json.optString("date");
 
-    private List<Group> mGroups;
-
-    public Date getDate() {
-        return mDate;
+    }
+    
+    public String getDocument() {
+        return this.document;
     }
 
-    public void setDate(Date date) {
-        mDate = date;
+    public void setDocument(String document) {
+        this.document = document;
     }
 
     public String getVersion() {
-        return mVersion;
+        return this.version;
     }
 
     public void setVersion(String version) {
-        mVersion = version;
+        this.version = version;
     }
 
-    public String getDocumentation() {
-        return mDocumentation;
+    public ArrayList<Groups> getGroups() {
+        return this.groups;
     }
 
-    public void setDocumentation(String documentation) {
-        mDocumentation = documentation;
+    public void setGroups(ArrayList<Groups> groups) {
+        this.groups = groups;
     }
 
-    public List<Group> getGroups() {
-        return mGroups;
+    public String getDate() {
+        return this.date;
     }
 
-    public void setGroups(List<Group> groups) {
-        mGroups = groups;
+    public void setDate(String date) {
+        this.date = date;
     }
+
+
+    
 }
