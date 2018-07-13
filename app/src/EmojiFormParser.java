@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
@@ -134,6 +135,36 @@ public class EmojiFormParser {
                 }
             }
         }
+        emojis.sort(new Comparator<Emoji>() {
+            @Override
+            public int compare(Emoji emoji, Emoji t1) {
+                String codePoints0 = emoji.getCodePoints();
+                String codePoints1 = t1.getCodePoints();
+
+
+                if (codePoints0.equals(codePoints1)){
+                    return 0;
+                } else if (codePoints0.length() > codePoints1.length()) {
+                    return 1;
+                } else if (codePoints0.length() < codePoints1.length()) {
+                    return -1;
+                } else {
+
+                    int len = codePoints0.length();
+
+                    for (int i = 0; i < len; i++) {
+                        char c0 = codePoints0.charAt(i);
+                        char c1 = codePoints1.charAt(i);
+                        if (c0 > c1) {
+                            return 1;
+                        } else if (c0 < c1) {
+                            return -1;
+                        }
+                    }
+                    return 0;
+                }
+            }
+        });
         return emojis;
     }
 

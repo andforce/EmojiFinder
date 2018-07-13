@@ -1,10 +1,8 @@
 import com.google.gson.Gson;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
@@ -13,50 +11,55 @@ public class Main {
 
         EmojiForm emojiForm = new EmojiFormParser("./app/src/emoji-test.txt").parse();
 
-
         List<Emoji> emojis = new EmojiFormParser("./app/src/emoji-test.txt").parseEmojis();
 
-        emojis.sort(new Comparator<Emoji>() {
-            @Override
-            public int compare(Emoji emoji, Emoji t1) {
-                String codePoints0 = emoji.getCodePoints();
-                String codePoints1 = t1.getCodePoints();
-
-
-                if (codePoints0.equals(codePoints1)){
-                    return 0;
-                } else if (codePoints0.length() > codePoints1.length()) {
-                    return 1;
-                } else if (codePoints0.length() < codePoints1.length()) {
-                    return -1;
-                } else {
-
-                    int len = codePoints0.length();
-
-                    for (int i = 0; i < len; i++) {
-                        char c0 = codePoints0.charAt(i);
-                        char c1 = codePoints1.charAt(i);
-                        if (c0 > c1) {
-                            return 1;
-                        } else if (c0 < c1) {
-                            return -1;
-                        }
-                    }
-                    return 0;
-                }
-            }
-        });
-
-        String fileName = "./app/src/emoji-sort.txt";
+        String fileName = "./app/src/emoji-reg.txt";
         try {
-            //使用这个构造函数时，如果存在kuka.txt文件，
-            //则先把这个文件给删除掉，然后创建新的kuka.txt
             FileWriter writer = new FileWriter(fileName);
 
-            for (Emoji emoji : emojis){
-                writer.write(emoji.getCodePoints() + "\r\n");
+            List<List<String>> codePoints = new ArrayList<>();
+
+            List<String> toAppend = null;
+
+            for (Emoji emoji : emojis) {
+                if (codePoints.isEmpty()){
+                    List<String> list = new ArrayList<>();
+                    list.add(emoji.getCodePoints());
+                    codePoints.add(list);
+                } else {
+                    for (List<String> list : codePoints){
+                        for (String s : list){
+                            if (UnicodeUtils.isNeighbor(s, emoji.getCodePoints())){
+                                toAppend = list;
+                            }
+                        }
+                    }
+                    if (toAppend == null) {
+                        List<String> list = new ArrayList<>();
+                        list.add(emoji.getCodePoints());
+                        codePoints.add(list);
+                    } else {
+                        toAppend.add(emoji.getCodePoints());
+                        toAppend = null;
+                    }
+                }
             }
 
+
+            int count = 0;
+            for (int i = 0; i < codePoints.size(); i++) {
+                List<String> group = codePoints.get(i);
+                if (group.size() == 1){
+                    writer.write(group.get(0));
+                } else {
+                    writer.write("[" + group.get(0) + "-" + group.get(group.size() - 1) + "]");
+                }
+                if (i != codePoints.size() -1){
+                    writer.write("|");
+                }
+            }
+
+            System.out.println("Check Count: >>> " + count);
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
@@ -68,7 +71,7 @@ public class Main {
 
 
         int count = EmojiFormUtils.emojiCount(emojiForm);
-        System.out.println(">>> " + count);
+        System.out.println(">>> " + count + "\uD83D\uDE00 \uD83D\uDE01");
 
         System.out.println(s);
 
