@@ -1,19 +1,25 @@
 package com.andforce;
 
-import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.nio.channels.FileChannel;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
-public class Main {
+public class EmojiFormParser {
 
-    public static String TEMP_DIR = "/Users/diyuanwang/github/Sort/src/com/andforce/emoji-test.txt";
+    private String mEmojiFile;
 
-    public static void main(String[] args) {
-        File file = new File(TEMP_DIR);
+    public EmojiFormParser(String emojiFile){
+        mEmojiFile = emojiFile;
+    }
+
+    public EmojiForm parse(){
+        File file = new File(mEmojiFile);
 
         BufferedReader bufferedReader = null;
 
@@ -27,7 +33,7 @@ public class Main {
 
         int i = 0;
         try {
-            bufferedReader = new BufferedReader(new FileReader(TEMP_DIR));
+            bufferedReader = new BufferedReader(new FileReader(file));
             String line = null;
             while ((line = bufferedReader.readLine()) != null) {
 
@@ -115,12 +121,7 @@ public class Main {
                 }
             }
         }
-
-        int count = EmojiFormUtils.emojiCount(emojiForm);
-        System.out.println(">>> " + count);
-
-        EmojiFormUtils.printHex(emojiForm);
-
+        return emojiForm;
     }
 
 }

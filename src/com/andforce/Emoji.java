@@ -1,7 +1,5 @@
 package com.andforce;
 
-import java.util.List;
-
 public class Emoji {
 
     private String mCodePoints;
