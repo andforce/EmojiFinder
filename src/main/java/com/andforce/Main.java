@@ -58,23 +58,12 @@ public class Main {
             FileWriter writer = new FileWriter(emojiListFile);
 
             for (int i = 0; i < emojis.size() - 1; i++) {
-                int j = i + 1;
 
-                String unicode0 = emojis.get(i).getUnicode();
-                String unicode1 = emojis.get(j).getUnicode();
+                String emoji = emojis.get(i).getEmoji();
+                writer.write(emojis.get(i).getUnicode() + "\t\t");
+                writer.write("[" + emoji + "]\t\t");
+                writer.write(emoji.length() + "\r\n");
 
-                String emoji0 = emojis.get(i).getEmoji();
-                String emoji1 = emojis.get(j).getEmoji();
-
-//                String toWrite = String.format(unicode0 + "%s[%s] length:" + emoji0.length() + "\r\n", addSpace(emoji0), emoji0);
-//                writer.write(/*unicode0 + "\t\t[" + emoji0 + "] length:" + emoji0.length() + "\r\n"*/toWrite);
-                writer.write(unicode0 + "\t\t");
-                writer.write("[" + emoji0 + "]\t\t");
-                writer.write(emoji0.length() + "\r\n");
-
-                if (j == emojis.size() - 1){
-                    writer.write(unicode1 + "\t\t[" + emoji0 + "] length:" + emoji0.length() );
-                }
             }
             writer.close();
         } catch (IOException e) {

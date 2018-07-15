@@ -49,7 +49,7 @@
 \uD83E\uDD11		[🤑]		2
 \uD83D\uDE32		[😲]		2
 \u2639\uFE0F		[☹️]		2
-\u2639		        [☹]		1
+\u2639		[☹]		1
 \uD83D\uDE41		[🙁]		2
 \uD83D\uDE16		[😖]		2
 \uD83D\uDE1E		[😞]		2
@@ -3567,4 +3567,3 @@
 \uD83C\uDDFF\uD83C\uDDFC		[🇿🇼]		4
 \uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F		[🏴󠁧󠁢󠁥󠁮󠁧󠁿]		14
 \uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F		[🏴󠁧󠁢󠁳󠁣󠁴󠁿]		14
-\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F		[🏴󠁧󠁢󠁳󠁣󠁴󠁿] length:14
