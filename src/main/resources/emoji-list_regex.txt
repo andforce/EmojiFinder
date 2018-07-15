@@ -1,0 +1,3718 @@
+
+[\u00A9-\u3299]
+\u00A9		[©] length:1
+\u00AE		[®] length:1
+
+\u203C		[‼] length:1
+\u2049		[⁉] length:1
+\u2122		[™] length:1
+\u2139		[ℹ] length:1
+
+\u2194		[↔] length:1
+\u2195		[↕] length:1
+\u2196		[↖] length:1
+\u2197		[↗] length:1
+\u2198		[↘] length:1
+\u2199		[↙] length:1
+
+\u21A9		[↩] length:1
+\u21AA		[↪] length:1
+
+\u231A		[⌚] length:1
+\u231B		[⌛] length:1
+
+\u2328		[⌨] length:1
+
+\u23CF		[⏏] length:1
+
+\u23E9		[⏩] length:1
+\u23EA		[⏪] length:1
+\u23EB		[⏫] length:1
+\u23EC		[⏬] length:1
+\u23ED		[⏭] length:1
+\u23EE		[⏮] length:1
+\u23EF		[⏯] length:1
+
+\u23F0		[⏰] length:1
+\u23F1		[⏱] length:1
+\u23F2		[⏲] length:1
+\u23F3		[⏳] length:1
+\u23F8		[⏸] length:1
+\u23F9		[⏹] length:1
+\u23FA		[⏺] length:1
+
+\u24C2		[Ⓜ] length:1
+
+\u25AA		[▪] length:1
+\u25AB		[▫] length:1
+
+\u25B6		[▶] length:1
+
+\u25C0		[◀] length:1
+
+\u25FB		[◻] length:1
+\u25FC		[◼] length:1
+\u25FD		[◽] length:1
+\u25FE		[◾] length:1
+
+\u2600		[☀] length:1
+\u2601		[☁] length:1
+\u2602		[☂] length:1
+\u2603		[☃] length:1
+\u2604		[☄] length:1
+
+\u260E		[☎] length:1
+\u2611		[☑] length:1
+\u2614		[☔] length:1
+\u2615		[☕] length:1
+\u2618		[☘] length:1
+\u261D		[☝] length:1
+\u2620		[☠] length:1
+\u2622		[☢] length:1
+\u2623		[☣] length:1
+\u2626		[☦] length:1
+\u262A		[☪] length:1
+\u262E		[☮] length:1
+\u262F		[☯] length:1
+\u2638		[☸] length:1
+\u2639		[☹] length:1
+\u263A		[☺] length:1
+\u2640		[♀] length:1
+\u2642		[♂] length:1
+\u2648		[♈] length:1
+\u2649		[♉] length:1
+
+
+\u264A		[♊] length:1
+\u264B		[♋] length:1
+\u264C		[♌] length:1
+\u264D		[♍] length:1
+\u264E		[♎] length:1
+\u264F		[♏] length:1
+\u2650		[♐] length:1
+\u2651		[♑] length:1
+\u2652		[♒] length:1
+\u2653		[♓] length:1
+
+\u265F		[♟] length:1
+\u2660		[♠] length:1
+\u2663		[♣] length:1
+\u2665		[♥] length:1
+\u2666		[♦] length:1
+\u2668		[♨] length:1
+\u267B		[♻] length:1
+\u267E		[♾] length:1
+\u267F		[♿] length:1
+
+
+\u2692		[⚒] length:1
+\u2693		[⚓] length:1
+\u2694		[⚔] length:1
+\u2695		[⚕] length:1
+\u2696		[⚖] length:1
+\u2697		[⚗] length:1
+
+\u2699		[⚙] length:1
+\u269B		[⚛] length:1
+\u269C		[⚜] length:1
+
+\u26A0		[⚠] length:1
+\u26A1		[⚡] length:1
+\u26AA		[⚪] length:1
+\u26AB		[⚫] length:1
+\u26B0		[⚰] length:1
+\u26B1		[⚱] length:1
+\u26BD		[⚽] length:1
+\u26BE		[⚾] length:1
+\u26C4		[⛄] length:1
+\u26C5		[⛅] length:1
+\u26C8		[⛈] length:1
+\u26CE		[⛎] length:1
+\u26CF		[⛏] length:1
+\u26D1		[⛑] length:1
+\u26D3		[⛓] length:1
+\u26D4		[⛔] length:1
+\u26E9		[⛩] length:1
+\u26EA		[⛪] length:1
+
+\u26F0		[⛰] length:1
+\u26F1		[⛱] length:1
+\u26F2		[⛲] length:1
+\u26F3		[⛳] length:1
+\u26F4		[⛴] length:1
+\u26F5		[⛵] length:1
+\u26F7		[⛷] length:1
+\u26F8		[⛸] length:1
+\u26F9		[⛹] length:1
+\u26FA		[⛺] length:1
+
+\u26FD		[⛽] length:1
+\u2702		[✂] length:1
+\u2705		[✅] length:1
+
+\u2708		[✈] length:1
+\u2709		[✉] length:1
+\u270A		[✊] length:1
+\u270B		[✋] length:1
+\u270C		[✌] length:1
+\u270D		[✍] length:1
+
+\u270F		[✏] length:1
+
+\u2712		[✒] length:1
+
+\u2714		[✔] length:1
+
+\u2716		[✖] length:1
+
+\u271D		[✝] length:1
+
+\u2721		[✡] length:1
+\u2728		[✨] length:1
+\u2733		[✳] length:1
+\u2734		[✴] length:1
+\u2744		[❄] length:1
+\u2747		[❇] length:1
+\u274C		[❌] length:1
+\u274E		[❎] length:1
+
+\u2753		[❓] length:1
+\u2754		[❔] length:1
+\u2755		[❕] length:1
+
+\u2757		[❗] length:1
+
+\u2763		[❣] length:1
+\u2764		[❤] length:1
+
+\u2795		[➕] length:1
+\u2796		[➖] length:1
+\u2797		[➗] length:1
+
+\u27A1		[➡] length:1
+
+\u27B0		[➰] length:1
+
+\u27BF		[➿] length:1
+
+\u2934		[⤴] length:1
+\u2935		[⤵] length:1
+
+\u2B05		[⬅] length:1
+\u2B06		[⬆] length:1
+\u2B07		[⬇] length:1
+
+\u2B1B		[⬛] length:1
+\u2B1C		[⬜] length:1
+
+\u2B50		[⭐] length:1
+\u2B55		[⭕] length:1
+\u3030		[〰] length:1
+\u303D		[〽] length:1
+\u3297		[㊗] length:1
+\u3299		[㊙] length:1
+
+[\u0023\u20E3-\u3299\uFE0F]
+\u0023\u20E3		[#⃣] length:2
+\u002A\u20E3		[*⃣] length:2
+\u0030\u20E3		[0⃣] length:2
+\u0031\u20E3		[1⃣] length:2
+\u0032\u20E3		[2⃣] length:2
+\u0033\u20E3		[3⃣] length:2
+\u0034\u20E3		[4⃣] length:2
+\u0035\u20E3		[5⃣] length:2
+\u0036\u20E3		[6⃣] length:2
+\u0037\u20E3		[7⃣] length:2
+\u0038\u20E3		[8⃣] length:2
+\u0039\u20E3		[9⃣] length:2
+
+\u00A9\uFE0F		[©️] length:2
+\u00AE\uFE0F		[®️] length:2
+\u203C\uFE0F		[‼️] length:2
+\u2049\uFE0F		[⁉️] length:2
+\u2122\uFE0F		[™️] length:2
+\u2139\uFE0F		[ℹ️] length:2
+\u2194\uFE0F		[↔️] length:2
+\u2195\uFE0F		[↕️] length:2
+\u2196\uFE0F		[↖️] length:2
+\u2197\uFE0F		[↗️] length:2
+\u2198\uFE0F		[↘️] length:2
+\u2199\uFE0F		[↙️] length:2
+\u21A9\uFE0F		[↩️] length:2
+\u21AA\uFE0F		[↪️] length:2
+\u2328\uFE0F		[⌨️] length:2
+\u23CF\uFE0F		[⏏️] length:2
+\u23ED\uFE0F		[⏭️] length:2
+\u23EE\uFE0F		[⏮️] length:2
+\u23EF\uFE0F		[⏯️] length:2
+\u23F1\uFE0F		[⏱️] length:2
+\u23F2\uFE0F		[⏲️] length:2
+\u23F8\uFE0F		[⏸️] length:2
+\u23F9\uFE0F		[⏹️] length:2
+\u23FA\uFE0F		[⏺️] length:2
+\u24C2\uFE0F		[Ⓜ️] length:2
+\u25AA\uFE0F		[▪️] length:2
+\u25AB\uFE0F		[▫️] length:2
+\u25B6\uFE0F		[▶️] length:2
+\u25C0\uFE0F		[◀️] length:2
+\u25FB\uFE0F		[◻️] length:2
+\u25FC\uFE0F		[◼️] length:2
+\u2600\uFE0F		[☀️] length:2
+\u2601\uFE0F		[☁️] length:2
+\u2602\uFE0F		[☂️] length:2
+\u2603\uFE0F		[☃️] length:2
+\u2604\uFE0F		[☄️] length:2
+\u260E\uFE0F		[☎️] length:2
+\u2611\uFE0F		[☑️] length:2
+\u2618\uFE0F		[☘️] length:2
+\u261D\uFE0F		[☝️] length:2
+\u2620\uFE0F		[☠️] length:2
+\u2622\uFE0F		[☢️] length:2
+\u2623\uFE0F		[☣️] length:2
+\u2626\uFE0F		[☦️] length:2
+\u262A\uFE0F		[☪️] length:2
+\u262E\uFE0F		[☮️] length:2
+\u262F\uFE0F		[☯️] length:2
+\u2638\uFE0F		[☸️] length:2
+\u2639\uFE0F		[☹️] length:2
+\u263A\uFE0F		[☺️] length:2
+\u2640\uFE0F		[♀️] length:2
+\u2642\uFE0F		[♂️] length:2
+\u265F\uFE0F		[♟️] length:2
+\u2660\uFE0F		[♠️] length:2
+\u2663\uFE0F		[♣️] length:2
+\u2665\uFE0F		[♥️] length:2
+\u2666\uFE0F		[♦️] length:2
+\u2668\uFE0F		[♨️] length:2
+\u267B\uFE0F		[♻️] length:2
+\u267E\uFE0F		[♾️] length:2
+\u2692\uFE0F		[⚒️] length:2
+\u2694\uFE0F		[⚔️] length:2
+\u2695\uFE0F		[⚕️] length:2
+\u2696\uFE0F		[⚖️] length:2
+\u2697\uFE0F		[⚗️] length:2
+\u2699\uFE0F		[⚙️] length:2
+\u269B\uFE0F		[⚛️] length:2
+\u269C\uFE0F		[⚜️] length:2
+\u26A0\uFE0F		[⚠️] length:2
+\u26B0\uFE0F		[⚰️] length:2
+\u26B1\uFE0F		[⚱️] length:2
+\u26C8\uFE0F		[⛈️] length:2
+\u26CF\uFE0F		[⛏️] length:2
+\u26D1\uFE0F		[⛑️] length:2
+\u26D3\uFE0F		[⛓️] length:2
+\u26E9\uFE0F		[⛩️] length:2
+\u26F0\uFE0F		[⛰️] length:2
+\u26F1\uFE0F		[⛱️] length:2
+\u26F4\uFE0F		[⛴️] length:2
+\u26F7\uFE0F		[⛷️] length:2
+\u26F8\uFE0F		[⛸️] length:2
+\u26F9\uFE0F		[⛹️] length:2
+\u2702\uFE0F		[✂️] length:2
+\u2708\uFE0F		[✈️] length:2
+\u2709\uFE0F		[✉️] length:2
+\u270C\uFE0F		[✌️] length:2
+\u270D\uFE0F		[✍️] length:2
+\u270F\uFE0F		[✏️] length:2
+\u2712\uFE0F		[✒️] length:2
+\u2714\uFE0F		[✔️] length:2
+\u2716\uFE0F		[✖️] length:2
+\u271D\uFE0F		[✝️] length:2
+\u2721\uFE0F		[✡️] length:2
+\u2733\uFE0F		[✳️] length:2
+\u2734\uFE0F		[✴️] length:2
+\u2744\uFE0F		[❄️] length:2
+\u2747\uFE0F		[❇️] length:2
+\u2763\uFE0F		[❣️] length:2
+\u2764\uFE0F		[❤️] length:2
+\u27A1\uFE0F		[➡️] length:2
+\u2934\uFE0F		[⤴️] length:2
+\u2935\uFE0F		[⤵️] length:2
+\u2B05\uFE0F		[⬅️] length:2
+\u2B06\uFE0F		[⬆️] length:2
+\u2B07\uFE0F		[⬇️] length:2
+\u3030\uFE0F		[〰️] length:2
+\u303D\uFE0F		[〽️] length:2
+\u3297\uFE0F		[㊗️] length:2
+\u3299\uFE0F		[㊙️] length:2
+
+[\uD83C\uDC04-\uD83E\uDDFF]
+\uD83C\uDC04		[🀄] length:2
+\uD83C\uDCCF		[🃏] length:2
+\uD83C\uDD70		[🅰] length:2
+\uD83C\uDD71		[🅱] length:2
+\uD83C\uDD7E		[🅾] length:2
+\uD83C\uDD7F		[🅿] length:2
+\uD83C\uDD8E		[🆎] length:2
+\uD83C\uDD91		[🆑] length:2
+\uD83C\uDD92		[🆒] length:2
+\uD83C\uDD93		[🆓] length:2
+\uD83C\uDD94		[🆔] length:2
+\uD83C\uDD95		[🆕] length:2
+\uD83C\uDD96		[🆖] length:2
+\uD83C\uDD97		[🆗] length:2
+\uD83C\uDD98		[🆘] length:2
+\uD83C\uDD99		[🆙] length:2
+\uD83C\uDD9A		[🆚] length:2
+\uD83C\uDE01		[🈁] length:2
+\uD83C\uDE02		[🈂] length:2
+\uD83C\uDE1A		[🈚] length:2
+\uD83C\uDE2F		[🈯] length:2
+\uD83C\uDE32		[🈲] length:2
+\uD83C\uDE33		[🈳] length:2
+\uD83C\uDE34		[🈴] length:2
+\uD83C\uDE35		[🈵] length:2
+\uD83C\uDE36		[🈶] length:2
+\uD83C\uDE37		[🈷] length:2
+\uD83C\uDE38		[🈸] length:2
+\uD83C\uDE39		[🈹] length:2
+\uD83C\uDE3A		[🈺] length:2
+\uD83C\uDE50		[🉐] length:2
+\uD83C\uDE51		[🉑] length:2
+\uD83C\uDF00		[🌀] length:2
+\uD83C\uDF01		[🌁] length:2
+\uD83C\uDF02		[🌂] length:2
+\uD83C\uDF03		[🌃] length:2
+\uD83C\uDF04		[🌄] length:2
+\uD83C\uDF05		[🌅] length:2
+\uD83C\uDF06		[🌆] length:2
+\uD83C\uDF07		[🌇] length:2
+\uD83C\uDF08		[🌈] length:2
+\uD83C\uDF09		[🌉] length:2
+\uD83C\uDF0A		[🌊] length:2
+\uD83C\uDF0B		[🌋] length:2
+\uD83C\uDF0C		[🌌] length:2
+\uD83C\uDF0D		[🌍] length:2
+\uD83C\uDF0E		[🌎] length:2
+\uD83C\uDF0F		[🌏] length:2
+\uD83C\uDF10		[🌐] length:2
+\uD83C\uDF11		[🌑] length:2
+\uD83C\uDF12		[🌒] length:2
+\uD83C\uDF13		[🌓] length:2
+\uD83C\uDF14		[🌔] length:2
+\uD83C\uDF15		[🌕] length:2
+\uD83C\uDF16		[🌖] length:2
+\uD83C\uDF17		[🌗] length:2
+\uD83C\uDF18		[🌘] length:2
+\uD83C\uDF19		[🌙] length:2
+\uD83C\uDF1A		[🌚] length:2
+\uD83C\uDF1B		[🌛] length:2
+\uD83C\uDF1C		[🌜] length:2
+\uD83C\uDF1D		[🌝] length:2
+\uD83C\uDF1E		[🌞] length:2
+\uD83C\uDF1F		[🌟] length:2
+\uD83C\uDF20		[🌠] length:2
+\uD83C\uDF21		[🌡] length:2
+\uD83C\uDF24		[🌤] length:2
+\uD83C\uDF25		[🌥] length:2
+\uD83C\uDF26		[🌦] length:2
+\uD83C\uDF27		[🌧] length:2
+\uD83C\uDF28		[🌨] length:2
+\uD83C\uDF29		[🌩] length:2
+\uD83C\uDF2A		[🌪] length:2
+\uD83C\uDF2B		[🌫] length:2
+\uD83C\uDF2C		[🌬] length:2
+\uD83C\uDF2D		[🌭] length:2
+\uD83C\uDF2E		[🌮] length:2
+\uD83C\uDF2F		[🌯] length:2
+\uD83C\uDF30		[🌰] length:2
+\uD83C\uDF31		[🌱] length:2
+\uD83C\uDF32		[🌲] length:2
+\uD83C\uDF33		[🌳] length:2
+\uD83C\uDF34		[🌴] length:2
+\uD83C\uDF35		[🌵] length:2
+\uD83C\uDF36		[🌶] length:2
+\uD83C\uDF37		[🌷] length:2
+\uD83C\uDF38		[🌸] length:2
+\uD83C\uDF39		[🌹] length:2
+\uD83C\uDF3A		[🌺] length:2
+\uD83C\uDF3B		[🌻] length:2
+\uD83C\uDF3C		[🌼] length:2
+\uD83C\uDF3D		[🌽] length:2
+\uD83C\uDF3E		[🌾] length:2
+\uD83C\uDF3F		[🌿] length:2
+\uD83C\uDF40		[🍀] length:2
+\uD83C\uDF41		[🍁] length:2
+\uD83C\uDF42		[🍂] length:2
+\uD83C\uDF43		[🍃] length:2
+\uD83C\uDF44		[🍄] length:2
+\uD83C\uDF45		[🍅] length:2
+\uD83C\uDF46		[🍆] length:2
+\uD83C\uDF47		[🍇] length:2
+\uD83C\uDF48		[🍈] length:2
+\uD83C\uDF49		[🍉] length:2
+\uD83C\uDF4A		[🍊] length:2
+\uD83C\uDF4B		[🍋] length:2
+\uD83C\uDF4C		[🍌] length:2
+\uD83C\uDF4D		[🍍] length:2
+\uD83C\uDF4E		[🍎] length:2
+\uD83C\uDF4F		[🍏] length:2
+\uD83C\uDF50		[🍐] length:2
+\uD83C\uDF51		[🍑] length:2
+\uD83C\uDF52		[🍒] length:2
+\uD83C\uDF53		[🍓] length:2
+\uD83C\uDF54		[🍔] length:2
+\uD83C\uDF55		[🍕] length:2
+\uD83C\uDF56		[🍖] length:2
+\uD83C\uDF57		[🍗] length:2
+\uD83C\uDF58		[🍘] length:2
+\uD83C\uDF59		[🍙] length:2
+\uD83C\uDF5A		[🍚] length:2
+\uD83C\uDF5B		[🍛] length:2
+\uD83C\uDF5C		[🍜] length:2
+\uD83C\uDF5D		[🍝] length:2
+\uD83C\uDF5E		[🍞] length:2
+\uD83C\uDF5F		[🍟] length:2
+\uD83C\uDF60		[🍠] length:2
+\uD83C\uDF61		[🍡] length:2
+\uD83C\uDF62		[🍢] length:2
+\uD83C\uDF63		[🍣] length:2
+\uD83C\uDF64		[🍤] length:2
+\uD83C\uDF65		[🍥] length:2
+\uD83C\uDF66		[🍦] length:2
+\uD83C\uDF67		[🍧] length:2
+\uD83C\uDF68		[🍨] length:2
+\uD83C\uDF69		[🍩] length:2
+\uD83C\uDF6A		[🍪] length:2
+\uD83C\uDF6B		[🍫] length:2
+\uD83C\uDF6C		[🍬] length:2
+\uD83C\uDF6D		[🍭] length:2
+\uD83C\uDF6E		[🍮] length:2
+\uD83C\uDF6F		[🍯] length:2
+\uD83C\uDF70		[🍰] length:2
+\uD83C\uDF71		[🍱] length:2
+\uD83C\uDF72		[🍲] length:2
+\uD83C\uDF73		[🍳] length:2
+\uD83C\uDF74		[🍴] length:2
+\uD83C\uDF75		[🍵] length:2
+\uD83C\uDF76		[🍶] length:2
+\uD83C\uDF77		[🍷] length:2
+\uD83C\uDF78		[🍸] length:2
+\uD83C\uDF79		[🍹] length:2
+\uD83C\uDF7A		[🍺] length:2
+\uD83C\uDF7B		[🍻] length:2
+\uD83C\uDF7C		[🍼] length:2
+\uD83C\uDF7D		[🍽] length:2
+\uD83C\uDF7E		[🍾] length:2
+\uD83C\uDF7F		[🍿] length:2
+\uD83C\uDF80		[🎀] length:2
+\uD83C\uDF81		[🎁] length:2
+\uD83C\uDF82		[🎂] length:2
+\uD83C\uDF83		[🎃] length:2
+\uD83C\uDF84		[🎄] length:2
+\uD83C\uDF85		[🎅] length:2
+\uD83C\uDF86		[🎆] length:2
+\uD83C\uDF87		[🎇] length:2
+\uD83C\uDF88		[🎈] length:2
+\uD83C\uDF89		[🎉] length:2
+\uD83C\uDF8A		[🎊] length:2
+\uD83C\uDF8B		[🎋] length:2
+\uD83C\uDF8C		[🎌] length:2
+\uD83C\uDF8D		[🎍] length:2
+\uD83C\uDF8E		[🎎] length:2
+\uD83C\uDF8F		[🎏] length:2
+\uD83C\uDF90		[🎐] length:2
+\uD83C\uDF91		[🎑] length:2
+\uD83C\uDF92		[🎒] length:2
+\uD83C\uDF93		[🎓] length:2
+\uD83C\uDF96		[🎖] length:2
+\uD83C\uDF97		[🎗] length:2
+\uD83C\uDF99		[🎙] length:2
+\uD83C\uDF9A		[🎚] length:2
+\uD83C\uDF9B		[🎛] length:2
+\uD83C\uDF9E		[🎞] length:2
+\uD83C\uDF9F		[🎟] length:2
+\uD83C\uDFA0		[🎠] length:2
+\uD83C\uDFA1		[🎡] length:2
+\uD83C\uDFA2		[🎢] length:2
+\uD83C\uDFA3		[🎣] length:2
+\uD83C\uDFA4		[🎤] length:2
+\uD83C\uDFA5		[🎥] length:2
+\uD83C\uDFA6		[🎦] length:2
+\uD83C\uDFA7		[🎧] length:2
+\uD83C\uDFA8		[🎨] length:2
+\uD83C\uDFA9		[🎩] length:2
+\uD83C\uDFAA		[🎪] length:2
+\uD83C\uDFAB		[🎫] length:2
+\uD83C\uDFAC		[🎬] length:2
+\uD83C\uDFAD		[🎭] length:2
+\uD83C\uDFAE		[🎮] length:2
+\uD83C\uDFAF		[🎯] length:2
+\uD83C\uDFB0		[🎰] length:2
+\uD83C\uDFB1		[🎱] length:2
+\uD83C\uDFB2		[🎲] length:2
+\uD83C\uDFB3		[🎳] length:2
+\uD83C\uDFB4		[🎴] length:2
+\uD83C\uDFB5		[🎵] length:2
+\uD83C\uDFB6		[🎶] length:2
+\uD83C\uDFB7		[🎷] length:2
+\uD83C\uDFB8		[🎸] length:2
+\uD83C\uDFB9		[🎹] length:2
+\uD83C\uDFBA		[🎺] length:2
+\uD83C\uDFBB		[🎻] length:2
+\uD83C\uDFBC		[🎼] length:2
+\uD83C\uDFBD		[🎽] length:2
+\uD83C\uDFBE		[🎾] length:2
+\uD83C\uDFBF		[🎿] length:2
+\uD83C\uDFC0		[🏀] length:2
+\uD83C\uDFC1		[🏁] length:2
+\uD83C\uDFC2		[🏂] length:2
+\uD83C\uDFC3		[🏃] length:2
+\uD83C\uDFC4		[🏄] length:2
+\uD83C\uDFC5		[🏅] length:2
+\uD83C\uDFC6		[🏆] length:2
+\uD83C\uDFC7		[🏇] length:2
+\uD83C\uDFC8		[🏈] length:2
+\uD83C\uDFC9		[🏉] length:2
+\uD83C\uDFCA		[🏊] length:2
+\uD83C\uDFCB		[🏋] length:2
+\uD83C\uDFCC		[🏌] length:2
+\uD83C\uDFCD		[🏍] length:2
+\uD83C\uDFCE		[🏎] length:2
+\uD83C\uDFCF		[🏏] length:2
+\uD83C\uDFD0		[🏐] length:2
+\uD83C\uDFD1		[🏑] length:2
+\uD83C\uDFD2		[🏒] length:2
+\uD83C\uDFD3		[🏓] length:2
+\uD83C\uDFD4		[🏔] length:2
+\uD83C\uDFD5		[🏕] length:2
+\uD83C\uDFD6		[🏖] length:2
+\uD83C\uDFD7		[🏗] length:2
+\uD83C\uDFD8		[🏘] length:2
+\uD83C\uDFD9		[🏙] length:2
+\uD83C\uDFDA		[🏚] length:2
+\uD83C\uDFDB		[🏛] length:2
+\uD83C\uDFDC		[🏜] length:2
+\uD83C\uDFDD		[🏝] length:2
+\uD83C\uDFDE		[🏞] length:2
+\uD83C\uDFDF		[🏟] length:2
+\uD83C\uDFE0		[🏠] length:2
+\uD83C\uDFE1		[🏡] length:2
+\uD83C\uDFE2		[🏢] length:2
+\uD83C\uDFE3		[🏣] length:2
+\uD83C\uDFE4		[🏤] length:2
+\uD83C\uDFE5		[🏥] length:2
+\uD83C\uDFE6		[🏦] length:2
+\uD83C\uDFE7		[🏧] length:2
+\uD83C\uDFE8		[🏨] length:2
+\uD83C\uDFE9		[🏩] length:2
+\uD83C\uDFEA		[🏪] length:2
+\uD83C\uDFEB		[🏫] length:2
+\uD83C\uDFEC		[🏬] length:2
+\uD83C\uDFED		[🏭] length:2
+\uD83C\uDFEE		[🏮] length:2
+\uD83C\uDFEF		[🏯] length:2
+\uD83C\uDFF0		[🏰] length:2
+\uD83C\uDFF3		[🏳] length:2
+\uD83C\uDFF4		[🏴] length:2
+\uD83C\uDFF5		[🏵] length:2
+\uD83C\uDFF7		[🏷] length:2
+\uD83C\uDFF8		[🏸] length:2
+\uD83C\uDFF9		[🏹] length:2
+\uD83C\uDFFA		[🏺] length:2
+\uD83C\uDFFB		[🏻] length:2
+\uD83C\uDFFC		[🏼] length:2
+\uD83C\uDFFD		[🏽] length:2
+\uD83C\uDFFE		[🏾] length:2
+\uD83C\uDFFF		[🏿] length:2
+
+
+\uD83D\uDC00		[🐀] length:2
+\uD83D\uDC01		[🐁] length:2
+\uD83D\uDC02		[🐂] length:2
+\uD83D\uDC03		[🐃] length:2
+\uD83D\uDC04		[🐄] length:2
+\uD83D\uDC05		[🐅] length:2
+\uD83D\uDC06		[🐆] length:2
+\uD83D\uDC07		[🐇] length:2
+\uD83D\uDC08		[🐈] length:2
+\uD83D\uDC09		[🐉] length:2
+\uD83D\uDC0A		[🐊] length:2
+\uD83D\uDC0B		[🐋] length:2
+\uD83D\uDC0C		[🐌] length:2
+\uD83D\uDC0D		[🐍] length:2
+\uD83D\uDC0E		[🐎] length:2
+\uD83D\uDC0F		[🐏] length:2
+\uD83D\uDC10		[🐐] length:2
+\uD83D\uDC11		[🐑] length:2
+\uD83D\uDC12		[🐒] length:2
+\uD83D\uDC13		[🐓] length:2
+\uD83D\uDC14		[🐔] length:2
+\uD83D\uDC15		[🐕] length:2
+\uD83D\uDC16		[🐖] length:2
+\uD83D\uDC17		[🐗] length:2
+\uD83D\uDC18		[🐘] length:2
+\uD83D\uDC19		[🐙] length:2
+\uD83D\uDC1A		[🐚] length:2
+\uD83D\uDC1B		[🐛] length:2
+\uD83D\uDC1C		[🐜] length:2
+\uD83D\uDC1D		[🐝] length:2
+\uD83D\uDC1E		[🐞] length:2
+\uD83D\uDC1F		[🐟] length:2
+\uD83D\uDC20		[🐠] length:2
+\uD83D\uDC21		[🐡] length:2
+\uD83D\uDC22		[🐢] length:2
+\uD83D\uDC23		[🐣] length:2
+\uD83D\uDC24		[🐤] length:2
+\uD83D\uDC25		[🐥] length:2
+\uD83D\uDC26		[🐦] length:2
+\uD83D\uDC27		[🐧] length:2
+\uD83D\uDC28		[🐨] length:2
+\uD83D\uDC29		[🐩] length:2
+\uD83D\uDC2A		[🐪] length:2
+\uD83D\uDC2B		[🐫] length:2
+\uD83D\uDC2C		[🐬] length:2
+\uD83D\uDC2D		[🐭] length:2
+\uD83D\uDC2E		[🐮] length:2
+\uD83D\uDC2F		[🐯] length:2
+\uD83D\uDC30		[🐰] length:2
+\uD83D\uDC31		[🐱] length:2
+\uD83D\uDC32		[🐲] length:2
+\uD83D\uDC33		[🐳] length:2
+\uD83D\uDC34		[🐴] length:2
+\uD83D\uDC35		[🐵] length:2
+\uD83D\uDC36		[🐶] length:2
+\uD83D\uDC37		[🐷] length:2
+\uD83D\uDC38		[🐸] length:2
+\uD83D\uDC39		[🐹] length:2
+\uD83D\uDC3A		[🐺] length:2
+\uD83D\uDC3B		[🐻] length:2
+\uD83D\uDC3C		[🐼] length:2
+\uD83D\uDC3D		[🐽] length:2
+\uD83D\uDC3E		[🐾] length:2
+\uD83D\uDC3F		[🐿] length:2
+\uD83D\uDC40		[👀] length:2
+\uD83D\uDC41		[👁] length:2
+\uD83D\uDC42		[👂] length:2
+\uD83D\uDC43		[👃] length:2
+\uD83D\uDC44		[👄] length:2
+\uD83D\uDC45		[👅] length:2
+\uD83D\uDC46		[👆] length:2
+\uD83D\uDC47		[👇] length:2
+\uD83D\uDC48		[👈] length:2
+\uD83D\uDC49		[👉] length:2
+\uD83D\uDC4A		[👊] length:2
+\uD83D\uDC4B		[👋] length:2
+\uD83D\uDC4C		[👌] length:2
+\uD83D\uDC4D		[👍] length:2
+\uD83D\uDC4E		[👎] length:2
+\uD83D\uDC4F		[👏] length:2
+\uD83D\uDC50		[👐] length:2
+\uD83D\uDC51		[👑] length:2
+\uD83D\uDC52		[👒] length:2
+\uD83D\uDC53		[👓] length:2
+\uD83D\uDC54		[👔] length:2
+\uD83D\uDC55		[👕] length:2
+\uD83D\uDC56		[👖] length:2
+\uD83D\uDC57		[👗] length:2
+\uD83D\uDC58		[👘] length:2
+\uD83D\uDC59		[👙] length:2
+\uD83D\uDC5A		[👚] length:2
+\uD83D\uDC5B		[👛] length:2
+\uD83D\uDC5C		[👜] length:2
+\uD83D\uDC5D		[👝] length:2
+\uD83D\uDC5E		[👞] length:2
+\uD83D\uDC5F		[👟] length:2
+\uD83D\uDC60		[👠] length:2
+\uD83D\uDC61		[👡] length:2
+\uD83D\uDC62		[👢] length:2
+\uD83D\uDC63		[👣] length:2
+\uD83D\uDC64		[👤] length:2
+\uD83D\uDC65		[👥] length:2
+\uD83D\uDC66		[👦] length:2
+\uD83D\uDC67		[👧] length:2
+\uD83D\uDC68		[👨] length:2
+\uD83D\uDC69		[👩] length:2
+\uD83D\uDC6A		[👪] length:2
+\uD83D\uDC6B		[👫] length:2
+\uD83D\uDC6C		[👬] length:2
+\uD83D\uDC6D		[👭] length:2
+\uD83D\uDC6E		[👮] length:2
+\uD83D\uDC6F		[👯] length:2
+\uD83D\uDC70		[👰] length:2
+\uD83D\uDC71		[👱] length:2
+\uD83D\uDC72		[👲] length:2
+\uD83D\uDC73		[👳] length:2
+\uD83D\uDC74		[👴] length:2
+\uD83D\uDC75		[👵] length:2
+\uD83D\uDC76		[👶] length:2
+\uD83D\uDC77		[👷] length:2
+\uD83D\uDC78		[👸] length:2
+\uD83D\uDC79		[👹] length:2
+\uD83D\uDC7A		[👺] length:2
+\uD83D\uDC7B		[👻] length:2
+\uD83D\uDC7C		[👼] length:2
+\uD83D\uDC7D		[👽] length:2
+\uD83D\uDC7E		[👾] length:2
+\uD83D\uDC7F		[👿] length:2
+\uD83D\uDC80		[💀] length:2
+\uD83D\uDC81		[💁] length:2
+\uD83D\uDC82		[💂] length:2
+\uD83D\uDC83		[💃] length:2
+\uD83D\uDC84		[💄] length:2
+\uD83D\uDC85		[💅] length:2
+\uD83D\uDC86		[💆] length:2
+\uD83D\uDC87		[💇] length:2
+\uD83D\uDC88		[💈] length:2
+\uD83D\uDC89		[💉] length:2
+\uD83D\uDC8A		[💊] length:2
+\uD83D\uDC8B		[💋] length:2
+\uD83D\uDC8C		[💌] length:2
+\uD83D\uDC8D		[💍] length:2
+\uD83D\uDC8E		[💎] length:2
+\uD83D\uDC8F		[💏] length:2
+\uD83D\uDC90		[💐] length:2
+\uD83D\uDC91		[💑] length:2
+\uD83D\uDC92		[💒] length:2
+\uD83D\uDC93		[💓] length:2
+\uD83D\uDC94		[💔] length:2
+\uD83D\uDC95		[💕] length:2
+\uD83D\uDC96		[💖] length:2
+\uD83D\uDC97		[💗] length:2
+\uD83D\uDC98		[💘] length:2
+\uD83D\uDC99		[💙] length:2
+\uD83D\uDC9A		[💚] length:2
+\uD83D\uDC9B		[💛] length:2
+\uD83D\uDC9C		[💜] length:2
+\uD83D\uDC9D		[💝] length:2
+\uD83D\uDC9E		[💞] length:2
+\uD83D\uDC9F		[💟] length:2
+\uD83D\uDCA0		[💠] length:2
+\uD83D\uDCA1		[💡] length:2
+\uD83D\uDCA2		[💢] length:2
+\uD83D\uDCA3		[💣] length:2
+\uD83D\uDCA4		[💤] length:2
+\uD83D\uDCA5		[💥] length:2
+\uD83D\uDCA6		[💦] length:2
+\uD83D\uDCA7		[💧] length:2
+\uD83D\uDCA8		[💨] length:2
+\uD83D\uDCA9		[💩] length:2
+\uD83D\uDCAA		[💪] length:2
+\uD83D\uDCAB		[💫] length:2
+\uD83D\uDCAC		[💬] length:2
+\uD83D\uDCAD		[💭] length:2
+\uD83D\uDCAE		[💮] length:2
+\uD83D\uDCAF		[💯] length:2
+\uD83D\uDCB0		[💰] length:2
+\uD83D\uDCB1		[💱] length:2
+\uD83D\uDCB2		[💲] length:2
+\uD83D\uDCB3		[💳] length:2
+\uD83D\uDCB4		[💴] length:2
+\uD83D\uDCB5		[💵] length:2
+\uD83D\uDCB6		[💶] length:2
+\uD83D\uDCB7		[💷] length:2
+\uD83D\uDCB8		[💸] length:2
+\uD83D\uDCB9		[💹] length:2
+\uD83D\uDCBA		[💺] length:2
+\uD83D\uDCBB		[💻] length:2
+\uD83D\uDCBC		[💼] length:2
+\uD83D\uDCBD		[💽] length:2
+\uD83D\uDCBE		[💾] length:2
+\uD83D\uDCBF		[💿] length:2
+\uD83D\uDCC0		[📀] length:2
+\uD83D\uDCC1		[📁] length:2
+\uD83D\uDCC2		[📂] length:2
+\uD83D\uDCC3		[📃] length:2
+\uD83D\uDCC4		[📄] length:2
+\uD83D\uDCC5		[📅] length:2
+\uD83D\uDCC6		[📆] length:2
+\uD83D\uDCC7		[📇] length:2
+\uD83D\uDCC8		[📈] length:2
+\uD83D\uDCC9		[📉] length:2
+\uD83D\uDCCA		[📊] length:2
+\uD83D\uDCCB		[📋] length:2
+\uD83D\uDCCC		[📌] length:2
+\uD83D\uDCCD		[📍] length:2
+\uD83D\uDCCE		[📎] length:2
+\uD83D\uDCCF		[📏] length:2
+\uD83D\uDCD0		[📐] length:2
+\uD83D\uDCD1		[📑] length:2
+\uD83D\uDCD2		[📒] length:2
+\uD83D\uDCD3		[📓] length:2
+\uD83D\uDCD4		[📔] length:2
+\uD83D\uDCD5		[📕] length:2
+\uD83D\uDCD6		[📖] length:2
+\uD83D\uDCD7		[📗] length:2
+\uD83D\uDCD8		[📘] length:2
+\uD83D\uDCD9		[📙] length:2
+\uD83D\uDCDA		[📚] length:2
+\uD83D\uDCDB		[📛] length:2
+\uD83D\uDCDC		[📜] length:2
+\uD83D\uDCDD		[📝] length:2
+\uD83D\uDCDE		[📞] length:2
+\uD83D\uDCDF		[📟] length:2
+\uD83D\uDCE0		[📠] length:2
+\uD83D\uDCE1		[📡] length:2
+\uD83D\uDCE2		[📢] length:2
+\uD83D\uDCE3		[📣] length:2
+\uD83D\uDCE4		[📤] length:2
+\uD83D\uDCE5		[📥] length:2
+\uD83D\uDCE6		[📦] length:2
+\uD83D\uDCE7		[📧] length:2
+\uD83D\uDCE8		[📨] length:2
+\uD83D\uDCE9		[📩] length:2
+\uD83D\uDCEA		[📪] length:2
+\uD83D\uDCEB		[📫] length:2
+\uD83D\uDCEC		[📬] length:2
+\uD83D\uDCED		[📭] length:2
+\uD83D\uDCEE		[📮] length:2
+\uD83D\uDCEF		[📯] length:2
+\uD83D\uDCF0		[📰] length:2
+\uD83D\uDCF1		[📱] length:2
+\uD83D\uDCF2		[📲] length:2
+\uD83D\uDCF3		[📳] length:2
+\uD83D\uDCF4		[📴] length:2
+\uD83D\uDCF5		[📵] length:2
+\uD83D\uDCF6		[📶] length:2
+\uD83D\uDCF7		[📷] length:2
+\uD83D\uDCF8		[📸] length:2
+\uD83D\uDCF9		[📹] length:2
+\uD83D\uDCFA		[📺] length:2
+\uD83D\uDCFB		[📻] length:2
+\uD83D\uDCFC		[📼] length:2
+\uD83D\uDCFD		[📽] length:2
+\uD83D\uDCFF		[📿] length:2
+\uD83D\uDD00		[🔀] length:2
+\uD83D\uDD01		[🔁] length:2
+\uD83D\uDD02		[🔂] length:2
+\uD83D\uDD03		[🔃] length:2
+\uD83D\uDD04		[🔄] length:2
+\uD83D\uDD05		[🔅] length:2
+\uD83D\uDD06		[🔆] length:2
+\uD83D\uDD07		[🔇] length:2
+\uD83D\uDD08		[🔈] length:2
+\uD83D\uDD09		[🔉] length:2
+\uD83D\uDD0A		[🔊] length:2
+\uD83D\uDD0B		[🔋] length:2
+\uD83D\uDD0C		[🔌] length:2
+\uD83D\uDD0D		[🔍] length:2
+\uD83D\uDD0E		[🔎] length:2
+\uD83D\uDD0F		[🔏] length:2
+\uD83D\uDD10		[🔐] length:2
+\uD83D\uDD11		[🔑] length:2
+\uD83D\uDD12		[🔒] length:2
+\uD83D\uDD13		[🔓] length:2
+\uD83D\uDD14		[🔔] length:2
+\uD83D\uDD15		[🔕] length:2
+\uD83D\uDD16		[🔖] length:2
+\uD83D\uDD17		[🔗] length:2
+\uD83D\uDD18		[🔘] length:2
+\uD83D\uDD19		[🔙] length:2
+\uD83D\uDD1A		[🔚] length:2
+\uD83D\uDD1B		[🔛] length:2
+\uD83D\uDD1C		[🔜] length:2
+\uD83D\uDD1D		[🔝] length:2
+\uD83D\uDD1E		[🔞] length:2
+\uD83D\uDD1F		[🔟] length:2
+\uD83D\uDD20		[🔠] length:2
+\uD83D\uDD21		[🔡] length:2
+\uD83D\uDD22		[🔢] length:2
+\uD83D\uDD23		[🔣] length:2
+\uD83D\uDD24		[🔤] length:2
+\uD83D\uDD25		[🔥] length:2
+\uD83D\uDD26		[🔦] length:2
+\uD83D\uDD27		[🔧] length:2
+\uD83D\uDD28		[🔨] length:2
+\uD83D\uDD29		[🔩] length:2
+\uD83D\uDD2A		[🔪] length:2
+\uD83D\uDD2B		[🔫] length:2
+\uD83D\uDD2C		[🔬] length:2
+\uD83D\uDD2D		[🔭] length:2
+\uD83D\uDD2E		[🔮] length:2
+\uD83D\uDD2F		[🔯] length:2
+\uD83D\uDD30		[🔰] length:2
+\uD83D\uDD31		[🔱] length:2
+\uD83D\uDD32		[🔲] length:2
+\uD83D\uDD33		[🔳] length:2
+\uD83D\uDD34		[🔴] length:2
+\uD83D\uDD35		[🔵] length:2
+\uD83D\uDD36		[🔶] length:2
+\uD83D\uDD37		[🔷] length:2
+\uD83D\uDD38		[🔸] length:2
+\uD83D\uDD39		[🔹] length:2
+\uD83D\uDD3A		[🔺] length:2
+\uD83D\uDD3B		[🔻] length:2
+\uD83D\uDD3C		[🔼] length:2
+\uD83D\uDD3D		[🔽] length:2
+\uD83D\uDD49		[🕉] length:2
+\uD83D\uDD4A		[🕊] length:2
+\uD83D\uDD4B		[🕋] length:2
+\uD83D\uDD4C		[🕌] length:2
+\uD83D\uDD4D		[🕍] length:2
+\uD83D\uDD4E		[🕎] length:2
+\uD83D\uDD50		[🕐] length:2
+\uD83D\uDD51		[🕑] length:2
+\uD83D\uDD52		[🕒] length:2
+\uD83D\uDD53		[🕓] length:2
+\uD83D\uDD54		[🕔] length:2
+\uD83D\uDD55		[🕕] length:2
+\uD83D\uDD56		[🕖] length:2
+\uD83D\uDD57		[🕗] length:2
+\uD83D\uDD58		[🕘] length:2
+\uD83D\uDD59		[🕙] length:2
+\uD83D\uDD5A		[🕚] length:2
+\uD83D\uDD5B		[🕛] length:2
+\uD83D\uDD5C		[🕜] length:2
+\uD83D\uDD5D		[🕝] length:2
+\uD83D\uDD5E		[🕞] length:2
+\uD83D\uDD5F		[🕟] length:2
+\uD83D\uDD60		[🕠] length:2
+\uD83D\uDD61		[🕡] length:2
+\uD83D\uDD62		[🕢] length:2
+\uD83D\uDD63		[🕣] length:2
+\uD83D\uDD64		[🕤] length:2
+\uD83D\uDD65		[🕥] length:2
+\uD83D\uDD66		[🕦] length:2
+\uD83D\uDD67		[🕧] length:2
+\uD83D\uDD6F		[🕯] length:2
+\uD83D\uDD70		[🕰] length:2
+\uD83D\uDD73		[🕳] length:2
+\uD83D\uDD74		[🕴] length:2
+\uD83D\uDD75		[🕵] length:2
+\uD83D\uDD76		[🕶] length:2
+\uD83D\uDD77		[🕷] length:2
+\uD83D\uDD78		[🕸] length:2
+\uD83D\uDD79		[🕹] length:2
+\uD83D\uDD7A		[🕺] length:2
+\uD83D\uDD87		[🖇] length:2
+\uD83D\uDD8A		[🖊] length:2
+\uD83D\uDD8B		[🖋] length:2
+\uD83D\uDD8C		[🖌] length:2
+\uD83D\uDD8D		[🖍] length:2
+\uD83D\uDD90		[🖐] length:2
+\uD83D\uDD95		[🖕] length:2
+\uD83D\uDD96		[🖖] length:2
+\uD83D\uDDA4		[🖤] length:2
+\uD83D\uDDA5		[🖥] length:2
+\uD83D\uDDA8		[🖨] length:2
+\uD83D\uDDB1		[🖱] length:2
+\uD83D\uDDB2		[🖲] length:2
+\uD83D\uDDBC		[🖼] length:2
+\uD83D\uDDC2		[🗂] length:2
+\uD83D\uDDC3		[🗃] length:2
+\uD83D\uDDC4		[🗄] length:2
+\uD83D\uDDD1		[🗑] length:2
+\uD83D\uDDD2		[🗒] length:2
+\uD83D\uDDD3		[🗓] length:2
+\uD83D\uDDDC		[🗜] length:2
+\uD83D\uDDDD		[🗝] length:2
+\uD83D\uDDDE		[🗞] length:2
+\uD83D\uDDE1		[🗡] length:2
+\uD83D\uDDE3		[🗣] length:2
+\uD83D\uDDE8		[🗨] length:2
+\uD83D\uDDEF		[🗯] length:2
+\uD83D\uDDF3		[🗳] length:2
+\uD83D\uDDFA		[🗺] length:2
+\uD83D\uDDFB		[🗻] length:2
+\uD83D\uDDFC		[🗼] length:2
+\uD83D\uDDFD		[🗽] length:2
+\uD83D\uDDFE		[🗾] length:2
+\uD83D\uDDFF		[🗿] length:2
+\uD83D\uDE00		[😀] length:2
+\uD83D\uDE01		[😁] length:2
+\uD83D\uDE02		[😂] length:2
+\uD83D\uDE03		[😃] length:2
+\uD83D\uDE04		[😄] length:2
+\uD83D\uDE05		[😅] length:2
+\uD83D\uDE06		[😆] length:2
+\uD83D\uDE07		[😇] length:2
+\uD83D\uDE08		[😈] length:2
+\uD83D\uDE09		[😉] length:2
+\uD83D\uDE0A		[😊] length:2
+\uD83D\uDE0B		[😋] length:2
+\uD83D\uDE0C		[😌] length:2
+\uD83D\uDE0D		[😍] length:2
+\uD83D\uDE0E		[😎] length:2
+\uD83D\uDE0F		[😏] length:2
+\uD83D\uDE10		[😐] length:2
+\uD83D\uDE11		[😑] length:2
+\uD83D\uDE12		[😒] length:2
+\uD83D\uDE13		[😓] length:2
+\uD83D\uDE14		[😔] length:2
+\uD83D\uDE15		[😕] length:2
+\uD83D\uDE16		[😖] length:2
+\uD83D\uDE17		[😗] length:2
+\uD83D\uDE18		[😘] length:2
+\uD83D\uDE19		[😙] length:2
+\uD83D\uDE1A		[😚] length:2
+\uD83D\uDE1B		[😛] length:2
+\uD83D\uDE1C		[😜] length:2
+\uD83D\uDE1D		[😝] length:2
+\uD83D\uDE1E		[😞] length:2
+\uD83D\uDE1F		[😟] length:2
+\uD83D\uDE20		[😠] length:2
+\uD83D\uDE21		[😡] length:2
+\uD83D\uDE22		[😢] length:2
+\uD83D\uDE23		[😣] length:2
+\uD83D\uDE24		[😤] length:2
+\uD83D\uDE25		[😥] length:2
+\uD83D\uDE26		[😦] length:2
+\uD83D\uDE27		[😧] length:2
+\uD83D\uDE28		[😨] length:2
+\uD83D\uDE29		[😩] length:2
+\uD83D\uDE2A		[😪] length:2
+\uD83D\uDE2B		[😫] length:2
+\uD83D\uDE2C		[😬] length:2
+\uD83D\uDE2D		[😭] length:2
+\uD83D\uDE2E		[😮] length:2
+\uD83D\uDE2F		[😯] length:2
+\uD83D\uDE30		[😰] length:2
+\uD83D\uDE31		[😱] length:2
+\uD83D\uDE32		[😲] length:2
+\uD83D\uDE33		[😳] length:2
+\uD83D\uDE34		[😴] length:2
+\uD83D\uDE35		[😵] length:2
+\uD83D\uDE36		[😶] length:2
+\uD83D\uDE37		[😷] length:2
+\uD83D\uDE38		[😸] length:2
+\uD83D\uDE39		[😹] length:2
+\uD83D\uDE3A		[😺] length:2
+\uD83D\uDE3B		[😻] length:2
+\uD83D\uDE3C		[😼] length:2
+\uD83D\uDE3D		[😽] length:2
+\uD83D\uDE3E		[😾] length:2
+\uD83D\uDE3F		[😿] length:2
+\uD83D\uDE40		[🙀] length:2
+\uD83D\uDE41		[🙁] length:2
+\uD83D\uDE42		[🙂] length:2
+\uD83D\uDE43		[🙃] length:2
+\uD83D\uDE44		[🙄] length:2
+\uD83D\uDE45		[🙅] length:2
+\uD83D\uDE46		[🙆] length:2
+\uD83D\uDE47		[🙇] length:2
+\uD83D\uDE48		[🙈] length:2
+\uD83D\uDE49		[🙉] length:2
+\uD83D\uDE4A		[🙊] length:2
+\uD83D\uDE4B		[🙋] length:2
+\uD83D\uDE4C		[🙌] length:2
+\uD83D\uDE4D		[🙍] length:2
+\uD83D\uDE4E		[🙎] length:2
+\uD83D\uDE4F		[🙏] length:2
+\uD83D\uDE80		[🚀] length:2
+\uD83D\uDE81		[🚁] length:2
+\uD83D\uDE82		[🚂] length:2
+\uD83D\uDE83		[🚃] length:2
+\uD83D\uDE84		[🚄] length:2
+\uD83D\uDE85		[🚅] length:2
+\uD83D\uDE86		[🚆] length:2
+\uD83D\uDE87		[🚇] length:2
+\uD83D\uDE88		[🚈] length:2
+\uD83D\uDE89		[🚉] length:2
+\uD83D\uDE8A		[🚊] length:2
+\uD83D\uDE8B		[🚋] length:2
+\uD83D\uDE8C		[🚌] length:2
+\uD83D\uDE8D		[🚍] length:2
+\uD83D\uDE8E		[🚎] length:2
+\uD83D\uDE8F		[🚏] length:2
+\uD83D\uDE90		[🚐] length:2
+\uD83D\uDE91		[🚑] length:2
+\uD83D\uDE92		[🚒] length:2
+\uD83D\uDE93		[🚓] length:2
+\uD83D\uDE94		[🚔] length:2
+\uD83D\uDE95		[🚕] length:2
+\uD83D\uDE96		[🚖] length:2
+\uD83D\uDE97		[🚗] length:2
+\uD83D\uDE98		[🚘] length:2
+\uD83D\uDE99		[🚙] length:2
+\uD83D\uDE9A		[🚚] length:2
+\uD83D\uDE9B		[🚛] length:2
+\uD83D\uDE9C		[🚜] length:2
+\uD83D\uDE9D		[🚝] length:2
+\uD83D\uDE9E		[🚞] length:2
+\uD83D\uDE9F		[🚟] length:2
+\uD83D\uDEA0		[🚠] length:2
+\uD83D\uDEA1		[🚡] length:2
+\uD83D\uDEA2		[🚢] length:2
+\uD83D\uDEA3		[🚣] length:2
+\uD83D\uDEA4		[🚤] length:2
+\uD83D\uDEA5		[🚥] length:2
+\uD83D\uDEA6		[🚦] length:2
+\uD83D\uDEA7		[🚧] length:2
+\uD83D\uDEA8		[🚨] length:2
+\uD83D\uDEA9		[🚩] length:2
+\uD83D\uDEAA		[🚪] length:2
+\uD83D\uDEAB		[🚫] length:2
+\uD83D\uDEAC		[🚬] length:2
+\uD83D\uDEAD		[🚭] length:2
+\uD83D\uDEAE		[🚮] length:2
+\uD83D\uDEAF		[🚯] length:2
+\uD83D\uDEB0		[🚰] length:2
+\uD83D\uDEB1		[🚱] length:2
+\uD83D\uDEB2		[🚲] length:2
+\uD83D\uDEB3		[🚳] length:2
+\uD83D\uDEB4		[🚴] length:2
+\uD83D\uDEB5		[🚵] length:2
+\uD83D\uDEB6		[🚶] length:2
+\uD83D\uDEB7		[🚷] length:2
+\uD83D\uDEB8		[🚸] length:2
+\uD83D\uDEB9		[🚹] length:2
+\uD83D\uDEBA		[🚺] length:2
+\uD83D\uDEBB		[🚻] length:2
+\uD83D\uDEBC		[🚼] length:2
+\uD83D\uDEBD		[🚽] length:2
+\uD83D\uDEBE		[🚾] length:2
+\uD83D\uDEBF		[🚿] length:2
+\uD83D\uDEC0		[🛀] length:2
+\uD83D\uDEC1		[🛁] length:2
+\uD83D\uDEC2		[🛂] length:2
+\uD83D\uDEC3		[🛃] length:2
+\uD83D\uDEC4		[🛄] length:2
+\uD83D\uDEC5		[🛅] length:2
+\uD83D\uDECB		[🛋] length:2
+\uD83D\uDECC		[🛌] length:2
+\uD83D\uDECD		[🛍] length:2
+\uD83D\uDECE		[🛎] length:2
+\uD83D\uDECF		[🛏] length:2
+\uD83D\uDED0		[🛐] length:2
+\uD83D\uDED1		[🛑] length:2
+\uD83D\uDED2		[🛒] length:2
+\uD83D\uDEE0		[🛠] length:2
+\uD83D\uDEE1		[🛡] length:2
+\uD83D\uDEE2		[🛢] length:2
+\uD83D\uDEE3		[🛣] length:2
+\uD83D\uDEE4		[🛤] length:2
+\uD83D\uDEE5		[🛥] length:2
+\uD83D\uDEE9		[🛩] length:2
+\uD83D\uDEEB		[🛫] length:2
+\uD83D\uDEEC		[🛬] length:2
+\uD83D\uDEF0		[🛰] length:2
+\uD83D\uDEF3		[🛳] length:2
+\uD83D\uDEF4		[🛴] length:2
+\uD83D\uDEF5		[🛵] length:2
+\uD83D\uDEF6		[🛶] length:2
+\uD83D\uDEF7		[🛷] length:2
+\uD83D\uDEF8		[🛸] length:2
+\uD83D\uDEF9		[🛹] length:2
+
+\uD83E\uDD10		[🤐] length:2
+\uD83E\uDD11		[🤑] length:2
+\uD83E\uDD12		[🤒] length:2
+\uD83E\uDD13		[🤓] length:2
+\uD83E\uDD14		[🤔] length:2
+\uD83E\uDD15		[🤕] length:2
+\uD83E\uDD16		[🤖] length:2
+\uD83E\uDD17		[🤗] length:2
+\uD83E\uDD18		[🤘] length:2
+\uD83E\uDD19		[🤙] length:2
+\uD83E\uDD1A		[🤚] length:2
+\uD83E\uDD1B		[🤛] length:2
+\uD83E\uDD1C		[🤜] length:2
+\uD83E\uDD1D		[🤝] length:2
+\uD83E\uDD1E		[🤞] length:2
+\uD83E\uDD1F		[🤟] length:2
+\uD83E\uDD20		[🤠] length:2
+\uD83E\uDD21		[🤡] length:2
+\uD83E\uDD22		[🤢] length:2
+\uD83E\uDD23		[🤣] length:2
+\uD83E\uDD24		[🤤] length:2
+\uD83E\uDD25		[🤥] length:2
+\uD83E\uDD26		[🤦] length:2
+\uD83E\uDD27		[🤧] length:2
+\uD83E\uDD28		[🤨] length:2
+\uD83E\uDD29		[🤩] length:2
+\uD83E\uDD2A		[🤪] length:2
+\uD83E\uDD2B		[🤫] length:2
+\uD83E\uDD2C		[🤬] length:2
+\uD83E\uDD2D		[🤭] length:2
+\uD83E\uDD2E		[🤮] length:2
+\uD83E\uDD2F		[🤯] length:2
+\uD83E\uDD30		[🤰] length:2
+\uD83E\uDD31		[🤱] length:2
+\uD83E\uDD32		[🤲] length:2
+\uD83E\uDD33		[🤳] length:2
+\uD83E\uDD34		[🤴] length:2
+\uD83E\uDD35		[🤵] length:2
+\uD83E\uDD36		[🤶] length:2
+\uD83E\uDD37		[🤷] length:2
+\uD83E\uDD38		[🤸] length:2
+\uD83E\uDD39		[🤹] length:2
+\uD83E\uDD3A		[🤺] length:2
+\uD83E\uDD3C		[🤼] length:2
+\uD83E\uDD3D		[🤽] length:2
+\uD83E\uDD3E		[🤾] length:2
+\uD83E\uDD40		[🥀] length:2
+\uD83E\uDD41		[🥁] length:2
+\uD83E\uDD42		[🥂] length:2
+\uD83E\uDD43		[🥃] length:2
+\uD83E\uDD44		[🥄] length:2
+\uD83E\uDD45		[🥅] length:2
+\uD83E\uDD47		[🥇] length:2
+\uD83E\uDD48		[🥈] length:2
+\uD83E\uDD49		[🥉] length:2
+\uD83E\uDD4A		[🥊] length:2
+\uD83E\uDD4B		[🥋] length:2
+\uD83E\uDD4C		[🥌] length:2
+\uD83E\uDD4D		[🥍] length:2
+\uD83E\uDD4E		[🥎] length:2
+\uD83E\uDD4F		[🥏] length:2
+\uD83E\uDD50		[🥐] length:2
+\uD83E\uDD51		[🥑] length:2
+\uD83E\uDD52		[🥒] length:2
+\uD83E\uDD53		[🥓] length:2
+\uD83E\uDD54		[🥔] length:2
+\uD83E\uDD55		[🥕] length:2
+\uD83E\uDD56		[🥖] length:2
+\uD83E\uDD57		[🥗] length:2
+\uD83E\uDD58		[🥘] length:2
+\uD83E\uDD59		[🥙] length:2
+\uD83E\uDD5A		[🥚] length:2
+\uD83E\uDD5B		[🥛] length:2
+\uD83E\uDD5C		[🥜] length:2
+\uD83E\uDD5D		[🥝] length:2
+\uD83E\uDD5E		[🥞] length:2
+\uD83E\uDD5F		[🥟] length:2
+\uD83E\uDD60		[🥠] length:2
+\uD83E\uDD61		[🥡] length:2
+\uD83E\uDD62		[🥢] length:2
+\uD83E\uDD63		[🥣] length:2
+\uD83E\uDD64		[🥤] length:2
+\uD83E\uDD65		[🥥] length:2
+\uD83E\uDD66		[🥦] length:2
+\uD83E\uDD67		[🥧] length:2
+\uD83E\uDD68		[🥨] length:2
+\uD83E\uDD69		[🥩] length:2
+\uD83E\uDD6A		[🥪] length:2
+\uD83E\uDD6B		[🥫] length:2
+\uD83E\uDD6C		[🥬] length:2
+\uD83E\uDD6D		[🥭] length:2
+\uD83E\uDD6E		[🥮] length:2
+\uD83E\uDD6F		[🥯] length:2
+\uD83E\uDD70		[🥰] length:2
+\uD83E\uDD73		[🥳] length:2
+\uD83E\uDD74		[🥴] length:2
+\uD83E\uDD75		[🥵] length:2
+\uD83E\uDD76		[🥶] length:2
+\uD83E\uDD7A		[🥺] length:2
+\uD83E\uDD7C		[🥼] length:2
+\uD83E\uDD7D		[🥽] length:2
+\uD83E\uDD7E		[🥾] length:2
+\uD83E\uDD7F		[🥿] length:2
+\uD83E\uDD80		[🦀] length:2
+\uD83E\uDD81		[🦁] length:2
+\uD83E\uDD82		[🦂] length:2
+\uD83E\uDD83		[🦃] length:2
+\uD83E\uDD84		[🦄] length:2
+\uD83E\uDD85		[🦅] length:2
+\uD83E\uDD86		[🦆] length:2
+\uD83E\uDD87		[🦇] length:2
+\uD83E\uDD88		[🦈] length:2
+\uD83E\uDD89		[🦉] length:2
+\uD83E\uDD8A		[🦊] length:2
+\uD83E\uDD8B		[🦋] length:2
+\uD83E\uDD8C		[🦌] length:2
+\uD83E\uDD8D		[🦍] length:2
+\uD83E\uDD8E		[🦎] length:2
+\uD83E\uDD8F		[🦏] length:2
+\uD83E\uDD90		[🦐] length:2
+\uD83E\uDD91		[🦑] length:2
+\uD83E\uDD92		[🦒] length:2
+\uD83E\uDD93		[🦓] length:2
+\uD83E\uDD94		[🦔] length:2
+\uD83E\uDD95		[🦕] length:2
+\uD83E\uDD96		[🦖] length:2
+\uD83E\uDD97		[🦗] length:2
+\uD83E\uDD98		[🦘] length:2
+\uD83E\uDD99		[🦙] length:2
+\uD83E\uDD9A		[🦚] length:2
+\uD83E\uDD9B		[🦛] length:2
+\uD83E\uDD9C		[🦜] length:2
+\uD83E\uDD9D		[🦝] length:2
+\uD83E\uDD9E		[🦞] length:2
+\uD83E\uDD9F		[🦟] length:2
+\uD83E\uDDA0		[🦠] length:2
+\uD83E\uDDA1		[🦡] length:2
+\uD83E\uDDA2		[🦢] length:2
+\uD83E\uDDB0		[🦰] length:2
+\uD83E\uDDB1		[🦱] length:2
+\uD83E\uDDB2		[🦲] length:2
+\uD83E\uDDB3		[🦳] length:2
+\uD83E\uDDB4		[🦴] length:2
+\uD83E\uDDB5		[🦵] length:2
+\uD83E\uDDB6		[🦶] length:2
+\uD83E\uDDB7		[🦷] length:2
+\uD83E\uDDB8		[🦸] length:2
+\uD83E\uDDB9		[🦹] length:2
+\uD83E\uDDC0		[🧀] length:2
+\uD83E\uDDC1		[🧁] length:2
+\uD83E\uDDC2		[🧂] length:2
+\uD83E\uDDD0		[🧐] length:2
+\uD83E\uDDD1		[🧑] length:2
+\uD83E\uDDD2		[🧒] length:2
+\uD83E\uDDD3		[🧓] length:2
+\uD83E\uDDD4		[🧔] length:2
+\uD83E\uDDD5		[🧕] length:2
+\uD83E\uDDD6		[🧖] length:2
+\uD83E\uDDD7		[🧗] length:2
+\uD83E\uDDD8		[🧘] length:2
+\uD83E\uDDD9		[🧙] length:2
+\uD83E\uDDDA		[🧚] length:2
+\uD83E\uDDDB		[🧛] length:2
+\uD83E\uDDDC		[🧜] length:2
+\uD83E\uDDDD		[🧝] length:2
+\uD83E\uDDDE		[🧞] length:2
+\uD83E\uDDDF		[🧟] length:2
+\uD83E\uDDE0		[🧠] length:2
+\uD83E\uDDE1		[🧡] length:2
+\uD83E\uDDE2		[🧢] length:2
+\uD83E\uDDE3		[🧣] length:2
+\uD83E\uDDE4		[🧤] length:2
+\uD83E\uDDE5		[🧥] length:2
+\uD83E\uDDE6		[🧦] length:2
+\uD83E\uDDE7		[🧧] length:2
+\uD83E\uDDE8		[🧨] length:2
+\uD83E\uDDE9		[🧩] length:2
+\uD83E\uDDEA		[🧪] length:2
+\uD83E\uDDEB		[🧫] length:2
+\uD83E\uDDEC		[🧬] length:2
+\uD83E\uDDED		[🧭] length:2
+\uD83E\uDDEE		[🧮] length:2
+\uD83E\uDDEF		[🧯] length:2
+\uD83E\uDDF0		[🧰] length:2
+\uD83E\uDDF1		[🧱] length:2
+\uD83E\uDDF2		[🧲] length:2
+\uD83E\uDDF3		[🧳] length:2
+\uD83E\uDDF4		[🧴] length:2
+\uD83E\uDDF5		[🧵] length:2
+\uD83E\uDDF6		[🧶] length:2
+\uD83E\uDDF7		[🧷] length:2
+\uD83E\uDDF8		[🧸] length:2
+\uD83E\uDDF9		[🧹] length:2
+\uD83E\uDDFA		[🧺] length:2
+\uD83E\uDDFB		[🧻] length:2
+\uD83E\uDDFC		[🧼] length:2
+\uD83E\uDDFD		[🧽] length:2
+\uD83E\uDDFE		[🧾] length:2
+\uD83E\uDDFF		[🧿] length:2
+
+[\u261D-\u270D|\u0023-\u0039]\u200D?\uFE0F?[\u20E3|\u2640-\u2642|\uD83C\uDFFB-\uD83C\uDFFF]
+
+\u0023\uFE0F\u20E3		[#️⃣] length:3
+\u002A\uFE0F\u20E3		[*️⃣] length:3
+\u0030\uFE0F\u20E3		[0️⃣] length:3
+\u0031\uFE0F\u20E3		[1️⃣] length:3
+\u0032\uFE0F\u20E3		[2️⃣] length:3
+\u0033\uFE0F\u20E3		[3️⃣] length:3
+\u0034\uFE0F\u20E3		[4️⃣] length:3
+\u0035\uFE0F\u20E3		[5️⃣] length:3
+\u0036\uFE0F\u20E3		[6️⃣] length:3
+\u0037\uFE0F\u20E3		[7️⃣] length:3
+\u0038\uFE0F\u20E3		[8️⃣] length:3
+\u0039\uFE0F\u20E3		[9️⃣] length:3
+
+
+\u261D\uD83C\uDFFB		[☝🏻] length:3
+\u261D\uD83C\uDFFC		[☝🏼] length:3
+\u261D\uD83C\uDFFD		[☝🏽] length:3
+\u261D\uD83C\uDFFE		[☝🏾] length:3
+\u261D\uD83C\uDFFF		[☝🏿] length:3
+
+
+\u26F9\u200D\u2640		[⛹‍♀] length:3
+\u26F9\u200D\u2642		[⛹‍♂] length:3
+
+\u26F9\uD83C\uDFFB		[⛹🏻] length:3
+\u26F9\uD83C\uDFFC		[⛹🏼] length:3
+\u26F9\uD83C\uDFFD		[⛹🏽] length:3
+\u26F9\uD83C\uDFFE		[⛹🏾] length:3
+\u26F9\uD83C\uDFFF		[⛹🏿] length:3
+\u270A\uD83C\uDFFB		[✊🏻] length:3
+\u270A\uD83C\uDFFC		[✊🏼] length:3
+\u270A\uD83C\uDFFD		[✊🏽] length:3
+\u270A\uD83C\uDFFE		[✊🏾] length:3
+\u270A\uD83C\uDFFF		[✊🏿] length:3
+\u270B\uD83C\uDFFB		[✋🏻] length:3
+\u270B\uD83C\uDFFC		[✋🏼] length:3
+\u270B\uD83C\uDFFD		[✋🏽] length:3
+\u270B\uD83C\uDFFE		[✋🏾] length:3
+\u270B\uD83C\uDFFF		[✋🏿] length:3
+\u270C\uD83C\uDFFB		[✌🏻] length:3
+\u270C\uD83C\uDFFC		[✌🏼] length:3
+\u270C\uD83C\uDFFD		[✌🏽] length:3
+\u270C\uD83C\uDFFE		[✌🏾] length:3
+\u270C\uD83C\uDFFF		[✌🏿] length:3
+\u270D\uD83C\uDFFB		[✍🏻] length:3
+\u270D\uD83C\uDFFC		[✍🏼] length:3
+\u270D\uD83C\uDFFD		[✍🏽] length:3
+\u270D\uD83C\uDFFE		[✍🏾] length:3
+\u270D\uD83C\uDFFF		[✍🏿] length:3
+
+[\uD83C-\uD83D][\uDD70-\uDEF3]\uFE0F
+\uD83C  \uDD70  \uFE0F		[🅰️] length:3
+\uD83C  \uDD71  \uFE0F		[🅱️] length:3
+\uD83C  \uDD7E  \uFE0F		[🅾️] length:3
+\uD83C  \uDD7F  \uFE0F		[🅿️] length:3
+\uD83C  \uDE02  \uFE0F		[🈂️] length:3
+\uD83C  \uDE37  \uFE0F		[🈷️] length:3
+\uD83C  \uDF21  \uFE0F		[🌡️] length:3
+\uD83C  \uDF24  \uFE0F		[🌤️] length:3
+\uD83C  \uDF25  \uFE0F		[🌥️] length:3
+\uD83C  \uDF26  \uFE0F		[🌦️] length:3
+\uD83C  \uDF27  \uFE0F		[🌧️] length:3
+\uD83C  \uDF28  \uFE0F		[🌨️] length:3
+\uD83C  \uDF29  \uFE0F		[🌩️] length:3
+\uD83C  \uDF2A  \uFE0F		[🌪️] length:3
+\uD83C  \uDF2B  \uFE0F		[🌫️] length:3
+\uD83C  \uDF2C  \uFE0F		[🌬️] length:3
+\uD83C  \uDF36  \uFE0F		[🌶️] length:3
+\uD83C  \uDF7D  \uFE0F		[🍽️] length:3
+\uD83C  \uDF96  \uFE0F		[🎖️] length:3
+\uD83C  \uDF97  \uFE0F		[🎗️] length:3
+\uD83C  \uDF99  \uFE0F		[🎙️] length:3
+\uD83C  \uDF9A  \uFE0F		[🎚️] length:3
+\uD83C  \uDF9B  \uFE0F		[🎛️] length:3
+\uD83C  \uDF9E  \uFE0F		[🎞️] length:3
+\uD83C  \uDF9F  \uFE0F		[🎟️] length:3
+\uD83C  \uDFCB  \uFE0F		[🏋️] length:3
+\uD83C  \uDFCC  \uFE0F		[🏌️] length:3
+\uD83C  \uDFCD  \uFE0F		[🏍️] length:3
+\uD83C  \uDFCE  \uFE0F		[🏎️] length:3
+\uD83C  \uDFD4  \uFE0F		[🏔️] length:3
+\uD83C  \uDFD5  \uFE0F		[🏕️] length:3
+\uD83C  \uDFD6  \uFE0F		[🏖️] length:3
+\uD83C  \uDFD7  \uFE0F		[🏗️] length:3
+\uD83C  \uDFD8  \uFE0F		[🏘️] length:3
+\uD83C  \uDFD9  \uFE0F		[🏙️] length:3
+\uD83C  \uDFDA  \uFE0F		[🏚️] length:3
+\uD83C  \uDFDB  \uFE0F		[🏛️] length:3
+\uD83C  \uDFDC  \uFE0F		[🏜️] length:3
+\uD83C  \uDFDD  \uFE0F		[🏝️] length:3
+\uD83C  \uDFDE  \uFE0F		[🏞️] length:3
+\uD83C  \uDFDF  \uFE0F		[🏟️] length:3
+\uD83C  \uDFF3  \uFE0F		[🏳️] length:3
+\uD83C  \uDFF5  \uFE0F		[🏵️] length:3
+\uD83C  \uDFF7  \uFE0F		[🏷️] length:3
+\uD83D  \uDC3F  \uFE0F		[🐿️] length:3
+\uD83D  \uDC41  \uFE0F		[👁️] length:3
+\uD83D  \uDCFD  \uFE0F		[📽️] length:3
+\uD83D  \uDD49  \uFE0F		[🕉️] length:3
+\uD83D  \uDD4A  \uFE0F		[🕊️] length:3
+\uD83D  \uDD6F  \uFE0F		[🕯️] length:3
+\uD83D  \uDD70  \uFE0F		[🕰️] length:3
+\uD83D  \uDD73  \uFE0F		[🕳️] length:3
+\uD83D  \uDD74  \uFE0F		[🕴️] length:3
+\uD83D  \uDD75  \uFE0F		[🕵️] length:3
+\uD83D  \uDD76  \uFE0F		[🕶️] length:3
+\uD83D  \uDD77  \uFE0F		[🕷️] length:3
+\uD83D  \uDD78  \uFE0F		[🕸️] length:3
+\uD83D  \uDD79  \uFE0F		[🕹️] length:3
+\uD83D  \uDD87  \uFE0F		[🖇️] length:3
+\uD83D  \uDD8A  \uFE0F		[🖊️] length:3
+\uD83D  \uDD8B  \uFE0F		[🖋️] length:3
+\uD83D  \uDD8C  \uFE0F		[🖌️] length:3
+\uD83D  \uDD8D  \uFE0F		[🖍️] length:3
+\uD83D  \uDD90  \uFE0F		[🖐️] length:3
+\uD83D  \uDDA5  \uFE0F		[🖥️] length:3
+\uD83D  \uDDA8  \uFE0F		[🖨️] length:3
+\uD83D  \uDDB1  \uFE0F		[🖱️] length:3
+\uD83D  \uDDB2  \uFE0F		[🖲️] length:3
+\uD83D  \uDDBC  \uFE0F		[🖼️] length:3
+\uD83D  \uDDC2  \uFE0F		[🗂️] length:3
+\uD83D  \uDDC3  \uFE0F		[🗃️] length:3
+\uD83D  \uDDC4  \uFE0F		[🗄️] length:3
+\uD83D  \uDDD1  \uFE0F		[🗑️] length:3
+\uD83D  \uDDD2  \uFE0F		[🗒️] length:3
+\uD83D  \uDDD3  \uFE0F		[🗓️] length:3
+\uD83D  \uDDDC  \uFE0F		[🗜️] length:3
+\uD83D  \uDDDD  \uFE0F		[🗝️] length:3
+\uD83D  \uDDDE  \uFE0F		[🗞️] length:3
+\uD83D  \uDDE1  \uFE0F		[🗡️] length:3
+\uD83D  \uDDE3  \uFE0F		[🗣️] length:3
+\uD83D  \uDDE8  \uFE0F		[🗨️] length:3
+\uD83D  \uDDEF  \uFE0F		[🗯️] length:3
+\uD83D  \uDDF3  \uFE0F		[🗳️] length:3
+\uD83D  \uDDFA  \uFE0F		[🗺️] length:3
+\uD83D  \uDECB  \uFE0F		[🛋️] length:3
+\uD83D  \uDECD  \uFE0F		[🛍️] length:3
+\uD83D  \uDECE  \uFE0F		[🛎️] length:3
+\uD83D  \uDECF  \uFE0F		[🛏️] length:3
+\uD83D  \uDEE0  \uFE0F		[🛠️] length:3
+\uD83D  \uDEE1  \uFE0F		[🛡️] length:3
+\uD83D  \uDEE2  \uFE0F		[🛢️] length:3
+\uD83D  \uDEE3  \uFE0F		[🛣️] length:3
+\uD83D  \uDEE4  \uFE0F		[🛤️] length:3
+\uD83D  \uDEE5  \uFE0F		[🛥️] length:3
+\uD83D  \uDEE9  \uFE0F		[🛩️] length:3
+\uD83D  \uDEF0  \uFE0F		[🛰️] length:3
+\uD83D  \uDEF3  \uFE0F		[🛳️] length:3
+
+\u26F9\uFE0F?\u200D[\u2640|\u2642]\uFE0F?
+\u26F9\u200D\u2640\uFE0F		[⛹‍♀️] length:4
+\u26F9\u200D\u2642\uFE0F		[⛹‍♂️] length:4
+\u26F9\uFE0F\u200D\u2640		[⛹️‍♀] length:4
+\u26F9\uFE0F\u200D\u2642		[⛹️‍♂] length:4
+
+[\uD83C\uDDE6-\uD83C\uDDFF][\uD83C\uDDE6-\uD83C\uDDFF]
+\uD83C\uDDE6    \uD83C\uDDE8		[🇦🇨] length:4
+\uD83C\uDDE6    \uD83C\uDDE9		[🇦🇩] length:4
+\uD83C\uDDE6    \uD83C\uDDEA		[🇦🇪] length:4
+\uD83C\uDDE6    \uD83C\uDDEB		[🇦🇫] length:4
+\uD83C\uDDE6    \uD83C\uDDEC		[🇦🇬] length:4
+\uD83C\uDDE6    \uD83C\uDDEE		[🇦🇮] length:4
+\uD83C\uDDE6    \uD83C\uDDF1		[🇦🇱] length:4
+\uD83C\uDDE6    \uD83C\uDDF2		[🇦🇲] length:4
+\uD83C\uDDE6    \uD83C\uDDF4		[🇦🇴] length:4
+\uD83C\uDDE6    \uD83C\uDDF6		[🇦🇶] length:4
+\uD83C\uDDE6    \uD83C\uDDF7		[🇦🇷] length:4
+\uD83C\uDDE6    \uD83C\uDDF8		[🇦🇸] length:4
+\uD83C\uDDE6    \uD83C\uDDF9		[🇦🇹] length:4
+\uD83C\uDDE6    \uD83C\uDDFA		[🇦🇺] length:4
+\uD83C\uDDE6    \uD83C\uDDFC		[🇦🇼] length:4
+\uD83C\uDDE6    \uD83C\uDDFD		[🇦🇽] length:4
+\uD83C\uDDE6    \uD83C\uDDFF		[🇦🇿] length:4
+\uD83C\uDDE7    \uD83C\uDDE6		[🇧🇦] length:4
+\uD83C\uDDE7    \uD83C\uDDE7		[🇧🇧] length:4
+\uD83C\uDDE7    \uD83C\uDDE9		[🇧🇩] length:4
+\uD83C\uDDE7    \uD83C\uDDEA		[🇧🇪] length:4
+\uD83C\uDDE7    \uD83C\uDDEB		[🇧🇫] length:4
+\uD83C\uDDE7    \uD83C\uDDEC		[🇧🇬] length:4
+\uD83C\uDDE7    \uD83C\uDDED		[🇧🇭] length:4
+\uD83C\uDDE7    \uD83C\uDDEE		[🇧🇮] length:4
+\uD83C\uDDE7    \uD83C\uDDEF		[🇧🇯] length:4
+\uD83C\uDDE7    \uD83C\uDDF1		[🇧🇱] length:4
+\uD83C\uDDE7    \uD83C\uDDF2		[🇧🇲] length:4
+\uD83C\uDDE7    \uD83C\uDDF3		[🇧🇳] length:4
+\uD83C\uDDE7    \uD83C\uDDF4		[🇧🇴] length:4
+\uD83C\uDDE7    \uD83C\uDDF6		[🇧🇶] length:4
+\uD83C\uDDE7    \uD83C\uDDF7		[🇧🇷] length:4
+\uD83C\uDDE7    \uD83C\uDDF8		[🇧🇸] length:4
+\uD83C\uDDE7    \uD83C\uDDF9		[🇧🇹] length:4
+\uD83C\uDDE7    \uD83C\uDDFB		[🇧🇻] length:4
+\uD83C\uDDE7    \uD83C\uDDFC		[🇧🇼] length:4
+\uD83C\uDDE7    \uD83C\uDDFE		[🇧🇾] length:4
+\uD83C\uDDE7    \uD83C\uDDFF		[🇧🇿] length:4
+\uD83C\uDDE8    \uD83C\uDDE6		[🇨🇦] length:4
+\uD83C\uDDE8    \uD83C\uDDE8		[🇨🇨] length:4
+\uD83C\uDDE8    \uD83C\uDDE9		[🇨🇩] length:4
+\uD83C\uDDE8    \uD83C\uDDEB		[🇨🇫] length:4
+\uD83C\uDDE8    \uD83C\uDDEC		[🇨🇬] length:4
+\uD83C\uDDE8    \uD83C\uDDED		[🇨🇭] length:4
+\uD83C\uDDE8    \uD83C\uDDEE		[🇨🇮] length:4
+\uD83C\uDDE8    \uD83C\uDDF0		[🇨🇰] length:4
+\uD83C\uDDE8    \uD83C\uDDF1		[🇨🇱] length:4
+\uD83C\uDDE8    \uD83C\uDDF2		[🇨🇲] length:4
+\uD83C\uDDE8    \uD83C\uDDF3		[🇨🇳] length:4
+\uD83C\uDDE8    \uD83C\uDDF4		[🇨🇴] length:4
+\uD83C\uDDE8    \uD83C\uDDF5		[🇨🇵] length:4
+\uD83C\uDDE8    \uD83C\uDDF7		[🇨🇷] length:4
+\uD83C\uDDE8    \uD83C\uDDFA		[🇨🇺] length:4
+\uD83C\uDDE8    \uD83C\uDDFB		[🇨🇻] length:4
+\uD83C\uDDE8    \uD83C\uDDFC		[🇨🇼] length:4
+\uD83C\uDDE8    \uD83C\uDDFD		[🇨🇽] length:4
+\uD83C\uDDE8    \uD83C\uDDFE		[🇨🇾] length:4
+\uD83C\uDDE8    \uD83C\uDDFF		[🇨🇿] length:4
+\uD83C\uDDE9    \uD83C\uDDEA		[🇩🇪] length:4
+\uD83C\uDDE9    \uD83C\uDDEC		[🇩🇬] length:4
+\uD83C\uDDE9    \uD83C\uDDEF		[🇩🇯] length:4
+\uD83C\uDDE9    \uD83C\uDDF0		[🇩🇰] length:4
+\uD83C\uDDE9    \uD83C\uDDF2		[🇩🇲] length:4
+\uD83C\uDDE9    \uD83C\uDDF4		[🇩🇴] length:4
+\uD83C\uDDE9    \uD83C\uDDFF		[🇩🇿] length:4
+\uD83C\uDDEA    \uD83C\uDDE6		[🇪🇦] length:4
+\uD83C\uDDEA    \uD83C\uDDE8		[🇪🇨] length:4
+\uD83C\uDDEA    \uD83C\uDDEA		[🇪🇪] length:4
+\uD83C\uDDEA    \uD83C\uDDEC		[🇪🇬] length:4
+\uD83C\uDDEA    \uD83C\uDDED		[🇪🇭] length:4
+\uD83C\uDDEA    \uD83C\uDDF7		[🇪🇷] length:4
+\uD83C\uDDEA    \uD83C\uDDF8		[🇪🇸] length:4
+\uD83C\uDDEA    \uD83C\uDDF9		[🇪🇹] length:4
+\uD83C\uDDEA    \uD83C\uDDFA		[🇪🇺] length:4
+\uD83C\uDDEB    \uD83C\uDDEE		[🇫🇮] length:4
+\uD83C\uDDEB    \uD83C\uDDEF		[🇫🇯] length:4
+\uD83C\uDDEB    \uD83C\uDDF0		[🇫🇰] length:4
+\uD83C\uDDEB    \uD83C\uDDF2		[🇫🇲] length:4
+\uD83C\uDDEB    \uD83C\uDDF4		[🇫🇴] length:4
+\uD83C\uDDEB    \uD83C\uDDF7		[🇫🇷] length:4
+\uD83C\uDDEC    \uD83C\uDDE6		[🇬🇦] length:4
+\uD83C\uDDEC    \uD83C\uDDE7		[🇬🇧] length:4
+\uD83C\uDDEC    \uD83C\uDDE9		[🇬🇩] length:4
+\uD83C\uDDEC    \uD83C\uDDEA		[🇬🇪] length:4
+\uD83C\uDDEC    \uD83C\uDDEB		[🇬🇫] length:4
+\uD83C\uDDEC    \uD83C\uDDEC		[🇬🇬] length:4
+\uD83C\uDDEC    \uD83C\uDDED		[🇬🇭] length:4
+\uD83C\uDDEC    \uD83C\uDDEE		[🇬🇮] length:4
+\uD83C\uDDEC    \uD83C\uDDF1		[🇬🇱] length:4
+\uD83C\uDDEC    \uD83C\uDDF2		[🇬🇲] length:4
+\uD83C\uDDEC    \uD83C\uDDF3		[🇬🇳] length:4
+\uD83C\uDDEC    \uD83C\uDDF5		[🇬🇵] length:4
+\uD83C\uDDEC    \uD83C\uDDF6		[🇬🇶] length:4
+\uD83C\uDDEC    \uD83C\uDDF7		[🇬🇷] length:4
+\uD83C\uDDEC    \uD83C\uDDF8		[🇬🇸] length:4
+\uD83C\uDDEC    \uD83C\uDDF9		[🇬🇹] length:4
+\uD83C\uDDEC    \uD83C\uDDFA		[🇬🇺] length:4
+\uD83C\uDDEC    \uD83C\uDDFC		[🇬🇼] length:4
+\uD83C\uDDEC    \uD83C\uDDFE		[🇬🇾] length:4
+\uD83C\uDDED    \uD83C\uDDF0		[🇭🇰] length:4
+\uD83C\uDDED    \uD83C\uDDF2		[🇭🇲] length:4
+\uD83C\uDDED    \uD83C\uDDF3		[🇭🇳] length:4
+\uD83C\uDDED    \uD83C\uDDF7		[🇭🇷] length:4
+\uD83C\uDDED    \uD83C\uDDF9		[🇭🇹] length:4
+\uD83C\uDDED    \uD83C\uDDFA		[🇭🇺] length:4
+\uD83C\uDDEE    \uD83C\uDDE8		[🇮🇨] length:4
+\uD83C\uDDEE    \uD83C\uDDE9		[🇮🇩] length:4
+\uD83C\uDDEE    \uD83C\uDDEA		[🇮🇪] length:4
+\uD83C\uDDEE    \uD83C\uDDF1		[🇮🇱] length:4
+\uD83C\uDDEE    \uD83C\uDDF2		[🇮🇲] length:4
+\uD83C\uDDEE    \uD83C\uDDF3		[🇮🇳] length:4
+\uD83C\uDDEE    \uD83C\uDDF4		[🇮🇴] length:4
+\uD83C\uDDEE    \uD83C\uDDF6		[🇮🇶] length:4
+\uD83C\uDDEE    \uD83C\uDDF7		[🇮🇷] length:4
+\uD83C\uDDEE    \uD83C\uDDF8		[🇮🇸] length:4
+\uD83C\uDDEE    \uD83C\uDDF9		[🇮🇹] length:4
+\uD83C\uDDEF    \uD83C\uDDEA		[🇯🇪] length:4
+\uD83C\uDDEF    \uD83C\uDDF2		[🇯🇲] length:4
+\uD83C\uDDEF    \uD83C\uDDF4		[🇯🇴] length:4
+\uD83C\uDDEF    \uD83C\uDDF5		[🇯🇵] length:4
+\uD83C\uDDF0    \uD83C\uDDEA		[🇰🇪] length:4
+\uD83C\uDDF0    \uD83C\uDDEC		[🇰🇬] length:4
+\uD83C\uDDF0    \uD83C\uDDED		[🇰🇭] length:4
+\uD83C\uDDF0    \uD83C\uDDEE		[🇰🇮] length:4
+\uD83C\uDDF0    \uD83C\uDDF2		[🇰🇲] length:4
+\uD83C\uDDF0    \uD83C\uDDF3		[🇰🇳] length:4
+\uD83C\uDDF0    \uD83C\uDDF5		[🇰🇵] length:4
+\uD83C\uDDF0    \uD83C\uDDF7		[🇰🇷] length:4
+\uD83C\uDDF0    \uD83C\uDDFC		[🇰🇼] length:4
+\uD83C\uDDF0    \uD83C\uDDFE		[🇰🇾] length:4
+\uD83C\uDDF0    \uD83C\uDDFF		[🇰🇿] length:4
+\uD83C\uDDF1    \uD83C\uDDE6		[🇱🇦] length:4
+\uD83C\uDDF1    \uD83C\uDDE7		[🇱🇧] length:4
+\uD83C\uDDF1    \uD83C\uDDE8		[🇱🇨] length:4
+\uD83C\uDDF1    \uD83C\uDDEE		[🇱🇮] length:4
+\uD83C\uDDF1    \uD83C\uDDF0		[🇱🇰] length:4
+\uD83C\uDDF1    \uD83C\uDDF7		[🇱🇷] length:4
+\uD83C\uDDF1    \uD83C\uDDF8		[🇱🇸] length:4
+\uD83C\uDDF1    \uD83C\uDDF9		[🇱🇹] length:4
+\uD83C\uDDF1    \uD83C\uDDFA		[🇱🇺] length:4
+\uD83C\uDDF1    \uD83C\uDDFB		[🇱🇻] length:4
+\uD83C\uDDF1    \uD83C\uDDFE		[🇱🇾] length:4
+\uD83C\uDDF2    \uD83C\uDDE6		[🇲🇦] length:4
+\uD83C\uDDF2    \uD83C\uDDE8		[🇲🇨] length:4
+\uD83C\uDDF2    \uD83C\uDDE9		[🇲🇩] length:4
+\uD83C\uDDF2    \uD83C\uDDEA		[🇲🇪] length:4
+\uD83C\uDDF2    \uD83C\uDDEB		[🇲🇫] length:4
+\uD83C\uDDF2    \uD83C\uDDEC		[🇲🇬] length:4
+\uD83C\uDDF2    \uD83C\uDDED		[🇲🇭] length:4
+\uD83C\uDDF2    \uD83C\uDDF0		[🇲🇰] length:4
+\uD83C\uDDF2    \uD83C\uDDF1		[🇲🇱] length:4
+\uD83C\uDDF2    \uD83C\uDDF2		[🇲🇲] length:4
+\uD83C\uDDF2    \uD83C\uDDF3		[🇲🇳] length:4
+\uD83C\uDDF2    \uD83C\uDDF4		[🇲🇴] length:4
+\uD83C\uDDF2    \uD83C\uDDF5		[🇲🇵] length:4
+\uD83C\uDDF2    \uD83C\uDDF6		[🇲🇶] length:4
+\uD83C\uDDF2    \uD83C\uDDF7		[🇲🇷] length:4
+\uD83C\uDDF2    \uD83C\uDDF8		[🇲🇸] length:4
+\uD83C\uDDF2    \uD83C\uDDF9		[🇲🇹] length:4
+\uD83C\uDDF2    \uD83C\uDDFA		[🇲🇺] length:4
+\uD83C\uDDF2    \uD83C\uDDFB		[🇲🇻] length:4
+\uD83C\uDDF2    \uD83C\uDDFC		[🇲🇼] length:4
+\uD83C\uDDF2    \uD83C\uDDFD		[🇲🇽] length:4
+\uD83C\uDDF2    \uD83C\uDDFE		[🇲🇾] length:4
+\uD83C\uDDF2    \uD83C\uDDFF		[🇲🇿] length:4
+\uD83C\uDDF3    \uD83C\uDDE6		[🇳🇦] length:4
+\uD83C\uDDF3    \uD83C\uDDE8		[🇳🇨] length:4
+\uD83C\uDDF3    \uD83C\uDDEA		[🇳🇪] length:4
+\uD83C\uDDF3    \uD83C\uDDEB		[🇳🇫] length:4
+\uD83C\uDDF3    \uD83C\uDDEC		[🇳🇬] length:4
+\uD83C\uDDF3    \uD83C\uDDEE		[🇳🇮] length:4
+\uD83C\uDDF3    \uD83C\uDDF1		[🇳🇱] length:4
+\uD83C\uDDF3    \uD83C\uDDF4		[🇳🇴] length:4
+\uD83C\uDDF3    \uD83C\uDDF5		[🇳🇵] length:4
+\uD83C\uDDF3    \uD83C\uDDF7		[🇳🇷] length:4
+\uD83C\uDDF3    \uD83C\uDDFA		[🇳🇺] length:4
+\uD83C\uDDF3    \uD83C\uDDFF		[🇳🇿] length:4
+\uD83C\uDDF4    \uD83C\uDDF2		[🇴🇲] length:4
+\uD83C\uDDF5    \uD83C\uDDE6		[🇵🇦] length:4
+\uD83C\uDDF5    \uD83C\uDDEA		[🇵🇪] length:4
+\uD83C\uDDF5    \uD83C\uDDEB		[🇵🇫] length:4
+\uD83C\uDDF5    \uD83C\uDDEC		[🇵🇬] length:4
+\uD83C\uDDF5    \uD83C\uDDED		[🇵🇭] length:4
+\uD83C\uDDF5    \uD83C\uDDF0		[🇵🇰] length:4
+\uD83C\uDDF5    \uD83C\uDDF1		[🇵🇱] length:4
+\uD83C\uDDF5    \uD83C\uDDF2		[🇵🇲] length:4
+\uD83C\uDDF5    \uD83C\uDDF3		[🇵🇳] length:4
+\uD83C\uDDF5    \uD83C\uDDF7		[🇵🇷] length:4
+\uD83C\uDDF5    \uD83C\uDDF8		[🇵🇸] length:4
+\uD83C\uDDF5    \uD83C\uDDF9		[🇵🇹] length:4
+\uD83C\uDDF5    \uD83C\uDDFC		[🇵🇼] length:4
+\uD83C\uDDF5    \uD83C\uDDFE		[🇵🇾] length:4
+\uD83C\uDDF6    \uD83C\uDDE6		[🇶🇦] length:4
+\uD83C\uDDF7    \uD83C\uDDEA		[🇷🇪] length:4
+\uD83C\uDDF7    \uD83C\uDDF4		[🇷🇴] length:4
+\uD83C\uDDF7    \uD83C\uDDF8		[🇷🇸] length:4
+\uD83C\uDDF7    \uD83C\uDDFA		[🇷🇺] length:4
+\uD83C\uDDF7    \uD83C\uDDFC		[🇷🇼] length:4
+\uD83C\uDDF8    \uD83C\uDDE6		[🇸🇦] length:4
+\uD83C\uDDF8    \uD83C\uDDE7		[🇸🇧] length:4
+\uD83C\uDDF8    \uD83C\uDDE8		[🇸🇨] length:4
+\uD83C\uDDF8    \uD83C\uDDE9		[🇸🇩] length:4
+\uD83C\uDDF8    \uD83C\uDDEA		[🇸🇪] length:4
+\uD83C\uDDF8    \uD83C\uDDEC		[🇸🇬] length:4
+\uD83C\uDDF8    \uD83C\uDDED		[🇸🇭] length:4
+\uD83C\uDDF8    \uD83C\uDDEE		[🇸🇮] length:4
+\uD83C\uDDF8    \uD83C\uDDEF		[🇸🇯] length:4
+\uD83C\uDDF8    \uD83C\uDDF0		[🇸🇰] length:4
+\uD83C\uDDF8    \uD83C\uDDF1		[🇸🇱] length:4
+\uD83C\uDDF8    \uD83C\uDDF2		[🇸🇲] length:4
+\uD83C\uDDF8    \uD83C\uDDF3		[🇸🇳] length:4
+\uD83C\uDDF8    \uD83C\uDDF4		[🇸🇴] length:4
+\uD83C\uDDF8    \uD83C\uDDF7		[🇸🇷] length:4
+\uD83C\uDDF8    \uD83C\uDDF8		[🇸🇸] length:4
+\uD83C\uDDF8    \uD83C\uDDF9		[🇸🇹] length:4
+\uD83C\uDDF8    \uD83C\uDDFB		[🇸🇻] length:4
+\uD83C\uDDF8    \uD83C\uDDFD		[🇸🇽] length:4
+\uD83C\uDDF8    \uD83C\uDDFE		[🇸🇾] length:4
+\uD83C\uDDF8    \uD83C\uDDFF		[🇸🇿] length:4
+\uD83C\uDDF9    \uD83C\uDDE6		[🇹🇦] length:4
+\uD83C\uDDF9    \uD83C\uDDE8		[🇹🇨] length:4
+\uD83C\uDDF9    \uD83C\uDDE9		[🇹🇩] length:4
+\uD83C\uDDF9    \uD83C\uDDEB		[🇹🇫] length:4
+\uD83C\uDDF9    \uD83C\uDDEC		[🇹🇬] length:4
+\uD83C\uDDF9    \uD83C\uDDED		[🇹🇭] length:4
+\uD83C\uDDF9    \uD83C\uDDEF		[🇹🇯] length:4
+\uD83C\uDDF9    \uD83C\uDDF0		[🇹🇰] length:4
+\uD83C\uDDF9    \uD83C\uDDF1		[🇹🇱] length:4
+\uD83C\uDDF9    \uD83C\uDDF2		[🇹🇲] length:4
+\uD83C\uDDF9    \uD83C\uDDF3		[🇹🇳] length:4
+\uD83C\uDDF9    \uD83C\uDDF4		[🇹🇴] length:4
+\uD83C\uDDF9    \uD83C\uDDF7		[🇹🇷] length:4
+\uD83C\uDDF9    \uD83C\uDDF9		[🇹🇹] length:4
+\uD83C\uDDF9    \uD83C\uDDFB		[🇹🇻] length:4
+\uD83C\uDDF9    \uD83C\uDDFC		[🇹🇼] length:4
+\uD83C\uDDF9    \uD83C\uDDFF		[🇹🇿] length:4
+\uD83C\uDDFA    \uD83C\uDDE6		[🇺🇦] length:4
+\uD83C\uDDFA    \uD83C\uDDEC		[🇺🇬] length:4
+\uD83C\uDDFA    \uD83C\uDDF2		[🇺🇲] length:4
+\uD83C\uDDFA    \uD83C\uDDF3		[🇺🇳] length:4
+\uD83C\uDDFA    \uD83C\uDDF8		[🇺🇸] length:4
+\uD83C\uDDFA    \uD83C\uDDFE		[🇺🇾] length:4
+\uD83C\uDDFA    \uD83C\uDDFF		[🇺🇿] length:4
+\uD83C\uDDFB    \uD83C\uDDE6		[🇻🇦] length:4
+\uD83C\uDDFB    \uD83C\uDDE8		[🇻🇨] length:4
+\uD83C\uDDFB    \uD83C\uDDEA		[🇻🇪] length:4
+\uD83C\uDDFB    \uD83C\uDDEC		[🇻🇬] length:4
+\uD83C\uDDFB    \uD83C\uDDEE		[🇻🇮] length:4
+\uD83C\uDDFB    \uD83C\uDDF3		[🇻🇳] length:4
+\uD83C\uDDFB    \uD83C\uDDFA		[🇻🇺] length:4
+\uD83C\uDDFC    \uD83C\uDDEB		[🇼🇫] length:4
+\uD83C\uDDFC    \uD83C\uDDF8		[🇼🇸] length:4
+\uD83C\uDDFD    \uD83C\uDDF0		[🇽🇰] length:4
+\uD83C\uDDFE    \uD83C\uDDEA		[🇾🇪] length:4
+\uD83C\uDDFE    \uD83C\uDDF9		[🇾🇹] length:4
+\uD83C\uDDFF    \uD83C\uDDE6		[🇿🇦] length:4
+\uD83C\uDDFF    \uD83C\uDDF2		[🇿🇲] length:4
+\uD83C\uDDFF    \uD83C\uDDFC		[🇿🇼] length:4
+
+[\uD83C\uDF85-\uD83E\uDDDF][\uD83C\uDFFB-\uD83C\uDFFF|\u200D\u2640-\u2642|\u200D\u2620|\u200D\u2695-\u2708]
+\uD83C\uDF85    \uD83C\uDFFB		[🎅🏻] length:4
+\uD83C\uDF85    \uD83C\uDFFC		[🎅🏼] length:4
+\uD83C\uDF85    \uD83C\uDFFD		[🎅🏽] length:4
+\uD83C\uDF85    \uD83C\uDFFE		[🎅🏾] length:4
+\uD83C\uDF85    \uD83C\uDFFF		[🎅🏿] length:4
+\uD83C\uDFC2    \uD83C\uDFFB		[🏂🏻] length:4
+\uD83C\uDFC2    \uD83C\uDFFC		[🏂🏼] length:4
+\uD83C\uDFC2    \uD83C\uDFFD		[🏂🏽] length:4
+\uD83C\uDFC2    \uD83C\uDFFE		[🏂🏾] length:4
+\uD83C\uDFC2    \uD83C\uDFFF		[🏂🏿] length:4
+\uD83C\uDFC3    \u200D\u2640		[🏃‍♀] length:4
+\uD83C\uDFC3    \u200D\u2642		[🏃‍♂] length:4
+\uD83C\uDFC3    \uD83C\uDFFB		[🏃🏻] length:4
+\uD83C\uDFC3    \uD83C\uDFFC		[🏃🏼] length:4
+\uD83C\uDFC3    \uD83C\uDFFD		[🏃🏽] length:4
+\uD83C\uDFC3    \uD83C\uDFFE		[🏃🏾] length:4
+\uD83C\uDFC3    \uD83C\uDFFF		[🏃🏿] length:4
+\uD83C\uDFC4    \u200D\u2640		[🏄‍♀] length:4
+\uD83C\uDFC4    \u200D\u2642		[🏄‍♂] length:4
+\uD83C\uDFC4    \uD83C\uDFFB		[🏄🏻] length:4
+\uD83C\uDFC4    \uD83C\uDFFC		[🏄🏼] length:4
+\uD83C\uDFC4    \uD83C\uDFFD		[🏄🏽] length:4
+\uD83C\uDFC4    \uD83C\uDFFE		[🏄🏾] length:4
+\uD83C\uDFC4    \uD83C\uDFFF		[🏄🏿] length:4
+\uD83C\uDFC7    \uD83C\uDFFB		[🏇🏻] length:4
+\uD83C\uDFC7    \uD83C\uDFFC		[🏇🏼] length:4
+\uD83C\uDFC7    \uD83C\uDFFD		[🏇🏽] length:4
+\uD83C\uDFC7    \uD83C\uDFFE		[🏇🏾] length:4
+\uD83C\uDFC7    \uD83C\uDFFF		[🏇🏿] length:4
+\uD83C\uDFCA    \u200D\u2640		[🏊‍♀] length:4
+\uD83C\uDFCA    \u200D\u2642		[🏊‍♂] length:4
+\uD83C\uDFCA    \uD83C\uDFFB		[🏊🏻] length:4
+\uD83C\uDFCA    \uD83C\uDFFC		[🏊🏼] length:4
+\uD83C\uDFCA    \uD83C\uDFFD		[🏊🏽] length:4
+\uD83C\uDFCA    \uD83C\uDFFE		[🏊🏾] length:4
+\uD83C\uDFCA    \uD83C\uDFFF		[🏊🏿] length:4
+\uD83C\uDFCB    \u200D\u2640		[🏋‍♀] length:4
+\uD83C\uDFCB    \u200D\u2642		[🏋‍♂] length:4
+\uD83C\uDFCB    \uD83C\uDFFB		[🏋🏻] length:4
+\uD83C\uDFCB    \uD83C\uDFFC		[🏋🏼] length:4
+\uD83C\uDFCB    \uD83C\uDFFD		[🏋🏽] length:4
+\uD83C\uDFCB    \uD83C\uDFFE		[🏋🏾] length:4
+\uD83C\uDFCB    \uD83C\uDFFF		[🏋🏿] length:4
+\uD83C\uDFCC    \u200D\u2640		[🏌‍♀] length:4
+\uD83C\uDFCC    \u200D\u2642		[🏌‍♂] length:4
+\uD83C\uDFCC    \uD83C\uDFFB		[🏌🏻] length:4
+\uD83C\uDFCC    \uD83C\uDFFC		[🏌🏼] length:4
+\uD83C\uDFCC    \uD83C\uDFFD		[🏌🏽] length:4
+\uD83C\uDFCC    \uD83C\uDFFE		[🏌🏾] length:4
+\uD83C\uDFCC    \uD83C\uDFFF		[🏌🏿] length:4
+
+\uD83C\uDFF4\u200D\u2620		[🏴‍☠] length:4
+
+\uD83D\uDC42    \uD83C\uDFFB		[👂🏻] length:4
+\uD83D\uDC42    \uD83C\uDFFC		[👂🏼] length:4
+\uD83D\uDC42    \uD83C\uDFFD		[👂🏽] length:4
+\uD83D\uDC42    \uD83C\uDFFE		[👂🏾] length:4
+\uD83D\uDC42    \uD83C\uDFFF		[👂🏿] length:4
+\uD83D\uDC43    \uD83C\uDFFB		[👃🏻] length:4
+\uD83D\uDC43    \uD83C\uDFFC		[👃🏼] length:4
+\uD83D\uDC43    \uD83C\uDFFD		[👃🏽] length:4
+\uD83D\uDC43    \uD83C\uDFFE		[👃🏾] length:4
+\uD83D\uDC43    \uD83C\uDFFF		[👃🏿] length:4
+\uD83D\uDC46    \uD83C\uDFFB		[👆🏻] length:4
+\uD83D\uDC46    \uD83C\uDFFC		[👆🏼] length:4
+\uD83D\uDC46    \uD83C\uDFFD		[👆🏽] length:4
+\uD83D\uDC46    \uD83C\uDFFE		[👆🏾] length:4
+\uD83D\uDC46    \uD83C\uDFFF		[👆🏿] length:4
+\uD83D\uDC47    \uD83C\uDFFB		[👇🏻] length:4
+\uD83D\uDC47    \uD83C\uDFFC		[👇🏼] length:4
+\uD83D\uDC47    \uD83C\uDFFD		[👇🏽] length:4
+\uD83D\uDC47    \uD83C\uDFFE		[👇🏾] length:4
+\uD83D\uDC47    \uD83C\uDFFF		[👇🏿] length:4
+\uD83D\uDC48    \uD83C\uDFFB		[👈🏻] length:4
+\uD83D\uDC48    \uD83C\uDFFC		[👈🏼] length:4
+\uD83D\uDC48    \uD83C\uDFFD		[👈🏽] length:4
+\uD83D\uDC48    \uD83C\uDFFE		[👈🏾] length:4
+\uD83D\uDC48    \uD83C\uDFFF		[👈🏿] length:4
+\uD83D\uDC49    \uD83C\uDFFB		[👉🏻] length:4
+\uD83D\uDC49    \uD83C\uDFFC		[👉🏼] length:4
+\uD83D\uDC49    \uD83C\uDFFD		[👉🏽] length:4
+\uD83D\uDC49    \uD83C\uDFFE		[👉🏾] length:4
+\uD83D\uDC49    \uD83C\uDFFF		[👉🏿] length:4
+\uD83D\uDC4A    \uD83C\uDFFB		[👊🏻] length:4
+\uD83D\uDC4A    \uD83C\uDFFC		[👊🏼] length:4
+\uD83D\uDC4A    \uD83C\uDFFD		[👊🏽] length:4
+\uD83D\uDC4A    \uD83C\uDFFE		[👊🏾] length:4
+\uD83D\uDC4A    \uD83C\uDFFF		[👊🏿] length:4
+\uD83D\uDC4B    \uD83C\uDFFB		[👋🏻] length:4
+\uD83D\uDC4B    \uD83C\uDFFC		[👋🏼] length:4
+\uD83D\uDC4B    \uD83C\uDFFD		[👋🏽] length:4
+\uD83D\uDC4B    \uD83C\uDFFE		[👋🏾] length:4
+\uD83D\uDC4B    \uD83C\uDFFF		[👋🏿] length:4
+\uD83D\uDC4C    \uD83C\uDFFB		[👌🏻] length:4
+\uD83D\uDC4C    \uD83C\uDFFC		[👌🏼] length:4
+\uD83D\uDC4C    \uD83C\uDFFD		[👌🏽] length:4
+\uD83D\uDC4C    \uD83C\uDFFE		[👌🏾] length:4
+\uD83D\uDC4C    \uD83C\uDFFF		[👌🏿] length:4
+\uD83D\uDC4D    \uD83C\uDFFB		[👍🏻] length:4
+\uD83D\uDC4D    \uD83C\uDFFC		[👍🏼] length:4
+\uD83D\uDC4D    \uD83C\uDFFD		[👍🏽] length:4
+\uD83D\uDC4D    \uD83C\uDFFE		[👍🏾] length:4
+\uD83D\uDC4D    \uD83C\uDFFF		[👍🏿] length:4
+\uD83D\uDC4E    \uD83C\uDFFB		[👎🏻] length:4
+\uD83D\uDC4E    \uD83C\uDFFC		[👎🏼] length:4
+\uD83D\uDC4E    \uD83C\uDFFD		[👎🏽] length:4
+\uD83D\uDC4E    \uD83C\uDFFE		[👎🏾] length:4
+\uD83D\uDC4E    \uD83C\uDFFF		[👎🏿] length:4
+\uD83D\uDC4F    \uD83C\uDFFB		[👏🏻] length:4
+\uD83D\uDC4F    \uD83C\uDFFC		[👏🏼] length:4
+\uD83D\uDC4F    \uD83C\uDFFD		[👏🏽] length:4
+\uD83D\uDC4F    \uD83C\uDFFE		[👏🏾] length:4
+\uD83D\uDC4F    \uD83C\uDFFF		[👏🏿] length:4
+\uD83D\uDC50    \uD83C\uDFFB		[👐🏻] length:4
+\uD83D\uDC50    \uD83C\uDFFC		[👐🏼] length:4
+\uD83D\uDC50    \uD83C\uDFFD		[👐🏽] length:4
+\uD83D\uDC50    \uD83C\uDFFE		[👐🏾] length:4
+\uD83D\uDC50    \uD83C\uDFFF		[👐🏿] length:4
+\uD83D\uDC66    \uD83C\uDFFB		[👦🏻] length:4
+\uD83D\uDC66    \uD83C\uDFFC		[👦🏼] length:4
+\uD83D\uDC66    \uD83C\uDFFD		[👦🏽] length:4
+\uD83D\uDC66    \uD83C\uDFFE		[👦🏾] length:4
+\uD83D\uDC66    \uD83C\uDFFF		[👦🏿] length:4
+\uD83D\uDC67    \uD83C\uDFFB		[👧🏻] length:4
+\uD83D\uDC67    \uD83C\uDFFC		[👧🏼] length:4
+\uD83D\uDC67    \uD83C\uDFFD		[👧🏽] length:4
+\uD83D\uDC67    \uD83C\uDFFE		[👧🏾] length:4
+\uD83D\uDC67    \uD83C\uDFFF		[👧🏿] length:4
+
+\uD83D\uDC68    \u200D\u2695		[👨‍⚕] length:4
+\uD83D\uDC68    \u200D\u2696		[👨‍⚖] length:4
+\uD83D\uDC68    \u200D\u2708		[👨‍✈] length:4
+\uD83D\uDC68    \uD83C\uDFFB		[👨🏻] length:4
+\uD83D\uDC68    \uD83C\uDFFC		[👨🏼] length:4
+\uD83D\uDC68    \uD83C\uDFFD		[👨🏽] length:4
+\uD83D\uDC68    \uD83C\uDFFE		[👨🏾] length:4
+\uD83D\uDC68    \uD83C\uDFFF		[👨🏿] length:4
+\uD83D\uDC69    \u200D\u2695		[👩‍⚕] length:4
+\uD83D\uDC69    \u200D\u2696		[👩‍⚖] length:4
+\uD83D\uDC69    \u200D\u2708		[👩‍✈] length:4
+\uD83D\uDC69    \uD83C\uDFFB		[👩🏻] length:4
+\uD83D\uDC69    \uD83C\uDFFC		[👩🏼] length:4
+\uD83D\uDC69    \uD83C\uDFFD		[👩🏽] length:4
+\uD83D\uDC69    \uD83C\uDFFE		[👩🏾] length:4
+\uD83D\uDC69    \uD83C\uDFFF		[👩🏿] length:4
+\uD83D\uDC6E    \u200D\u2640		[👮‍♀] length:4
+\uD83D\uDC6E    \u200D\u2642		[👮‍♂] length:4
+\uD83D\uDC6E    \uD83C\uDFFB		[👮🏻] length:4
+\uD83D\uDC6E    \uD83C\uDFFC		[👮🏼] length:4
+\uD83D\uDC6E    \uD83C\uDFFD		[👮🏽] length:4
+\uD83D\uDC6E    \uD83C\uDFFE		[👮🏾] length:4
+\uD83D\uDC6E    \uD83C\uDFFF		[👮🏿] length:4
+\uD83D\uDC6F    \u200D\u2640		[👯‍♀] length:4
+\uD83D\uDC6F    \u200D\u2642		[👯‍♂] length:4
+\uD83D\uDC70    \uD83C\uDFFB		[👰🏻] length:4
+\uD83D\uDC70    \uD83C\uDFFC		[👰🏼] length:4
+\uD83D\uDC70    \uD83C\uDFFD		[👰🏽] length:4
+\uD83D\uDC70    \uD83C\uDFFE		[👰🏾] length:4
+\uD83D\uDC70    \uD83C\uDFFF		[👰🏿] length:4
+\uD83D\uDC71    \u200D\u2640		[👱‍♀] length:4
+\uD83D\uDC71    \u200D\u2642		[👱‍♂] length:4
+\uD83D\uDC71    \uD83C\uDFFB		[👱🏻] length:4
+\uD83D\uDC71    \uD83C\uDFFC		[👱🏼] length:4
+\uD83D\uDC71    \uD83C\uDFFD		[👱🏽] length:4
+\uD83D\uDC71    \uD83C\uDFFE		[👱🏾] length:4
+\uD83D\uDC71    \uD83C\uDFFF		[👱🏿] length:4
+\uD83D\uDC72    \uD83C\uDFFB		[👲🏻] length:4
+\uD83D\uDC72    \uD83C\uDFFC		[👲🏼] length:4
+\uD83D\uDC72    \uD83C\uDFFD		[👲🏽] length:4
+\uD83D\uDC72    \uD83C\uDFFE		[👲🏾] length:4
+\uD83D\uDC72    \uD83C\uDFFF		[👲🏿] length:4
+\uD83D\uDC73    \u200D\u2640		[👳‍♀] length:4
+\uD83D\uDC73    \u200D\u2642		[👳‍♂] length:4
+\uD83D\uDC73    \uD83C\uDFFB		[👳🏻] length:4
+\uD83D\uDC73    \uD83C\uDFFC		[👳🏼] length:4
+\uD83D\uDC73    \uD83C\uDFFD		[👳🏽] length:4
+\uD83D\uDC73    \uD83C\uDFFE		[👳🏾] length:4
+\uD83D\uDC73    \uD83C\uDFFF		[👳🏿] length:4
+\uD83D\uDC74    \uD83C\uDFFB		[👴🏻] length:4
+\uD83D\uDC74    \uD83C\uDFFC		[👴🏼] length:4
+\uD83D\uDC74    \uD83C\uDFFD		[👴🏽] length:4
+\uD83D\uDC74    \uD83C\uDFFE		[👴🏾] length:4
+\uD83D\uDC74    \uD83C\uDFFF		[👴🏿] length:4
+\uD83D\uDC75    \uD83C\uDFFB		[👵🏻] length:4
+\uD83D\uDC75    \uD83C\uDFFC		[👵🏼] length:4
+\uD83D\uDC75    \uD83C\uDFFD		[👵🏽] length:4
+\uD83D\uDC75    \uD83C\uDFFE		[👵🏾] length:4
+\uD83D\uDC75    \uD83C\uDFFF		[👵🏿] length:4
+\uD83D\uDC76    \uD83C\uDFFB		[👶🏻] length:4
+\uD83D\uDC76    \uD83C\uDFFC		[👶🏼] length:4
+\uD83D\uDC76    \uD83C\uDFFD		[👶🏽] length:4
+\uD83D\uDC76    \uD83C\uDFFE		[👶🏾] length:4
+\uD83D\uDC76    \uD83C\uDFFF		[👶🏿] length:4
+\uD83D\uDC77    \u200D\u2640		[👷‍♀] length:4
+\uD83D\uDC77    \u200D\u2642		[👷‍♂] length:4
+\uD83D\uDC77    \uD83C\uDFFB		[👷🏻] length:4
+\uD83D\uDC77    \uD83C\uDFFC		[👷🏼] length:4
+\uD83D\uDC77    \uD83C\uDFFD		[👷🏽] length:4
+\uD83D\uDC77    \uD83C\uDFFE		[👷🏾] length:4
+\uD83D\uDC77    \uD83C\uDFFF		[👷🏿] length:4
+\uD83D\uDC78    \uD83C\uDFFB		[👸🏻] length:4
+\uD83D\uDC78    \uD83C\uDFFC		[👸🏼] length:4
+\uD83D\uDC78    \uD83C\uDFFD		[👸🏽] length:4
+\uD83D\uDC78    \uD83C\uDFFE		[👸🏾] length:4
+\uD83D\uDC78    \uD83C\uDFFF		[👸🏿] length:4
+\uD83D\uDC7C    \uD83C\uDFFB		[👼🏻] length:4
+\uD83D\uDC7C    \uD83C\uDFFC		[👼🏼] length:4
+\uD83D\uDC7C    \uD83C\uDFFD		[👼🏽] length:4
+\uD83D\uDC7C    \uD83C\uDFFE		[👼🏾] length:4
+\uD83D\uDC7C    \uD83C\uDFFF		[👼🏿] length:4
+\uD83D\uDC81    \u200D\u2640		[💁‍♀] length:4
+\uD83D\uDC81    \u200D\u2642		[💁‍♂] length:4
+\uD83D\uDC81    \uD83C\uDFFB		[💁🏻] length:4
+\uD83D\uDC81    \uD83C\uDFFC		[💁🏼] length:4
+\uD83D\uDC81    \uD83C\uDFFD		[💁🏽] length:4
+\uD83D\uDC81    \uD83C\uDFFE		[💁🏾] length:4
+\uD83D\uDC81    \uD83C\uDFFF		[💁🏿] length:4
+\uD83D\uDC82    \u200D\u2640		[💂‍♀] length:4
+\uD83D\uDC82    \u200D\u2642		[💂‍♂] length:4
+\uD83D\uDC82    \uD83C\uDFFB		[💂🏻] length:4
+\uD83D\uDC82    \uD83C\uDFFC		[💂🏼] length:4
+\uD83D\uDC82    \uD83C\uDFFD		[💂🏽] length:4
+\uD83D\uDC82    \uD83C\uDFFE		[💂🏾] length:4
+\uD83D\uDC82    \uD83C\uDFFF		[💂🏿] length:4
+\uD83D\uDC83    \uD83C\uDFFB		[💃🏻] length:4
+\uD83D\uDC83    \uD83C\uDFFC		[💃🏼] length:4
+\uD83D\uDC83    \uD83C\uDFFD		[💃🏽] length:4
+\uD83D\uDC83    \uD83C\uDFFE		[💃🏾] length:4
+\uD83D\uDC83    \uD83C\uDFFF		[💃🏿] length:4
+\uD83D\uDC85    \uD83C\uDFFB		[💅🏻] length:4
+\uD83D\uDC85    \uD83C\uDFFC		[💅🏼] length:4
+\uD83D\uDC85    \uD83C\uDFFD		[💅🏽] length:4
+\uD83D\uDC85    \uD83C\uDFFE		[💅🏾] length:4
+\uD83D\uDC85    \uD83C\uDFFF		[💅🏿] length:4
+\uD83D\uDC86    \u200D\u2640		[💆‍♀] length:4
+\uD83D\uDC86    \u200D\u2642		[💆‍♂] length:4
+\uD83D\uDC86    \uD83C\uDFFB		[💆🏻] length:4
+\uD83D\uDC86    \uD83C\uDFFC		[💆🏼] length:4
+\uD83D\uDC86    \uD83C\uDFFD		[💆🏽] length:4
+\uD83D\uDC86    \uD83C\uDFFE		[💆🏾] length:4
+\uD83D\uDC86    \uD83C\uDFFF		[💆🏿] length:4
+\uD83D\uDC87    \u200D\u2640		[💇‍♀] length:4
+\uD83D\uDC87    \u200D\u2642		[💇‍♂] length:4
+\uD83D\uDC87    \uD83C\uDFFB		[💇🏻] length:4
+\uD83D\uDC87    \uD83C\uDFFC		[💇🏼] length:4
+\uD83D\uDC87    \uD83C\uDFFD		[💇🏽] length:4
+\uD83D\uDC87    \uD83C\uDFFE		[💇🏾] length:4
+\uD83D\uDC87    \uD83C\uDFFF		[💇🏿] length:4
+\uD83D\uDCAA    \uD83C\uDFFB		[💪🏻] length:4
+\uD83D\uDCAA    \uD83C\uDFFC		[💪🏼] length:4
+\uD83D\uDCAA    \uD83C\uDFFD		[💪🏽] length:4
+\uD83D\uDCAA    \uD83C\uDFFE		[💪🏾] length:4
+\uD83D\uDCAA    \uD83C\uDFFF		[💪🏿] length:4
+\uD83D\uDD74    \uD83C\uDFFB		[🕴🏻] length:4
+\uD83D\uDD74    \uD83C\uDFFC		[🕴🏼] length:4
+\uD83D\uDD74    \uD83C\uDFFD		[🕴🏽] length:4
+\uD83D\uDD74    \uD83C\uDFFE		[🕴🏾] length:4
+\uD83D\uDD74    \uD83C\uDFFF		[🕴🏿] length:4
+\uD83D\uDD75    \u200D\u2640		[🕵‍♀] length:4
+\uD83D\uDD75    \u200D\u2642		[🕵‍♂] length:4
+\uD83D\uDD75    \uD83C\uDFFB		[🕵🏻] length:4
+\uD83D\uDD75    \uD83C\uDFFC		[🕵🏼] length:4
+\uD83D\uDD75    \uD83C\uDFFD		[🕵🏽] length:4
+\uD83D\uDD75    \uD83C\uDFFE		[🕵🏾] length:4
+\uD83D\uDD75    \uD83C\uDFFF		[🕵🏿] length:4
+\uD83D\uDD7A    \uD83C\uDFFB		[🕺🏻] length:4
+\uD83D\uDD7A    \uD83C\uDFFC		[🕺🏼] length:4
+\uD83D\uDD7A    \uD83C\uDFFD		[🕺🏽] length:4
+\uD83D\uDD7A    \uD83C\uDFFE		[🕺🏾] length:4
+\uD83D\uDD7A    \uD83C\uDFFF		[🕺🏿] length:4
+\uD83D\uDD90    \uD83C\uDFFB		[🖐🏻] length:4
+\uD83D\uDD90    \uD83C\uDFFC		[🖐🏼] length:4
+\uD83D\uDD90    \uD83C\uDFFD		[🖐🏽] length:4
+\uD83D\uDD90    \uD83C\uDFFE		[🖐🏾] length:4
+\uD83D\uDD90    \uD83C\uDFFF		[🖐🏿] length:4
+\uD83D\uDD95    \uD83C\uDFFB		[🖕🏻] length:4
+\uD83D\uDD95    \uD83C\uDFFC		[🖕🏼] length:4
+\uD83D\uDD95    \uD83C\uDFFD		[🖕🏽] length:4
+\uD83D\uDD95    \uD83C\uDFFE		[🖕🏾] length:4
+\uD83D\uDD95    \uD83C\uDFFF		[🖕🏿] length:4
+\uD83D\uDD96    \uD83C\uDFFB		[🖖🏻] length:4
+\uD83D\uDD96    \uD83C\uDFFC		[🖖🏼] length:4
+\uD83D\uDD96    \uD83C\uDFFD		[🖖🏽] length:4
+\uD83D\uDD96    \uD83C\uDFFE		[🖖🏾] length:4
+\uD83D\uDD96    \uD83C\uDFFF		[🖖🏿] length:4
+\uD83D\uDE45    \u200D\u2640		[🙅‍♀] length:4
+\uD83D\uDE45    \u200D\u2642		[🙅‍♂] length:4
+\uD83D\uDE45    \uD83C\uDFFB		[🙅🏻] length:4
+\uD83D\uDE45    \uD83C\uDFFC		[🙅🏼] length:4
+\uD83D\uDE45    \uD83C\uDFFD		[🙅🏽] length:4
+\uD83D\uDE45    \uD83C\uDFFE		[🙅🏾] length:4
+\uD83D\uDE45    \uD83C\uDFFF		[🙅🏿] length:4
+\uD83D\uDE46    \u200D\u2640		[🙆‍♀] length:4
+\uD83D\uDE46    \u200D\u2642		[🙆‍♂] length:4
+\uD83D\uDE46    \uD83C\uDFFB		[🙆🏻] length:4
+\uD83D\uDE46    \uD83C\uDFFC		[🙆🏼] length:4
+\uD83D\uDE46    \uD83C\uDFFD		[🙆🏽] length:4
+\uD83D\uDE46    \uD83C\uDFFE		[🙆🏾] length:4
+\uD83D\uDE46    \uD83C\uDFFF		[🙆🏿] length:4
+\uD83D\uDE47    \u200D\u2640		[🙇‍♀] length:4
+\uD83D\uDE47    \u200D\u2642		[🙇‍♂] length:4
+\uD83D\uDE47    \uD83C\uDFFB		[🙇🏻] length:4
+\uD83D\uDE47    \uD83C\uDFFC		[🙇🏼] length:4
+\uD83D\uDE47    \uD83C\uDFFD		[🙇🏽] length:4
+\uD83D\uDE47    \uD83C\uDFFE		[🙇🏾] length:4
+\uD83D\uDE47    \uD83C\uDFFF		[🙇🏿] length:4
+\uD83D\uDE4B    \u200D\u2640		[🙋‍♀] length:4
+\uD83D\uDE4B    \u200D\u2642		[🙋‍♂] length:4
+\uD83D\uDE4B    \uD83C\uDFFB		[🙋🏻] length:4
+\uD83D\uDE4B    \uD83C\uDFFC		[🙋🏼] length:4
+\uD83D\uDE4B    \uD83C\uDFFD		[🙋🏽] length:4
+\uD83D\uDE4B    \uD83C\uDFFE		[🙋🏾] length:4
+\uD83D\uDE4B    \uD83C\uDFFF		[🙋🏿] length:4
+\uD83D\uDE4C    \uD83C\uDFFB		[🙌🏻] length:4
+\uD83D\uDE4C    \uD83C\uDFFC		[🙌🏼] length:4
+\uD83D\uDE4C    \uD83C\uDFFD		[🙌🏽] length:4
+\uD83D\uDE4C    \uD83C\uDFFE		[🙌🏾] length:4
+\uD83D\uDE4C    \uD83C\uDFFF		[🙌🏿] length:4
+\uD83D\uDE4D    \u200D\u2640		[🙍‍♀] length:4
+\uD83D\uDE4D    \u200D\u2642		[🙍‍♂] length:4
+\uD83D\uDE4D    \uD83C\uDFFB		[🙍🏻] length:4
+\uD83D\uDE4D    \uD83C\uDFFC		[🙍🏼] length:4
+\uD83D\uDE4D    \uD83C\uDFFD		[🙍🏽] length:4
+\uD83D\uDE4D    \uD83C\uDFFE		[🙍🏾] length:4
+\uD83D\uDE4D    \uD83C\uDFFF		[🙍🏿] length:4
+\uD83D\uDE4E    \u200D\u2640		[🙎‍♀] length:4
+\uD83D\uDE4E    \u200D\u2642		[🙎‍♂] length:4
+\uD83D\uDE4E    \uD83C\uDFFB		[🙎🏻] length:4
+\uD83D\uDE4E    \uD83C\uDFFC		[🙎🏼] length:4
+\uD83D\uDE4E    \uD83C\uDFFD		[🙎🏽] length:4
+\uD83D\uDE4E    \uD83C\uDFFE		[🙎🏾] length:4
+\uD83D\uDE4E    \uD83C\uDFFF		[🙎🏿] length:4
+\uD83D\uDE4F    \uD83C\uDFFB		[🙏🏻] length:4
+\uD83D\uDE4F    \uD83C\uDFFC		[🙏🏼] length:4
+\uD83D\uDE4F    \uD83C\uDFFD		[🙏🏽] length:4
+\uD83D\uDE4F    \uD83C\uDFFE		[🙏🏾] length:4
+\uD83D\uDE4F    \uD83C\uDFFF		[🙏🏿] length:4
+\uD83D\uDEA3    \u200D\u2640		[🚣‍♀] length:4
+\uD83D\uDEA3    \u200D\u2642		[🚣‍♂] length:4
+\uD83D\uDEA3    \uD83C\uDFFB		[🚣🏻] length:4
+\uD83D\uDEA3    \uD83C\uDFFC		[🚣🏼] length:4
+\uD83D\uDEA3    \uD83C\uDFFD		[🚣🏽] length:4
+\uD83D\uDEA3    \uD83C\uDFFE		[🚣🏾] length:4
+\uD83D\uDEA3    \uD83C\uDFFF		[🚣🏿] length:4
+\uD83D\uDEB4    \u200D\u2640		[🚴‍♀] length:4
+\uD83D\uDEB4    \u200D\u2642		[🚴‍♂] length:4
+\uD83D\uDEB4    \uD83C\uDFFB		[🚴🏻] length:4
+\uD83D\uDEB4    \uD83C\uDFFC		[🚴🏼] length:4
+\uD83D\uDEB4    \uD83C\uDFFD		[🚴🏽] length:4
+\uD83D\uDEB4    \uD83C\uDFFE		[🚴🏾] length:4
+\uD83D\uDEB4    \uD83C\uDFFF		[🚴🏿] length:4
+\uD83D\uDEB5    \u200D\u2640		[🚵‍♀] length:4
+\uD83D\uDEB5    \u200D\u2642		[🚵‍♂] length:4
+\uD83D\uDEB5    \uD83C\uDFFB		[🚵🏻] length:4
+\uD83D\uDEB5    \uD83C\uDFFC		[🚵🏼] length:4
+\uD83D\uDEB5    \uD83C\uDFFD		[🚵🏽] length:4
+\uD83D\uDEB5    \uD83C\uDFFE		[🚵🏾] length:4
+\uD83D\uDEB5    \uD83C\uDFFF		[🚵🏿] length:4
+\uD83D\uDEB6    \u200D\u2640		[🚶‍♀] length:4
+\uD83D\uDEB6    \u200D\u2642		[🚶‍♂] length:4
+\uD83D\uDEB6    \uD83C\uDFFB		[🚶🏻] length:4
+\uD83D\uDEB6    \uD83C\uDFFC		[🚶🏼] length:4
+\uD83D\uDEB6    \uD83C\uDFFD		[🚶🏽] length:4
+\uD83D\uDEB6    \uD83C\uDFFE		[🚶🏾] length:4
+\uD83D\uDEB6    \uD83C\uDFFF		[🚶🏿] length:4
+\uD83D\uDEC0    \uD83C\uDFFB		[🛀🏻] length:4
+\uD83D\uDEC0    \uD83C\uDFFC		[🛀🏼] length:4
+\uD83D\uDEC0    \uD83C\uDFFD		[🛀🏽] length:4
+\uD83D\uDEC0    \uD83C\uDFFE		[🛀🏾] length:4
+\uD83D\uDEC0    \uD83C\uDFFF		[🛀🏿] length:4
+\uD83D\uDECC    \uD83C\uDFFB		[🛌🏻] length:4
+\uD83D\uDECC    \uD83C\uDFFC		[🛌🏼] length:4
+\uD83D\uDECC    \uD83C\uDFFD		[🛌🏽] length:4
+\uD83D\uDECC    \uD83C\uDFFE		[🛌🏾] length:4
+\uD83D\uDECC    \uD83C\uDFFF		[🛌🏿] length:4
+\uD83E\uDD18    \uD83C\uDFFB		[🤘🏻] length:4
+\uD83E\uDD18    \uD83C\uDFFC		[🤘🏼] length:4
+\uD83E\uDD18    \uD83C\uDFFD		[🤘🏽] length:4
+\uD83E\uDD18    \uD83C\uDFFE		[🤘🏾] length:4
+\uD83E\uDD18    \uD83C\uDFFF		[🤘🏿] length:4
+\uD83E\uDD19    \uD83C\uDFFB		[🤙🏻] length:4
+\uD83E\uDD19    \uD83C\uDFFC		[🤙🏼] length:4
+\uD83E\uDD19    \uD83C\uDFFD		[🤙🏽] length:4
+\uD83E\uDD19    \uD83C\uDFFE		[🤙🏾] length:4
+\uD83E\uDD19    \uD83C\uDFFF		[🤙🏿] length:4
+\uD83E\uDD1A    \uD83C\uDFFB		[🤚🏻] length:4
+\uD83E\uDD1A    \uD83C\uDFFC		[🤚🏼] length:4
+\uD83E\uDD1A    \uD83C\uDFFD		[🤚🏽] length:4
+\uD83E\uDD1A    \uD83C\uDFFE		[🤚🏾] length:4
+\uD83E\uDD1A    \uD83C\uDFFF		[🤚🏿] length:4
+\uD83E\uDD1B    \uD83C\uDFFB		[🤛🏻] length:4
+\uD83E\uDD1B    \uD83C\uDFFC		[🤛🏼] length:4
+\uD83E\uDD1B    \uD83C\uDFFD		[🤛🏽] length:4
+\uD83E\uDD1B    \uD83C\uDFFE		[🤛🏾] length:4
+\uD83E\uDD1B    \uD83C\uDFFF		[🤛🏿] length:4
+\uD83E\uDD1C    \uD83C\uDFFB		[🤜🏻] length:4
+\uD83E\uDD1C    \uD83C\uDFFC		[🤜🏼] length:4
+\uD83E\uDD1C    \uD83C\uDFFD		[🤜🏽] length:4
+\uD83E\uDD1C    \uD83C\uDFFE		[🤜🏾] length:4
+\uD83E\uDD1C    \uD83C\uDFFF		[🤜🏿] length:4
+\uD83E\uDD1E    \uD83C\uDFFB		[🤞🏻] length:4
+\uD83E\uDD1E    \uD83C\uDFFC		[🤞🏼] length:4
+\uD83E\uDD1E    \uD83C\uDFFD		[🤞🏽] length:4
+\uD83E\uDD1E    \uD83C\uDFFE		[🤞🏾] length:4
+\uD83E\uDD1E    \uD83C\uDFFF		[🤞🏿] length:4
+\uD83E\uDD1F    \uD83C\uDFFB		[🤟🏻] length:4
+\uD83E\uDD1F    \uD83C\uDFFC		[🤟🏼] length:4
+\uD83E\uDD1F    \uD83C\uDFFD		[🤟🏽] length:4
+\uD83E\uDD1F    \uD83C\uDFFE		[🤟🏾] length:4
+\uD83E\uDD1F    \uD83C\uDFFF		[🤟🏿] length:4
+\uD83E\uDD26    \u200D\u2640		[🤦‍♀] length:4
+\uD83E\uDD26    \u200D\u2642		[🤦‍♂] length:4
+\uD83E\uDD26    \uD83C\uDFFB		[🤦🏻] length:4
+\uD83E\uDD26    \uD83C\uDFFC		[🤦🏼] length:4
+\uD83E\uDD26    \uD83C\uDFFD		[🤦🏽] length:4
+\uD83E\uDD26    \uD83C\uDFFE		[🤦🏾] length:4
+\uD83E\uDD26    \uD83C\uDFFF		[🤦🏿] length:4
+\uD83E\uDD30    \uD83C\uDFFB		[🤰🏻] length:4
+\uD83E\uDD30    \uD83C\uDFFC		[🤰🏼] length:4
+\uD83E\uDD30    \uD83C\uDFFD		[🤰🏽] length:4
+\uD83E\uDD30    \uD83C\uDFFE		[🤰🏾] length:4
+\uD83E\uDD30    \uD83C\uDFFF		[🤰🏿] length:4
+\uD83E\uDD31    \uD83C\uDFFB		[🤱🏻] length:4
+\uD83E\uDD31    \uD83C\uDFFC		[🤱🏼] length:4
+\uD83E\uDD31    \uD83C\uDFFD		[🤱🏽] length:4
+\uD83E\uDD31    \uD83C\uDFFE		[🤱🏾] length:4
+\uD83E\uDD31    \uD83C\uDFFF		[🤱🏿] length:4
+\uD83E\uDD32    \uD83C\uDFFB		[🤲🏻] length:4
+\uD83E\uDD32    \uD83C\uDFFC		[🤲🏼] length:4
+\uD83E\uDD32    \uD83C\uDFFD		[🤲🏽] length:4
+\uD83E\uDD32    \uD83C\uDFFE		[🤲🏾] length:4
+\uD83E\uDD32    \uD83C\uDFFF		[🤲🏿] length:4
+\uD83E\uDD33    \uD83C\uDFFB		[🤳🏻] length:4
+\uD83E\uDD33    \uD83C\uDFFC		[🤳🏼] length:4
+\uD83E\uDD33    \uD83C\uDFFD		[🤳🏽] length:4
+\uD83E\uDD33    \uD83C\uDFFE		[🤳🏾] length:4
+\uD83E\uDD33    \uD83C\uDFFF		[🤳🏿] length:4
+\uD83E\uDD34    \uD83C\uDFFB		[🤴🏻] length:4
+\uD83E\uDD34    \uD83C\uDFFC		[🤴🏼] length:4
+\uD83E\uDD34    \uD83C\uDFFD		[🤴🏽] length:4
+\uD83E\uDD34    \uD83C\uDFFE		[🤴🏾] length:4
+\uD83E\uDD34    \uD83C\uDFFF		[🤴🏿] length:4
+\uD83E\uDD35    \uD83C\uDFFB		[🤵🏻] length:4
+\uD83E\uDD35    \uD83C\uDFFC		[🤵🏼] length:4
+\uD83E\uDD35    \uD83C\uDFFD		[🤵🏽] length:4
+\uD83E\uDD35    \uD83C\uDFFE		[🤵🏾] length:4
+\uD83E\uDD35    \uD83C\uDFFF		[🤵🏿] length:4
+\uD83E\uDD36    \uD83C\uDFFB		[🤶🏻] length:4
+\uD83E\uDD36    \uD83C\uDFFC		[🤶🏼] length:4
+\uD83E\uDD36    \uD83C\uDFFD		[🤶🏽] length:4
+\uD83E\uDD36    \uD83C\uDFFE		[🤶🏾] length:4
+\uD83E\uDD36    \uD83C\uDFFF		[🤶🏿] length:4
+\uD83E\uDD37    \u200D\u2640		[🤷‍♀] length:4
+\uD83E\uDD37    \u200D\u2642		[🤷‍♂] length:4
+\uD83E\uDD37    \uD83C\uDFFB		[🤷🏻] length:4
+\uD83E\uDD37    \uD83C\uDFFC		[🤷🏼] length:4
+\uD83E\uDD37    \uD83C\uDFFD		[🤷🏽] length:4
+\uD83E\uDD37    \uD83C\uDFFE		[🤷🏾] length:4
+\uD83E\uDD37    \uD83C\uDFFF		[🤷🏿] length:4
+\uD83E\uDD38    \u200D\u2640		[🤸‍♀] length:4
+\uD83E\uDD38    \u200D\u2642		[🤸‍♂] length:4
+\uD83E\uDD38    \uD83C\uDFFB		[🤸🏻] length:4
+\uD83E\uDD38    \uD83C\uDFFC		[🤸🏼] length:4
+\uD83E\uDD38    \uD83C\uDFFD		[🤸🏽] length:4
+\uD83E\uDD38    \uD83C\uDFFE		[🤸🏾] length:4
+\uD83E\uDD38    \uD83C\uDFFF		[🤸🏿] length:4
+\uD83E\uDD39    \u200D\u2640		[🤹‍♀] length:4
+\uD83E\uDD39    \u200D\u2642		[🤹‍♂] length:4
+\uD83E\uDD39    \uD83C\uDFFB		[🤹🏻] length:4
+\uD83E\uDD39    \uD83C\uDFFC		[🤹🏼] length:4
+\uD83E\uDD39    \uD83C\uDFFD		[🤹🏽] length:4
+\uD83E\uDD39    \uD83C\uDFFE		[🤹🏾] length:4
+\uD83E\uDD39    \uD83C\uDFFF		[🤹🏿] length:4
+\uD83E\uDD3C    \u200D\u2640		[🤼‍♀] length:4
+\uD83E\uDD3C    \u200D\u2642		[🤼‍♂] length:4
+\uD83E\uDD3D    \u200D\u2640		[🤽‍♀] length:4
+\uD83E\uDD3D    \u200D\u2642		[🤽‍♂] length:4
+\uD83E\uDD3D    \uD83C\uDFFB		[🤽🏻] length:4
+\uD83E\uDD3D    \uD83C\uDFFC		[🤽🏼] length:4
+\uD83E\uDD3D    \uD83C\uDFFD		[🤽🏽] length:4
+\uD83E\uDD3D    \uD83C\uDFFE		[🤽🏾] length:4
+\uD83E\uDD3D    \uD83C\uDFFF		[🤽🏿] length:4
+\uD83E\uDD3E    \u200D\u2640		[🤾‍♀] length:4
+\uD83E\uDD3E    \u200D\u2642		[🤾‍♂] length:4
+\uD83E\uDD3E    \uD83C\uDFFB		[🤾🏻] length:4
+\uD83E\uDD3E    \uD83C\uDFFC		[🤾🏼] length:4
+\uD83E\uDD3E    \uD83C\uDFFD		[🤾🏽] length:4
+\uD83E\uDD3E    \uD83C\uDFFE		[🤾🏾] length:4
+\uD83E\uDD3E    \uD83C\uDFFF		[🤾🏿] length:4
+\uD83E\uDDB5    \uD83C\uDFFB		[🦵🏻] length:4
+\uD83E\uDDB5    \uD83C\uDFFC		[🦵🏼] length:4
+\uD83E\uDDB5    \uD83C\uDFFD		[🦵🏽] length:4
+\uD83E\uDDB5    \uD83C\uDFFE		[🦵🏾] length:4
+\uD83E\uDDB5    \uD83C\uDFFF		[🦵🏿] length:4
+\uD83E\uDDB6    \uD83C\uDFFB		[🦶🏻] length:4
+\uD83E\uDDB6    \uD83C\uDFFC		[🦶🏼] length:4
+\uD83E\uDDB6    \uD83C\uDFFD		[🦶🏽] length:4
+\uD83E\uDDB6    \uD83C\uDFFE		[🦶🏾] length:4
+\uD83E\uDDB6    \uD83C\uDFFF		[🦶🏿] length:4
+\uD83E\uDDB8    \u200D\u2640		[🦸‍♀] length:4
+\uD83E\uDDB8    \u200D\u2642		[🦸‍♂] length:4
+\uD83E\uDDB8    \uD83C\uDFFB		[🦸🏻] length:4
+\uD83E\uDDB8    \uD83C\uDFFC		[🦸🏼] length:4
+\uD83E\uDDB8    \uD83C\uDFFD		[🦸🏽] length:4
+\uD83E\uDDB8    \uD83C\uDFFE		[🦸🏾] length:4
+\uD83E\uDDB8    \uD83C\uDFFF		[🦸🏿] length:4
+\uD83E\uDDB9    \u200D\u2640		[🦹‍♀] length:4
+\uD83E\uDDB9    \u200D\u2642		[🦹‍♂] length:4
+\uD83E\uDDB9    \uD83C\uDFFB		[🦹🏻] length:4
+\uD83E\uDDB9    \uD83C\uDFFC		[🦹🏼] length:4
+\uD83E\uDDB9    \uD83C\uDFFD		[🦹🏽] length:4
+\uD83E\uDDB9    \uD83C\uDFFE		[🦹🏾] length:4
+\uD83E\uDDB9    \uD83C\uDFFF		[🦹🏿] length:4
+\uD83E\uDDD1    \uD83C\uDFFB		[🧑🏻] length:4
+\uD83E\uDDD1    \uD83C\uDFFC		[🧑🏼] length:4
+\uD83E\uDDD1    \uD83C\uDFFD		[🧑🏽] length:4
+\uD83E\uDDD1    \uD83C\uDFFE		[🧑🏾] length:4
+\uD83E\uDDD1    \uD83C\uDFFF		[🧑🏿] length:4
+\uD83E\uDDD2    \uD83C\uDFFB		[🧒🏻] length:4
+\uD83E\uDDD2    \uD83C\uDFFC		[🧒🏼] length:4
+\uD83E\uDDD2    \uD83C\uDFFD		[🧒🏽] length:4
+\uD83E\uDDD2    \uD83C\uDFFE		[🧒🏾] length:4
+\uD83E\uDDD2    \uD83C\uDFFF		[🧒🏿] length:4
+\uD83E\uDDD3    \uD83C\uDFFB		[🧓🏻] length:4
+\uD83E\uDDD3    \uD83C\uDFFC		[🧓🏼] length:4
+\uD83E\uDDD3    \uD83C\uDFFD		[🧓🏽] length:4
+\uD83E\uDDD3    \uD83C\uDFFE		[🧓🏾] length:4
+\uD83E\uDDD3    \uD83C\uDFFF		[🧓🏿] length:4
+\uD83E\uDDD4    \uD83C\uDFFB		[🧔🏻] length:4
+\uD83E\uDDD4    \uD83C\uDFFC		[🧔🏼] length:4
+\uD83E\uDDD4    \uD83C\uDFFD		[🧔🏽] length:4
+\uD83E\uDDD4    \uD83C\uDFFE		[🧔🏾] length:4
+\uD83E\uDDD4    \uD83C\uDFFF		[🧔🏿] length:4
+\uD83E\uDDD5    \uD83C\uDFFB		[🧕🏻] length:4
+\uD83E\uDDD5    \uD83C\uDFFC		[🧕🏼] length:4
+\uD83E\uDDD5    \uD83C\uDFFD		[🧕🏽] length:4
+\uD83E\uDDD5    \uD83C\uDFFE		[🧕🏾] length:4
+\uD83E\uDDD5    \uD83C\uDFFF		[🧕🏿] length:4
+\uD83E\uDDD6    \u200D\u2640		[🧖‍♀] length:4
+\uD83E\uDDD6    \u200D\u2642		[🧖‍♂] length:4
+\uD83E\uDDD6    \uD83C\uDFFB		[🧖🏻] length:4
+\uD83E\uDDD6    \uD83C\uDFFC		[🧖🏼] length:4
+\uD83E\uDDD6    \uD83C\uDFFD		[🧖🏽] length:4
+\uD83E\uDDD6    \uD83C\uDFFE		[🧖🏾] length:4
+\uD83E\uDDD6    \uD83C\uDFFF		[🧖🏿] length:4
+\uD83E\uDDD7    \u200D\u2640		[🧗‍♀] length:4
+\uD83E\uDDD7    \u200D\u2642		[🧗‍♂] length:4
+\uD83E\uDDD7    \uD83C\uDFFB		[🧗🏻] length:4
+\uD83E\uDDD7    \uD83C\uDFFC		[🧗🏼] length:4
+\uD83E\uDDD7    \uD83C\uDFFD		[🧗🏽] length:4
+\uD83E\uDDD7    \uD83C\uDFFE		[🧗🏾] length:4
+\uD83E\uDDD7    \uD83C\uDFFF		[🧗🏿] length:4
+\uD83E\uDDD8    \u200D\u2640		[🧘‍♀] length:4
+\uD83E\uDDD8    \u200D\u2642		[🧘‍♂] length:4
+\uD83E\uDDD8    \uD83C\uDFFB		[🧘🏻] length:4
+\uD83E\uDDD8    \uD83C\uDFFC		[🧘🏼] length:4
+\uD83E\uDDD8    \uD83C\uDFFD		[🧘🏽] length:4
+\uD83E\uDDD8    \uD83C\uDFFE		[🧘🏾] length:4
+\uD83E\uDDD8    \uD83C\uDFFF		[🧘🏿] length:4
+\uD83E\uDDD9    \u200D\u2640		[🧙‍♀] length:4
+\uD83E\uDDD9    \u200D\u2642		[🧙‍♂] length:4
+\uD83E\uDDD9    \uD83C\uDFFB		[🧙🏻] length:4
+\uD83E\uDDD9    \uD83C\uDFFC		[🧙🏼] length:4
+\uD83E\uDDD9    \uD83C\uDFFD		[🧙🏽] length:4
+\uD83E\uDDD9    \uD83C\uDFFE		[🧙🏾] length:4
+\uD83E\uDDD9    \uD83C\uDFFF		[🧙🏿] length:4
+\uD83E\uDDDA    \u200D\u2640		[🧚‍♀] length:4
+\uD83E\uDDDA    \u200D\u2642		[🧚‍♂] length:4
+\uD83E\uDDDA    \uD83C\uDFFB		[🧚🏻] length:4
+\uD83E\uDDDA    \uD83C\uDFFC		[🧚🏼] length:4
+\uD83E\uDDDA    \uD83C\uDFFD		[🧚🏽] length:4
+\uD83E\uDDDA    \uD83C\uDFFE		[🧚🏾] length:4
+\uD83E\uDDDA    \uD83C\uDFFF		[🧚🏿] length:4
+\uD83E\uDDDB    \u200D\u2640		[🧛‍♀] length:4
+\uD83E\uDDDB    \u200D\u2642		[🧛‍♂] length:4
+\uD83E\uDDDB    \uD83C\uDFFB		[🧛🏻] length:4
+\uD83E\uDDDB    \uD83C\uDFFC		[🧛🏼] length:4
+\uD83E\uDDDB    \uD83C\uDFFD		[🧛🏽] length:4
+\uD83E\uDDDB    \uD83C\uDFFE		[🧛🏾] length:4
+\uD83E\uDDDB    \uD83C\uDFFF		[🧛🏿] length:4
+\uD83E\uDDDC    \u200D\u2640		[🧜‍♀] length:4
+\uD83E\uDDDC    \u200D\u2642		[🧜‍♂] length:4
+\uD83E\uDDDC    \uD83C\uDFFB		[🧜🏻] length:4
+\uD83E\uDDDC    \uD83C\uDFFC		[🧜🏼] length:4
+\uD83E\uDDDC    \uD83C\uDFFD		[🧜🏽] length:4
+\uD83E\uDDDC    \uD83C\uDFFE		[🧜🏾] length:4
+\uD83E\uDDDC    \uD83C\uDFFF		[🧜🏿] length:4
+\uD83E\uDDDD    \u200D\u2640		[🧝‍♀] length:4
+\uD83E\uDDDD    \u200D\u2642		[🧝‍♂] length:4
+\uD83E\uDDDD    \uD83C\uDFFB		[🧝🏻] length:4
+\uD83E\uDDDD    \uD83C\uDFFC		[🧝🏼] length:4
+\uD83E\uDDDD    \uD83C\uDFFD		[🧝🏽] length:4
+\uD83E\uDDDD    \uD83C\uDFFE		[🧝🏾] length:4
+\uD83E\uDDDD    \uD83C\uDFFF		[🧝🏿] length:4
+\uD83E\uDDDE    \u200D\u2640		[🧞‍♀] length:4
+\uD83E\uDDDE    \u200D\u2642		[🧞‍♂] length:4
+\uD83E\uDDDF    \u200D\u2640		[🧟‍♀] length:4
+\uD83E\uDDDF    \u200D\u2642		[🧟‍♂] length:4
+
+
+
+\u26F9?[\uD83C\uDFC3-\uD83D\uDC69]?[\u200D|\uFE0F]\u200D?[\u2640|\u2642|\u2620|\u2695-\u2708|\uD83C\uDF08-\uD83E\uDDE8]\uFE0F?
+\u26F9  \uD83C\uDFFB    \u200D  \u2640[⛹🏻‍♀] length:5
+\u26F9  \uD83C\uDFFB    \u200D  \u2642[⛹🏻‍♂] length:5
+\u26F9  \uD83C\uDFFC    \u200D  \u2640[⛹🏼‍♀] length:5
+\u26F9  \uD83C\uDFFC    \u200D  \u2642[⛹🏼‍♂] length:5
+\u26F9  \uD83C\uDFFD    \u200D  \u2640[⛹🏽‍♀] length:5
+\u26F9  \uD83C\uDFFD    \u200D  \u2642[⛹🏽‍♂] length:5
+\u26F9  \uD83C\uDFFE    \u200D  \u2640[⛹🏾‍♀] length:5
+\u26F9  \uD83C\uDFFE    \u200D  \u2642[⛹🏾‍♂] length:5
+\u26F9  \uD83C\uDFFF    \u200D  \u2640[⛹🏿‍♀] length:5
+\u26F9  \uD83C\uDFFF    \u200D  \u2642[⛹🏿‍♂] length:5
+
+---
+\u26F9  \uFE0F  \u200D   \u2640  \uFE0F		[⛹️‍♀️] length:5
+\u26F9  \uFE0F  \u200D   \u2642  \uFE0F		[⛹️‍♂️] length:5
+
+---
+\uD83C\uDFC3    \u200D   \u2640  \uFE0F		[🏃‍♀️] length:5
+\uD83C\uDFC3    \u200D   \u2642  \uFE0F		[🏃‍♂️] length:5
+\uD83C\uDFC4    \u200D   \u2640  \uFE0F		[🏄‍♀️] length:5
+\uD83C\uDFC4    \u200D   \u2642  \uFE0F		[🏄‍♂️] length:5
+\uD83C\uDFCA    \u200D   \u2640  \uFE0F		[🏊‍♀️] length:5
+\uD83C\uDFCA    \u200D   \u2642  \uFE0F		[🏊‍♂️] length:5
+\uD83C\uDFCB    \u200D   \u2640  \uFE0F		[🏋‍♀️] length:5
+\uD83C\uDFCB    \u200D   \u2642  \uFE0F		[🏋‍♂️] length:5
+\uD83C\uDFCB    \uFE0F   \u200D  \u2640		[🏋️‍♀] length:5
+\uD83C\uDFCB    \uFE0F   \u200D  \u2642		[🏋️‍♂] length:5
+\uD83C\uDFCC    \u200D   \u2640  \uFE0F		[🏌‍♀️] length:5
+\uD83C\uDFCC    \u200D   \u2642  \uFE0F		[🏌‍♂️] length:5
+\uD83C\uDFCC    \uFE0F   \u200D  \u2640		[🏌️‍♀] length:5
+\uD83C\uDFCC    \uFE0F   \u200D  \u2642		[🏌️‍♂] length:5
+
+---
+\uD83C\uDFF3    \u200D   \uD83C\uDF08		[🏳‍🌈] length:5
+\uD83C\uDFF4    \u200D   \u2620\uFE0F		[🏴‍☠️] length:5
+
+\uD83D\uDC41    \u200D   \uD83D\uDDE8		[👁‍🗨] length:5
+
+
+---
+\uD83D\uDC68    \u200D  \u2695  \uFE0F		[👨‍⚕️] length:5
+\uD83D\uDC68    \u200D  \u2696  \uFE0F		[👨‍⚖️] length:5
+\uD83D\uDC68    \u200D  \u2708  \uFE0F		[👨‍✈️] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDF3E		[👨‍🌾] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDF73		[👨‍🍳] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDF93		[👨‍🎓] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDFA4		[👨‍🎤] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDFA8		[👨‍🎨] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDFEB		[👨‍🏫] length:5
+\uD83D\uDC68    \u200D  \uD83C\uDFED		[👨‍🏭] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDC66		[👨‍👦] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDC67		[👨‍👧] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDCBB		[👨‍💻] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDCBC		[👨‍💼] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDD27		[👨‍🔧] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDD2C		[👨‍🔬] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDE80		[👨‍🚀] length:5
+\uD83D\uDC68    \u200D  \uD83D\uDE92		[👨‍🚒] length:5
+\uD83D\uDC68    \u200D  \uD83E\uDDB0		[👨‍🦰] length:5
+\uD83D\uDC68    \u200D  \uD83E\uDDB1		[👨‍🦱] length:5
+\uD83D\uDC68    \u200D  \uD83E\uDDB2		[👨‍🦲] length:5
+\uD83D\uDC68    \u200D  \uD83E\uDDB3		[👨‍🦳] length:5
+
+---
+\uD83D\uDC69    \u200D  \u2695  \uFE0F		[👩‍⚕️] length:5
+\uD83D\uDC69    \u200D  \u2696  \uFE0F		[👩‍⚖️] length:5
+\uD83D\uDC69    \u200D  \u2708  \uFE0F		[👩‍✈️] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDF3E		[👩‍🌾] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDF73		[👩‍🍳] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDF93		[👩‍🎓] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDFA4		[👩‍🎤] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDFA8		[👩‍🎨] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDFEB		[👩‍🏫] length:5
+\uD83D\uDC69    \u200D  \uD83C\uDFED		[👩‍🏭] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDC66		[👩‍👦] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDC67		[👩‍👧] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDCBB		[👩‍💻] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDCBC		[👩‍💼] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDD27		[👩‍🔧] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDD2C		[👩‍🔬] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDE80		[👩‍🚀] length:5
+\uD83D\uDC69    \u200D  \uD83D\uDE92		[👩‍🚒] length:5
+\uD83D\uDC69    \u200D  \uD83E\uDDB0		[👩‍🦰] length:5
+\uD83D\uDC69    \u200D  \uD83E\uDDB1		[👩‍🦱] length:5
+\uD83D\uDC69    \u200D  \uD83E\uDDB2		[👩‍🦲] length:5
+\uD83D\uDC69    \u200D  \uD83E\uDDB3		[👩‍🦳] length:5
+
+[\uD83D\uDC69-\uD83E\uDDDF]\uFE0F?\u200D[\u2640|\u2642]\uFE0F?
+\uD83D\uDC6E\u200D\u2640\uFE0F		[👮‍♀️] length:5
+\uD83D\uDC6E\u200D\u2642\uFE0F		[👮‍♂️] length:5
+
+\uD83D\uDC6F\u200D\u2640\uFE0F		[👯‍♀️] length:5
+\uD83D\uDC6F\u200D\u2642\uFE0F		[👯‍♂️] length:5
+
+\uD83D\uDC71\u200D\u2640\uFE0F		[👱‍♀️] length:5
+\uD83D\uDC71\u200D\u2642\uFE0F		[👱‍♂️] length:5
+
+\uD83D\uDC73\u200D\u2640\uFE0F		[👳‍♀️] length:5
+\uD83D\uDC73\u200D\u2642\uFE0F		[👳‍♂️] length:5
+---
+\uD83D\uDC77\u200D\u2640\uFE0F		[👷‍♀️] length:5
+\uD83D\uDC77\u200D\u2642\uFE0F		[👷‍♂️] length:5
+
+\uD83D\uDC81\u200D\u2640\uFE0F		[💁‍♀️] length:5
+\uD83D\uDC81\u200D\u2642\uFE0F		[💁‍♂️] length:5
+
+\uD83D\uDC82\u200D\u2640\uFE0F		[💂‍♀️] length:5
+\uD83D\uDC82\u200D\u2642\uFE0F		[💂‍♂️] length:5
+
+\uD83D\uDC86\u200D\u2640\uFE0F		[💆‍♀️] length:5
+\uD83D\uDC86\u200D\u2642\uFE0F		[💆‍♂️] length:5
+\uD83D\uDC87\u200D\u2640\uFE0F		[💇‍♀️] length:5
+\uD83D\uDC87\u200D\u2642\uFE0F		[💇‍♂️] length:5
+
+\uD83D\uDD75\u200D\u2640\uFE0F		[🕵‍♀️] length:5
+\uD83D\uDD75\u200D\u2642\uFE0F		[🕵‍♂️] length:5
+
+---
+\uD83D\uDD75    \uFE0F\u200D\u2640		[🕵️‍♀] length:5
+\uD83D\uDD75    \uFE0F\u200D\u2642		[🕵️‍♂] length:5
+
+---
+\uD83D\uDE45    \u200D  \u2640 \uFE0F		[🙅‍♀️] length:5
+\uD83D\uDE45    \u200D  \u2642 \uFE0F		[🙅‍♂️] length:5
+\uD83D\uDE46    \u200D  \u2640 \uFE0F		[🙆‍♀️] length:5
+\uD83D\uDE46    \u200D  \u2642 \uFE0F		[🙆‍♂️] length:5
+\uD83D\uDE47    \u200D  \u2640 \uFE0F		[🙇‍♀️] length:5
+\uD83D\uDE47    \u200D  \u2642 \uFE0F		[🙇‍♂️] length:5
+                               
+\uD83D\uDE4B    \u200D  \u2640 \uFE0F		[🙋‍♀️] length:5
+\uD83D\uDE4B    \u200D  \u2642 \uFE0F		[🙋‍♂️] length:5
+                               
+\uD83D\uDE4D    \u200D  \u2640 \uFE0F		[🙍‍♀️] length:5
+\uD83D\uDE4D    \u200D  \u2642 \uFE0F		[🙍‍♂️] length:5
+
+\uD83D\uDE4E    \u200D  \u2640 \uFE0F		[🙎‍♀️] length:5
+\uD83D\uDE4E    \u200D  \u2642 \uFE0F		[🙎‍♂️] length:5
+                               
+\uD83D\uDEA3    \u200D  \u2640 \uFE0F		[🚣‍♀️] length:5
+\uD83D\uDEA3    \u200D  \u2642 \uFE0F		[🚣‍♂️] length:5
+                               
+\uD83D\uDEB4    \u200D  \u2640 \uFE0F		[🚴‍♀️] length:5
+\uD83D\uDEB4    \u200D  \u2642 \uFE0F		[🚴‍♂️] length:5
+\uD83D\uDEB5    \u200D  \u2640 \uFE0F		[🚵‍♀️] length:5
+\uD83D\uDEB5    \u200D  \u2642 \uFE0F		[🚵‍♂️] length:5
+\uD83D\uDEB6    \u200D  \u2640 \uFE0F		[🚶‍♀️] length:5
+\uD83D\uDEB6    \u200D  \u2642 \uFE0F		[🚶‍♂️] length:5
+                               
+\uD83E\uDD26    \u200D  \u2640 \uFE0F		[🤦‍♀️] length:5
+\uD83E\uDD26    \u200D  \u2642 \uFE0F		[🤦‍♂️] length:5
+                               
+\uD83E\uDD37    \u200D  \u2640 \uFE0F		[🤷‍♀️] length:5
+\uD83E\uDD37    \u200D  \u2642 \uFE0F		[🤷‍♂️] length:5
+\uD83E\uDD38    \u200D  \u2640 \uFE0F		[🤸‍♀️] length:5
+\uD83E\uDD38    \u200D  \u2642 \uFE0F		[🤸‍♂️] length:5
+\uD83E\uDD39    \u200D  \u2640 \uFE0F		[🤹‍♀️] length:5
+\uD83E\uDD39    \u200D  \u2642 \uFE0F		[🤹‍♂️] length:5
+                               
+\uD83E\uDD3C    \u200D  \u2640 \uFE0F		[🤼‍♀️] length:5
+\uD83E\uDD3C    \u200D  \u2642 \uFE0F		[🤼‍♂️] length:5
+\uD83E\uDD3D    \u200D  \u2640 \uFE0F		[🤽‍♀️] length:5
+\uD83E\uDD3D    \u200D  \u2642 \uFE0F		[🤽‍♂️] length:5
+\uD83E\uDD3E    \u200D  \u2640 \uFE0F		[🤾‍♀️] length:5
+\uD83E\uDD3E    \u200D  \u2642 \uFE0F		[🤾‍♂️] length:5
+                               
+\uD83E\uDDB8    \u200D  \u2640 \uFE0F		[🦸‍♀️] length:5
+\uD83E\uDDB8    \u200D  \u2642 \uFE0F		[🦸‍♂️] length:5
+                               
+\uD83E\uDDB9    \u200D  \u2640 \uFE0F		[🦹‍♀️] length:5
+\uD83E\uDDB9    \u200D  \u2642 \uFE0F		[🦹‍♂️] length:5
+                               
+\uD83E\uDDD6    \u200D  \u2640 \uFE0F		[🧖‍♀️] length:5
+\uD83E\uDDD6    \u200D  \u2642 \uFE0F		[🧖‍♂️] length:5
+\uD83E\uDDD7    \u200D  \u2640 \uFE0F		[🧗‍♀️] length:5
+\uD83E\uDDD7    \u200D  \u2642 \uFE0F		[🧗‍♂️] length:5
+\uD83E\uDDD8    \u200D  \u2640 \uFE0F		[🧘‍♀️] length:5
+\uD83E\uDDD8    \u200D  \u2642 \uFE0F		[🧘‍♂️] length:5
+\uD83E\uDDD9    \u200D  \u2640 \uFE0F		[🧙‍♀️] length:5
+\uD83E\uDDD9    \u200D  \u2642 \uFE0F		[🧙‍♂️] length:5
+\uD83E\uDDDA    \u200D  \u2640 \uFE0F		[🧚‍♀️] length:5
+\uD83E\uDDDA    \u200D  \u2642 \uFE0F		[🧚‍♂️] length:5
+\uD83E\uDDDB    \u200D  \u2640 \uFE0F		[🧛‍♀️] length:5
+\uD83E\uDDDB    \u200D  \u2642 \uFE0F		[🧛‍♂️] length:5
+\uD83E\uDDDC    \u200D  \u2640 \uFE0F		[🧜‍♀️] length:5
+\uD83E\uDDDC    \u200D  \u2642 \uFE0F		[🧜‍♂️] length:5
+\uD83E\uDDDD    \u200D  \u2640 \uFE0F		[🧝‍♀️] length:5
+\uD83E\uDDDD    \u200D  \u2642 \uFE0F		[🧝‍♂️] length:5
+\uD83E\uDDDE    \u200D  \u2640 \uFE0F		[🧞‍♀️] length:5
+\uD83E\uDDDE    \u200D  \u2642 \uFE0F		[🧞‍♂️] length:5
+\uD83E\uDDDF    \u200D  \u2640 \uFE0F		[🧟‍♀️] length:5
+\uD83E\uDDDF    \u200D  \u2642 \uFE0F		[🧟‍♂️] length:5
+
+
+\u26F9  \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[⛹🏻‍♀️] length:6
+\u26F9  \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[⛹🏻‍♂️] length:6
+\u26F9  \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[⛹🏼‍♀️] length:6
+\u26F9  \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[⛹🏼‍♂️] length:6
+\u26F9  \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[⛹🏽‍♀️] length:6
+\u26F9  \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[⛹🏽‍♂️] length:6
+\u26F9  \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[⛹🏾‍♀️] length:6
+\u26F9  \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[⛹🏾‍♂️] length:6
+\u26F9  \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[⛹🏿‍♀️] length:6
+\u26F9  \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[⛹🏿‍♂️] length:6
+\uD83C\uDFC3    \uD83C\uDFFB    \u200D  \u2640		[🏃🏻‍♀] length:6
+\uD83C\uDFC3    \uD83C\uDFFB    \u200D  \u2642		[🏃🏻‍♂] length:6
+\uD83C\uDFC3    \uD83C\uDFFC    \u200D  \u2640		[🏃🏼‍♀] length:6
+\uD83C\uDFC3    \uD83C\uDFFC    \u200D  \u2642		[🏃🏼‍♂] length:6
+\uD83C\uDFC3    \uD83C\uDFFD    \u200D  \u2640		[🏃🏽‍♀] length:6
+\uD83C\uDFC3    \uD83C\uDFFD    \u200D  \u2642		[🏃🏽‍♂] length:6
+\uD83C\uDFC3    \uD83C\uDFFE    \u200D  \u2640		[🏃🏾‍♀] length:6
+\uD83C\uDFC3    \uD83C\uDFFE    \u200D  \u2642		[🏃🏾‍♂] length:6
+\uD83C\uDFC3    \uD83C\uDFFF    \u200D  \u2640		[🏃🏿‍♀] length:6
+\uD83C\uDFC3    \uD83C\uDFFF    \u200D  \u2642		[🏃🏿‍♂] length:6
+\uD83C\uDFC4    \uD83C\uDFFB    \u200D  \u2640		[🏄🏻‍♀] length:6
+\uD83C\uDFC4    \uD83C\uDFFB    \u200D  \u2642		[🏄🏻‍♂] length:6
+\uD83C\uDFC4    \uD83C\uDFFC    \u200D  \u2640		[🏄🏼‍♀] length:6
+\uD83C\uDFC4    \uD83C\uDFFC    \u200D  \u2642		[🏄🏼‍♂] length:6
+\uD83C\uDFC4    \uD83C\uDFFD    \u200D  \u2640		[🏄🏽‍♀] length:6
+\uD83C\uDFC4    \uD83C\uDFFD    \u200D  \u2642		[🏄🏽‍♂] length:6
+\uD83C\uDFC4    \uD83C\uDFFE    \u200D  \u2640		[🏄🏾‍♀] length:6
+\uD83C\uDFC4    \uD83C\uDFFE    \u200D  \u2642		[🏄🏾‍♂] length:6
+\uD83C\uDFC4    \uD83C\uDFFF    \u200D  \u2640		[🏄🏿‍♀] length:6
+\uD83C\uDFC4    \uD83C\uDFFF    \u200D  \u2642		[🏄🏿‍♂] length:6
+\uD83C\uDFCA    \uD83C\uDFFB    \u200D  \u2640		[🏊🏻‍♀] length:6
+\uD83C\uDFCA    \uD83C\uDFFB    \u200D  \u2642		[🏊🏻‍♂] length:6
+\uD83C\uDFCA    \uD83C\uDFFC    \u200D  \u2640		[🏊🏼‍♀] length:6
+\uD83C\uDFCA    \uD83C\uDFFC    \u200D  \u2642		[🏊🏼‍♂] length:6
+\uD83C\uDFCA    \uD83C\uDFFD    \u200D  \u2640		[🏊🏽‍♀] length:6
+\uD83C\uDFCA    \uD83C\uDFFD    \u200D  \u2642		[🏊🏽‍♂] length:6
+\uD83C\uDFCA    \uD83C\uDFFE    \u200D  \u2640		[🏊🏾‍♀] length:6
+\uD83C\uDFCA    \uD83C\uDFFE    \u200D  \u2642		[🏊🏾‍♂] length:6
+\uD83C\uDFCA    \uD83C\uDFFF    \u200D  \u2640		[🏊🏿‍♀] length:6
+\uD83C\uDFCA    \uD83C\uDFFF    \u200D  \u2642		[🏊🏿‍♂] length:6
+\uD83C\uDFCB    \uD83C\uDFFB    \u200D  \u2640		[🏋🏻‍♀] length:6
+\uD83C\uDFCB    \uD83C\uDFFB    \u200D  \u2642		[🏋🏻‍♂] length:6
+\uD83C\uDFCB    \uD83C\uDFFC    \u200D  \u2640		[🏋🏼‍♀] length:6
+\uD83C\uDFCB    \uD83C\uDFFC    \u200D  \u2642		[🏋🏼‍♂] length:6
+\uD83C\uDFCB    \uD83C\uDFFD    \u200D  \u2640		[🏋🏽‍♀] length:6
+\uD83C\uDFCB    \uD83C\uDFFD    \u200D  \u2642		[🏋🏽‍♂] length:6
+\uD83C\uDFCB    \uD83C\uDFFE    \u200D  \u2640		[🏋🏾‍♀] length:6
+\uD83C\uDFCB    \uD83C\uDFFE    \u200D  \u2642		[🏋🏾‍♂] length:6
+\uD83C\uDFCB    \uD83C\uDFFF    \u200D  \u2640		[🏋🏿‍♀] length:6
+\uD83C\uDFCB    \uD83C\uDFFF    \u200D  \u2642		[🏋🏿‍♂] length:6
+\uD83C\uDFCB    \uFE0F  \u200D \u2640   \uFE0F		[🏋️‍♀️] length:6
+\uD83C\uDFCB    \uFE0F  \u200D \u2642   \uFE0F		[🏋️‍♂️] length:6
+\uD83C\uDFCC    \uD83C\uDFFB    \u200D  \u2640		[🏌🏻‍♀] length:6
+\uD83C\uDFCC    \uD83C\uDFFB    \u200D  \u2642		[🏌🏻‍♂] length:6
+\uD83C\uDFCC    \uD83C\uDFFC    \u200D  \u2640		[🏌🏼‍♀] length:6
+\uD83C\uDFCC    \uD83C\uDFFC    \u200D  \u2642		[🏌🏼‍♂] length:6
+\uD83C\uDFCC    \uD83C\uDFFD    \u200D  \u2640		[🏌🏽‍♀] length:6
+\uD83C\uDFCC    \uD83C\uDFFD    \u200D  \u2642		[🏌🏽‍♂] length:6
+\uD83C\uDFCC    \uD83C\uDFFE    \u200D  \u2640		[🏌🏾‍♀] length:6
+\uD83C\uDFCC    \uD83C\uDFFE    \u200D  \u2642		[🏌🏾‍♂] length:6
+\uD83C\uDFCC    \uD83C\uDFFF    \u200D  \u2640		[🏌🏿‍♀] length:6
+\uD83C\uDFCC    \uD83C\uDFFF    \u200D  \u2642		[🏌🏿‍♂] length:6
+\uD83C\uDFCC    \uFE0F  \u200D  \u2640   \uFE0F		[🏌️‍♀️] length:6
+\uD83C\uDFCC    \uFE0F  \u200D  \u2642   \uFE0F		[🏌️‍♂️] length:6
+\uD83C\uDFF3    \uFE0F  \u200D  \uD83C  \uDF08		[🏳️‍🌈] length:6
+\uD83D\uDC41    \u200D  \uD83D\uDDE8    \uFE0F		[👁‍🗨️] length:6
+\uD83D\uDC41    \uFE0F  \u200D  \uD83D\uDDE8		[👁️‍🗨] length:6
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2695		[👨🏻‍⚕] length:6
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2696		[👨🏻‍⚖] length:6
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2708		[👨🏻‍✈] length:6
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2695		[👨🏼‍⚕] length:6
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2696		[👨🏼‍⚖] length:6
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2708		[👨🏼‍✈] length:6
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2695		[👨🏽‍⚕] length:6
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2696		[👨🏽‍⚖] length:6
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2708		[👨🏽‍✈] length:6
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2695		[👨🏾‍⚕] length:6
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2696		[👨🏾‍⚖] length:6
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2708		[👨🏾‍✈] length:6
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2695		[👨🏿‍⚕] length:6
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2696		[👨🏿‍⚖] length:6
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2708		[👨🏿‍✈] length:6
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2695		[👩🏻‍⚕] length:6
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2696		[👩🏻‍⚖] length:6
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2708		[👩🏻‍✈] length:6
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2695		[👩🏼‍⚕] length:6
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2696		[👩🏼‍⚖] length:6
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2708		[👩🏼‍✈] length:6
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2695		[👩🏽‍⚕] length:6
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2696		[👩🏽‍⚖] length:6
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2708		[👩🏽‍✈] length:6
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2695		[👩🏾‍⚕] length:6
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2696		[👩🏾‍⚖] length:6
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2708		[👩🏾‍✈] length:6
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2695		[👩🏿‍⚕] length:6
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2696		[👩🏿‍⚖] length:6
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2708		[👩🏿‍✈] length:6
+\uD83D\uDC6E    \uD83C\uDFFB    \u200D  \u2640		[👮🏻‍♀] length:6
+\uD83D\uDC6E    \uD83C\uDFFB    \u200D  \u2642		[👮🏻‍♂] length:6
+\uD83D\uDC6E    \uD83C\uDFFC    \u200D  \u2640		[👮🏼‍♀] length:6
+\uD83D\uDC6E    \uD83C\uDFFC    \u200D  \u2642		[👮🏼‍♂] length:6
+\uD83D\uDC6E    \uD83C\uDFFD    \u200D  \u2640		[👮🏽‍♀] length:6
+\uD83D\uDC6E    \uD83C\uDFFD    \u200D  \u2642		[👮🏽‍♂] length:6
+\uD83D\uDC6E    \uD83C\uDFFE    \u200D  \u2640		[👮🏾‍♀] length:6
+\uD83D\uDC6E    \uD83C\uDFFE    \u200D  \u2642		[👮🏾‍♂] length:6
+\uD83D\uDC6E    \uD83C\uDFFF    \u200D  \u2640		[👮🏿‍♀] length:6
+\uD83D\uDC6E    \uD83C\uDFFF    \u200D  \u2642		[👮🏿‍♂] length:6
+\uD83D\uDC71    \uD83C\uDFFB    \u200D  \u2640		[👱🏻‍♀] length:6
+\uD83D\uDC71    \uD83C\uDFFB    \u200D  \u2642		[👱🏻‍♂] length:6
+\uD83D\uDC71    \uD83C\uDFFC    \u200D  \u2640		[👱🏼‍♀] length:6
+\uD83D\uDC71    \uD83C\uDFFC    \u200D  \u2642		[👱🏼‍♂] length:6
+\uD83D\uDC71    \uD83C\uDFFD    \u200D  \u2640		[👱🏽‍♀] length:6
+\uD83D\uDC71    \uD83C\uDFFD    \u200D  \u2642		[👱🏽‍♂] length:6
+\uD83D\uDC71    \uD83C\uDFFE    \u200D  \u2640		[👱🏾‍♀] length:6
+\uD83D\uDC71    \uD83C\uDFFE    \u200D  \u2642		[👱🏾‍♂] length:6
+\uD83D\uDC71    \uD83C\uDFFF    \u200D  \u2640		[👱🏿‍♀] length:6
+\uD83D\uDC71    \uD83C\uDFFF    \u200D  \u2642		[👱🏿‍♂] length:6
+\uD83D\uDC73    \uD83C\uDFFB    \u200D  \u2640		[👳🏻‍♀] length:6
+\uD83D\uDC73    \uD83C\uDFFB    \u200D  \u2642		[👳🏻‍♂] length:6
+\uD83D\uDC73    \uD83C\uDFFC    \u200D  \u2640		[👳🏼‍♀] length:6
+\uD83D\uDC73    \uD83C\uDFFC    \u200D  \u2642		[👳🏼‍♂] length:6
+\uD83D\uDC73    \uD83C\uDFFD    \u200D  \u2640		[👳🏽‍♀] length:6
+\uD83D\uDC73    \uD83C\uDFFD    \u200D  \u2642		[👳🏽‍♂] length:6
+\uD83D\uDC73    \uD83C\uDFFE    \u200D  \u2640		[👳🏾‍♀] length:6
+\uD83D\uDC73    \uD83C\uDFFE    \u200D  \u2642		[👳🏾‍♂] length:6
+\uD83D\uDC73    \uD83C\uDFFF    \u200D  \u2640		[👳🏿‍♀] length:6
+\uD83D\uDC73    \uD83C\uDFFF    \u200D  \u2642		[👳🏿‍♂] length:6
+\uD83D\uDC77    \uD83C\uDFFB    \u200D  \u2640		[👷🏻‍♀] length:6
+\uD83D\uDC77    \uD83C\uDFFB    \u200D  \u2642		[👷🏻‍♂] length:6
+\uD83D\uDC77    \uD83C\uDFFC    \u200D  \u2640		[👷🏼‍♀] length:6
+\uD83D\uDC77    \uD83C\uDFFC    \u200D  \u2642		[👷🏼‍♂] length:6
+\uD83D\uDC77    \uD83C\uDFFD    \u200D  \u2640		[👷🏽‍♀] length:6
+\uD83D\uDC77    \uD83C\uDFFD    \u200D  \u2642		[👷🏽‍♂] length:6
+\uD83D\uDC77    \uD83C\uDFFE    \u200D  \u2640		[👷🏾‍♀] length:6
+\uD83D\uDC77    \uD83C\uDFFE    \u200D  \u2642		[👷🏾‍♂] length:6
+\uD83D\uDC77    \uD83C\uDFFF    \u200D  \u2640		[👷🏿‍♀] length:6
+\uD83D\uDC77    \uD83C\uDFFF    \u200D  \u2642		[👷🏿‍♂] length:6
+\uD83D\uDC81    \uD83C\uDFFB    \u200D  \u2640		[💁🏻‍♀] length:6
+\uD83D\uDC81    \uD83C\uDFFB    \u200D  \u2642		[💁🏻‍♂] length:6
+\uD83D\uDC81    \uD83C\uDFFC    \u200D  \u2640		[💁🏼‍♀] length:6
+\uD83D\uDC81    \uD83C\uDFFC    \u200D  \u2642		[💁🏼‍♂] length:6
+\uD83D\uDC81    \uD83C\uDFFD    \u200D  \u2640		[💁🏽‍♀] length:6
+\uD83D\uDC81    \uD83C\uDFFD    \u200D  \u2642		[💁🏽‍♂] length:6
+\uD83D\uDC81    \uD83C\uDFFE    \u200D  \u2640		[💁🏾‍♀] length:6
+\uD83D\uDC81    \uD83C\uDFFE    \u200D  \u2642		[💁🏾‍♂] length:6
+\uD83D\uDC81    \uD83C\uDFFF    \u200D  \u2640		[💁🏿‍♀] length:6
+\uD83D\uDC81    \uD83C\uDFFF    \u200D  \u2642		[💁🏿‍♂] length:6
+\uD83D\uDC82    \uD83C\uDFFB    \u200D  \u2640		[💂🏻‍♀] length:6
+\uD83D\uDC82    \uD83C\uDFFB    \u200D  \u2642		[💂🏻‍♂] length:6
+\uD83D\uDC82    \uD83C\uDFFC    \u200D  \u2640		[💂🏼‍♀] length:6
+\uD83D\uDC82    \uD83C\uDFFC    \u200D  \u2642		[💂🏼‍♂] length:6
+\uD83D\uDC82    \uD83C\uDFFD    \u200D  \u2640		[💂🏽‍♀] length:6
+\uD83D\uDC82    \uD83C\uDFFD    \u200D  \u2642		[💂🏽‍♂] length:6
+\uD83D\uDC82    \uD83C\uDFFE    \u200D  \u2640		[💂🏾‍♀] length:6
+\uD83D\uDC82    \uD83C\uDFFE    \u200D  \u2642		[💂🏾‍♂] length:6
+\uD83D\uDC82    \uD83C\uDFFF    \u200D  \u2640		[💂🏿‍♀] length:6
+\uD83D\uDC82    \uD83C\uDFFF    \u200D  \u2642		[💂🏿‍♂] length:6
+\uD83D\uDC86    \uD83C\uDFFB    \u200D  \u2640		[💆🏻‍♀] length:6
+\uD83D\uDC86    \uD83C\uDFFB    \u200D  \u2642		[💆🏻‍♂] length:6
+\uD83D\uDC86    \uD83C\uDFFC    \u200D  \u2640		[💆🏼‍♀] length:6
+\uD83D\uDC86    \uD83C\uDFFC    \u200D  \u2642		[💆🏼‍♂] length:6
+\uD83D\uDC86    \uD83C\uDFFD    \u200D  \u2640		[💆🏽‍♀] length:6
+\uD83D\uDC86    \uD83C\uDFFD    \u200D  \u2642		[💆🏽‍♂] length:6
+\uD83D\uDC86    \uD83C\uDFFE    \u200D  \u2640		[💆🏾‍♀] length:6
+\uD83D\uDC86    \uD83C\uDFFE    \u200D  \u2642		[💆🏾‍♂] length:6
+\uD83D\uDC86    \uD83C\uDFFF    \u200D  \u2640		[💆🏿‍♀] length:6
+\uD83D\uDC86    \uD83C\uDFFF    \u200D  \u2642		[💆🏿‍♂] length:6
+\uD83D\uDC87    \uD83C\uDFFB    \u200D  \u2640		[💇🏻‍♀] length:6
+\uD83D\uDC87    \uD83C\uDFFB    \u200D  \u2642		[💇🏻‍♂] length:6
+\uD83D\uDC87    \uD83C\uDFFC    \u200D  \u2640		[💇🏼‍♀] length:6
+\uD83D\uDC87    \uD83C\uDFFC    \u200D  \u2642		[💇🏼‍♂] length:6
+\uD83D\uDC87    \uD83C\uDFFD    \u200D  \u2640		[💇🏽‍♀] length:6
+\uD83D\uDC87    \uD83C\uDFFD    \u200D  \u2642		[💇🏽‍♂] length:6
+\uD83D\uDC87    \uD83C\uDFFE    \u200D  \u2640		[💇🏾‍♀] length:6
+\uD83D\uDC87    \uD83C\uDFFE    \u200D  \u2642		[💇🏾‍♂] length:6
+\uD83D\uDC87    \uD83C\uDFFF    \u200D  \u2640		[💇🏿‍♀] length:6
+\uD83D\uDC87    \uD83C\uDFFF    \u200D  \u2642		[💇🏿‍♂] length:6
+\uD83D\uDD75    \uD83C\uDFFB    \u200D  \u2640		[🕵🏻‍♀] length:6
+\uD83D\uDD75    \uD83C\uDFFB    \u200D  \u2642		[🕵🏻‍♂] length:6
+\uD83D\uDD75    \uD83C\uDFFC    \u200D  \u2640		[🕵🏼‍♀] length:6
+\uD83D\uDD75    \uD83C\uDFFC    \u200D  \u2642		[🕵🏼‍♂] length:6
+\uD83D\uDD75    \uD83C\uDFFD    \u200D  \u2640		[🕵🏽‍♀] length:6
+\uD83D\uDD75    \uD83C\uDFFD    \u200D  \u2642		[🕵🏽‍♂] length:6
+\uD83D\uDD75    \uD83C\uDFFE    \u200D  \u2640		[🕵🏾‍♀] length:6
+\uD83D\uDD75    \uD83C\uDFFE    \u200D  \u2642		[🕵🏾‍♂] length:6
+\uD83D\uDD75    \uD83C\uDFFF    \u200D  \u2640		[🕵🏿‍♀] length:6
+\uD83D\uDD75    \uD83C\uDFFF    \u200D  \u2642		[🕵🏿‍♂] length:6
+\uD83D\uDD75    \uFE0F\u200D    \u2640  \uFE0F		[🕵️‍♀️] length:6
+\uD83D\uDD75    \uFE0F\u200D    \u2642  \uFE0F		[🕵️‍♂️] length:6
+\uD83D\uDE45    \uD83C\uDFFB    \u200D  \u2640		[🙅🏻‍♀] length:6
+\uD83D\uDE45    \uD83C\uDFFB    \u200D  \u2642		[🙅🏻‍♂] length:6
+\uD83D\uDE45    \uD83C\uDFFC    \u200D  \u2640		[🙅🏼‍♀] length:6
+\uD83D\uDE45    \uD83C\uDFFC    \u200D  \u2642		[🙅🏼‍♂] length:6
+\uD83D\uDE45    \uD83C\uDFFD    \u200D  \u2640		[🙅🏽‍♀] length:6
+\uD83D\uDE45    \uD83C\uDFFD    \u200D  \u2642		[🙅🏽‍♂] length:6
+\uD83D\uDE45    \uD83C\uDFFE    \u200D  \u2640		[🙅🏾‍♀] length:6
+\uD83D\uDE45    \uD83C\uDFFE    \u200D  \u2642		[🙅🏾‍♂] length:6
+\uD83D\uDE45    \uD83C\uDFFF    \u200D  \u2640		[🙅🏿‍♀] length:6
+\uD83D\uDE45    \uD83C\uDFFF    \u200D  \u2642		[🙅🏿‍♂] length:6
+\uD83D\uDE46    \uD83C\uDFFB    \u200D  \u2640		[🙆🏻‍♀] length:6
+\uD83D\uDE46    \uD83C\uDFFB    \u200D  \u2642		[🙆🏻‍♂] length:6
+\uD83D\uDE46    \uD83C\uDFFC    \u200D  \u2640		[🙆🏼‍♀] length:6
+\uD83D\uDE46    \uD83C\uDFFC    \u200D  \u2642		[🙆🏼‍♂] length:6
+\uD83D\uDE46    \uD83C\uDFFD    \u200D  \u2640		[🙆🏽‍♀] length:6
+\uD83D\uDE46    \uD83C\uDFFD    \u200D  \u2642		[🙆🏽‍♂] length:6
+\uD83D\uDE46    \uD83C\uDFFE    \u200D  \u2640		[🙆🏾‍♀] length:6
+\uD83D\uDE46    \uD83C\uDFFE    \u200D  \u2642		[🙆🏾‍♂] length:6
+\uD83D\uDE46    \uD83C\uDFFF    \u200D  \u2640		[🙆🏿‍♀] length:6
+\uD83D\uDE46    \uD83C\uDFFF    \u200D  \u2642		[🙆🏿‍♂] length:6
+\uD83D\uDE47    \uD83C\uDFFB    \u200D  \u2640		[🙇🏻‍♀] length:6
+\uD83D\uDE47    \uD83C\uDFFB    \u200D  \u2642		[🙇🏻‍♂] length:6
+\uD83D\uDE47    \uD83C\uDFFC    \u200D  \u2640		[🙇🏼‍♀] length:6
+\uD83D\uDE47    \uD83C\uDFFC    \u200D  \u2642		[🙇🏼‍♂] length:6
+\uD83D\uDE47    \uD83C\uDFFD    \u200D  \u2640		[🙇🏽‍♀] length:6
+\uD83D\uDE47    \uD83C\uDFFD    \u200D  \u2642		[🙇🏽‍♂] length:6
+\uD83D\uDE47    \uD83C\uDFFE    \u200D  \u2640		[🙇🏾‍♀] length:6
+\uD83D\uDE47    \uD83C\uDFFE    \u200D  \u2642		[🙇🏾‍♂] length:6
+\uD83D\uDE47    \uD83C\uDFFF    \u200D  \u2640		[🙇🏿‍♀] length:6
+\uD83D\uDE47    \uD83C\uDFFF    \u200D  \u2642		[🙇🏿‍♂] length:6
+\uD83D\uDE4B    \uD83C\uDFFB    \u200D  \u2640		[🙋🏻‍♀] length:6
+\uD83D\uDE4B    \uD83C\uDFFB    \u200D  \u2642		[🙋🏻‍♂] length:6
+\uD83D\uDE4B    \uD83C\uDFFC    \u200D  \u2640		[🙋🏼‍♀] length:6
+\uD83D\uDE4B    \uD83C\uDFFC    \u200D  \u2642		[🙋🏼‍♂] length:6
+\uD83D\uDE4B    \uD83C\uDFFD    \u200D  \u2640		[🙋🏽‍♀] length:6
+\uD83D\uDE4B    \uD83C\uDFFD    \u200D  \u2642		[🙋🏽‍♂] length:6
+\uD83D\uDE4B    \uD83C\uDFFE    \u200D  \u2640		[🙋🏾‍♀] length:6
+\uD83D\uDE4B    \uD83C\uDFFE    \u200D  \u2642		[🙋🏾‍♂] length:6
+\uD83D\uDE4B    \uD83C\uDFFF    \u200D  \u2640		[🙋🏿‍♀] length:6
+\uD83D\uDE4B    \uD83C\uDFFF    \u200D  \u2642		[🙋🏿‍♂] length:6
+\uD83D\uDE4D    \uD83C\uDFFB    \u200D  \u2640		[🙍🏻‍♀] length:6
+\uD83D\uDE4D    \uD83C\uDFFB    \u200D  \u2642		[🙍🏻‍♂] length:6
+\uD83D\uDE4D    \uD83C\uDFFC    \u200D  \u2640		[🙍🏼‍♀] length:6
+\uD83D\uDE4D    \uD83C\uDFFC    \u200D  \u2642		[🙍🏼‍♂] length:6
+\uD83D\uDE4D    \uD83C\uDFFD    \u200D  \u2640		[🙍🏽‍♀] length:6
+\uD83D\uDE4D    \uD83C\uDFFD    \u200D  \u2642		[🙍🏽‍♂] length:6
+\uD83D\uDE4D    \uD83C\uDFFE    \u200D  \u2640		[🙍🏾‍♀] length:6
+\uD83D\uDE4D    \uD83C\uDFFE    \u200D  \u2642		[🙍🏾‍♂] length:6
+\uD83D\uDE4D    \uD83C\uDFFF    \u200D  \u2640		[🙍🏿‍♀] length:6
+\uD83D\uDE4D    \uD83C\uDFFF    \u200D  \u2642		[🙍🏿‍♂] length:6
+\uD83D\uDE4E    \uD83C\uDFFB    \u200D  \u2640		[🙎🏻‍♀] length:6
+\uD83D\uDE4E    \uD83C\uDFFB    \u200D  \u2642		[🙎🏻‍♂] length:6
+\uD83D\uDE4E    \uD83C\uDFFC    \u200D  \u2640		[🙎🏼‍♀] length:6
+\uD83D\uDE4E    \uD83C\uDFFC    \u200D  \u2642		[🙎🏼‍♂] length:6
+\uD83D\uDE4E    \uD83C\uDFFD    \u200D  \u2640		[🙎🏽‍♀] length:6
+\uD83D\uDE4E    \uD83C\uDFFD    \u200D  \u2642		[🙎🏽‍♂] length:6
+\uD83D\uDE4E    \uD83C\uDFFE    \u200D  \u2640		[🙎🏾‍♀] length:6
+\uD83D\uDE4E    \uD83C\uDFFE    \u200D  \u2642		[🙎🏾‍♂] length:6
+\uD83D\uDE4E    \uD83C\uDFFF    \u200D  \u2640		[🙎🏿‍♀] length:6
+\uD83D\uDE4E    \uD83C\uDFFF    \u200D  \u2642		[🙎🏿‍♂] length:6
+\uD83D\uDEA3    \uD83C\uDFFB    \u200D  \u2640		[🚣🏻‍♀] length:6
+\uD83D\uDEA3    \uD83C\uDFFB    \u200D  \u2642		[🚣🏻‍♂] length:6
+\uD83D\uDEA3    \uD83C\uDFFC    \u200D  \u2640		[🚣🏼‍♀] length:6
+\uD83D\uDEA3    \uD83C\uDFFC    \u200D  \u2642		[🚣🏼‍♂] length:6
+\uD83D\uDEA3    \uD83C\uDFFD    \u200D  \u2640		[🚣🏽‍♀] length:6
+\uD83D\uDEA3    \uD83C\uDFFD    \u200D  \u2642		[🚣🏽‍♂] length:6
+\uD83D\uDEA3    \uD83C\uDFFE    \u200D  \u2640		[🚣🏾‍♀] length:6
+\uD83D\uDEA3    \uD83C\uDFFE    \u200D  \u2642		[🚣🏾‍♂] length:6
+\uD83D\uDEA3    \uD83C\uDFFF    \u200D  \u2640		[🚣🏿‍♀] length:6
+\uD83D\uDEA3    \uD83C\uDFFF    \u200D  \u2642		[🚣🏿‍♂] length:6
+\uD83D\uDEB4    \uD83C\uDFFB    \u200D  \u2640		[🚴🏻‍♀] length:6
+\uD83D\uDEB4    \uD83C\uDFFB    \u200D  \u2642		[🚴🏻‍♂] length:6
+\uD83D\uDEB4    \uD83C\uDFFC    \u200D  \u2640		[🚴🏼‍♀] length:6
+\uD83D\uDEB4    \uD83C\uDFFC    \u200D  \u2642		[🚴🏼‍♂] length:6
+\uD83D\uDEB4    \uD83C\uDFFD    \u200D  \u2640		[🚴🏽‍♀] length:6
+\uD83D\uDEB4    \uD83C\uDFFD    \u200D  \u2642		[🚴🏽‍♂] length:6
+\uD83D\uDEB4    \uD83C\uDFFE    \u200D  \u2640		[🚴🏾‍♀] length:6
+\uD83D\uDEB4    \uD83C\uDFFE    \u200D  \u2642		[🚴🏾‍♂] length:6
+\uD83D\uDEB4    \uD83C\uDFFF    \u200D  \u2640		[🚴🏿‍♀] length:6
+\uD83D\uDEB4    \uD83C\uDFFF    \u200D  \u2642		[🚴🏿‍♂] length:6
+\uD83D\uDEB5    \uD83C\uDFFB    \u200D  \u2640		[🚵🏻‍♀] length:6
+\uD83D\uDEB5    \uD83C\uDFFB    \u200D  \u2642		[🚵🏻‍♂] length:6
+\uD83D\uDEB5    \uD83C\uDFFC    \u200D  \u2640		[🚵🏼‍♀] length:6
+\uD83D\uDEB5    \uD83C\uDFFC    \u200D  \u2642		[🚵🏼‍♂] length:6
+\uD83D\uDEB5    \uD83C\uDFFD    \u200D  \u2640		[🚵🏽‍♀] length:6
+\uD83D\uDEB5    \uD83C\uDFFD    \u200D  \u2642		[🚵🏽‍♂] length:6
+\uD83D\uDEB5    \uD83C\uDFFE    \u200D  \u2640		[🚵🏾‍♀] length:6
+\uD83D\uDEB5    \uD83C\uDFFE    \u200D  \u2642		[🚵🏾‍♂] length:6
+\uD83D\uDEB5    \uD83C\uDFFF    \u200D  \u2640		[🚵🏿‍♀] length:6
+\uD83D\uDEB5    \uD83C\uDFFF    \u200D  \u2642		[🚵🏿‍♂] length:6
+\uD83D\uDEB6    \uD83C\uDFFB    \u200D  \u2640		[🚶🏻‍♀] length:6
+\uD83D\uDEB6    \uD83C\uDFFB    \u200D  \u2642		[🚶🏻‍♂] length:6
+\uD83D\uDEB6    \uD83C\uDFFC    \u200D  \u2640		[🚶🏼‍♀] length:6
+\uD83D\uDEB6    \uD83C\uDFFC    \u200D  \u2642		[🚶🏼‍♂] length:6
+\uD83D\uDEB6    \uD83C\uDFFD    \u200D  \u2640		[🚶🏽‍♀] length:6
+\uD83D\uDEB6    \uD83C\uDFFD    \u200D  \u2642		[🚶🏽‍♂] length:6
+\uD83D\uDEB6    \uD83C\uDFFE    \u200D  \u2640		[🚶🏾‍♀] length:6
+\uD83D\uDEB6    \uD83C\uDFFE    \u200D  \u2642		[🚶🏾‍♂] length:6
+\uD83D\uDEB6    \uD83C\uDFFF    \u200D  \u2640		[🚶🏿‍♀] length:6
+\uD83D\uDEB6    \uD83C\uDFFF    \u200D  \u2642		[🚶🏿‍♂] length:6
+\uD83E\uDD26    \uD83C\uDFFB    \u200D  \u2640		[🤦🏻‍♀] length:6
+\uD83E\uDD26    \uD83C\uDFFB    \u200D  \u2642		[🤦🏻‍♂] length:6
+\uD83E\uDD26    \uD83C\uDFFC    \u200D  \u2640		[🤦🏼‍♀] length:6
+\uD83E\uDD26    \uD83C\uDFFC    \u200D  \u2642		[🤦🏼‍♂] length:6
+\uD83E\uDD26    \uD83C\uDFFD    \u200D  \u2640		[🤦🏽‍♀] length:6
+\uD83E\uDD26    \uD83C\uDFFD    \u200D  \u2642		[🤦🏽‍♂] length:6
+\uD83E\uDD26    \uD83C\uDFFE    \u200D  \u2640		[🤦🏾‍♀] length:6
+\uD83E\uDD26    \uD83C\uDFFE    \u200D  \u2642		[🤦🏾‍♂] length:6
+\uD83E\uDD26    \uD83C\uDFFF    \u200D  \u2640		[🤦🏿‍♀] length:6
+\uD83E\uDD26    \uD83C\uDFFF    \u200D  \u2642		[🤦🏿‍♂] length:6
+\uD83E\uDD37    \uD83C\uDFFB    \u200D  \u2640		[🤷🏻‍♀] length:6
+\uD83E\uDD37    \uD83C\uDFFB    \u200D  \u2642		[🤷🏻‍♂] length:6
+\uD83E\uDD37    \uD83C\uDFFC    \u200D  \u2640		[🤷🏼‍♀] length:6
+\uD83E\uDD37    \uD83C\uDFFC    \u200D  \u2642		[🤷🏼‍♂] length:6
+\uD83E\uDD37    \uD83C\uDFFD    \u200D  \u2640		[🤷🏽‍♀] length:6
+\uD83E\uDD37    \uD83C\uDFFD    \u200D  \u2642		[🤷🏽‍♂] length:6
+\uD83E\uDD37    \uD83C\uDFFE    \u200D  \u2640		[🤷🏾‍♀] length:6
+\uD83E\uDD37    \uD83C\uDFFE    \u200D  \u2642		[🤷🏾‍♂] length:6
+\uD83E\uDD37    \uD83C\uDFFF    \u200D  \u2640		[🤷🏿‍♀] length:6
+\uD83E\uDD37    \uD83C\uDFFF    \u200D  \u2642		[🤷🏿‍♂] length:6
+\uD83E\uDD38    \uD83C\uDFFB    \u200D  \u2640		[🤸🏻‍♀] length:6
+\uD83E\uDD38    \uD83C\uDFFB    \u200D  \u2642		[🤸🏻‍♂] length:6
+\uD83E\uDD38    \uD83C\uDFFC    \u200D  \u2640		[🤸🏼‍♀] length:6
+\uD83E\uDD38    \uD83C\uDFFC    \u200D  \u2642		[🤸🏼‍♂] length:6
+\uD83E\uDD38    \uD83C\uDFFD    \u200D  \u2640		[🤸🏽‍♀] length:6
+\uD83E\uDD38    \uD83C\uDFFD    \u200D  \u2642		[🤸🏽‍♂] length:6
+\uD83E\uDD38    \uD83C\uDFFE    \u200D  \u2640		[🤸🏾‍♀] length:6
+\uD83E\uDD38    \uD83C\uDFFE    \u200D  \u2642		[🤸🏾‍♂] length:6
+\uD83E\uDD38    \uD83C\uDFFF    \u200D  \u2640		[🤸🏿‍♀] length:6
+\uD83E\uDD38    \uD83C\uDFFF    \u200D  \u2642		[🤸🏿‍♂] length:6
+\uD83E\uDD39    \uD83C\uDFFB    \u200D  \u2640		[🤹🏻‍♀] length:6
+\uD83E\uDD39    \uD83C\uDFFB    \u200D  \u2642		[🤹🏻‍♂] length:6
+\uD83E\uDD39    \uD83C\uDFFC    \u200D  \u2640		[🤹🏼‍♀] length:6
+\uD83E\uDD39    \uD83C\uDFFC    \u200D  \u2642		[🤹🏼‍♂] length:6
+\uD83E\uDD39    \uD83C\uDFFD    \u200D  \u2640		[🤹🏽‍♀] length:6
+\uD83E\uDD39    \uD83C\uDFFD    \u200D  \u2642		[🤹🏽‍♂] length:6
+\uD83E\uDD39    \uD83C\uDFFE    \u200D  \u2640		[🤹🏾‍♀] length:6
+\uD83E\uDD39    \uD83C\uDFFE    \u200D  \u2642		[🤹🏾‍♂] length:6
+\uD83E\uDD39    \uD83C\uDFFF    \u200D  \u2640		[🤹🏿‍♀] length:6
+\uD83E\uDD39    \uD83C\uDFFF    \u200D  \u2642		[🤹🏿‍♂] length:6
+\uD83E\uDD3D    \uD83C\uDFFB    \u200D  \u2640		[🤽🏻‍♀] length:6
+\uD83E\uDD3D    \uD83C\uDFFB    \u200D  \u2642		[🤽🏻‍♂] length:6
+\uD83E\uDD3D    \uD83C\uDFFC    \u200D  \u2640		[🤽🏼‍♀] length:6
+\uD83E\uDD3D    \uD83C\uDFFC    \u200D  \u2642		[🤽🏼‍♂] length:6
+\uD83E\uDD3D    \uD83C\uDFFD    \u200D  \u2640		[🤽🏽‍♀] length:6
+\uD83E\uDD3D    \uD83C\uDFFD    \u200D  \u2642		[🤽🏽‍♂] length:6
+\uD83E\uDD3D    \uD83C\uDFFE    \u200D  \u2640		[🤽🏾‍♀] length:6
+\uD83E\uDD3D    \uD83C\uDFFE    \u200D  \u2642		[🤽🏾‍♂] length:6
+\uD83E\uDD3D    \uD83C\uDFFF    \u200D  \u2640		[🤽🏿‍♀] length:6
+\uD83E\uDD3D    \uD83C\uDFFF    \u200D  \u2642		[🤽🏿‍♂] length:6
+\uD83E\uDD3E    \uD83C\uDFFB    \u200D  \u2640		[🤾🏻‍♀] length:6
+\uD83E\uDD3E    \uD83C\uDFFB    \u200D  \u2642		[🤾🏻‍♂] length:6
+\uD83E\uDD3E    \uD83C\uDFFC    \u200D  \u2640		[🤾🏼‍♀] length:6
+\uD83E\uDD3E    \uD83C\uDFFC    \u200D  \u2642		[🤾🏼‍♂] length:6
+\uD83E\uDD3E    \uD83C\uDFFD    \u200D  \u2640		[🤾🏽‍♀] length:6
+\uD83E\uDD3E    \uD83C\uDFFD    \u200D  \u2642		[🤾🏽‍♂] length:6
+\uD83E\uDD3E    \uD83C\uDFFE    \u200D  \u2640		[🤾🏾‍♀] length:6
+\uD83E\uDD3E    \uD83C\uDFFE    \u200D  \u2642		[🤾🏾‍♂] length:6
+\uD83E\uDD3E    \uD83C\uDFFF    \u200D  \u2640		[🤾🏿‍♀] length:6
+\uD83E\uDD3E    \uD83C\uDFFF    \u200D  \u2642		[🤾🏿‍♂] length:6
+\uD83E\uDDB8    \uD83C\uDFFB    \u200D  \u2640		[🦸🏻‍♀] length:6
+\uD83E\uDDB8    \uD83C\uDFFB    \u200D  \u2642		[🦸🏻‍♂] length:6
+\uD83E\uDDB8    \uD83C\uDFFC    \u200D  \u2640		[🦸🏼‍♀] length:6
+\uD83E\uDDB8    \uD83C\uDFFC    \u200D  \u2642		[🦸🏼‍♂] length:6
+\uD83E\uDDB8    \uD83C\uDFFD    \u200D  \u2640		[🦸🏽‍♀] length:6
+\uD83E\uDDB8    \uD83C\uDFFD    \u200D  \u2642		[🦸🏽‍♂] length:6
+\uD83E\uDDB8    \uD83C\uDFFE    \u200D  \u2640		[🦸🏾‍♀] length:6
+\uD83E\uDDB8    \uD83C\uDFFE    \u200D  \u2642		[🦸🏾‍♂] length:6
+\uD83E\uDDB8    \uD83C\uDFFF    \u200D  \u2640		[🦸🏿‍♀] length:6
+\uD83E\uDDB8    \uD83C\uDFFF    \u200D  \u2642		[🦸🏿‍♂] length:6
+\uD83E\uDDB9    \uD83C\uDFFB    \u200D  \u2640		[🦹🏻‍♀] length:6
+\uD83E\uDDB9    \uD83C\uDFFB    \u200D  \u2642		[🦹🏻‍♂] length:6
+\uD83E\uDDB9    \uD83C\uDFFC    \u200D  \u2640		[🦹🏼‍♀] length:6
+\uD83E\uDDB9    \uD83C\uDFFC    \u200D  \u2642		[🦹🏼‍♂] length:6
+\uD83E\uDDB9    \uD83C\uDFFD    \u200D  \u2640		[🦹🏽‍♀] length:6
+\uD83E\uDDB9    \uD83C\uDFFD    \u200D  \u2642		[🦹🏽‍♂] length:6
+\uD83E\uDDB9    \uD83C\uDFFE    \u200D  \u2640		[🦹🏾‍♀] length:6
+\uD83E\uDDB9    \uD83C\uDFFE    \u200D  \u2642		[🦹🏾‍♂] length:6
+\uD83E\uDDB9    \uD83C\uDFFF    \u200D  \u2640		[🦹🏿‍♀] length:6
+\uD83E\uDDB9    \uD83C\uDFFF    \u200D  \u2642		[🦹🏿‍♂] length:6
+\uD83E\uDDD6    \uD83C\uDFFB    \u200D  \u2640		[🧖🏻‍♀] length:6
+\uD83E\uDDD6    \uD83C\uDFFB    \u200D  \u2642		[🧖🏻‍♂] length:6
+\uD83E\uDDD6    \uD83C\uDFFC    \u200D  \u2640		[🧖🏼‍♀] length:6
+\uD83E\uDDD6    \uD83C\uDFFC    \u200D  \u2642		[🧖🏼‍♂] length:6
+\uD83E\uDDD6    \uD83C\uDFFD    \u200D  \u2640		[🧖🏽‍♀] length:6
+\uD83E\uDDD6    \uD83C\uDFFD    \u200D  \u2642		[🧖🏽‍♂] length:6
+\uD83E\uDDD6    \uD83C\uDFFE    \u200D  \u2640		[🧖🏾‍♀] length:6
+\uD83E\uDDD6    \uD83C\uDFFE    \u200D  \u2642		[🧖🏾‍♂] length:6
+\uD83E\uDDD6    \uD83C\uDFFF    \u200D  \u2640		[🧖🏿‍♀] length:6
+\uD83E\uDDD6    \uD83C\uDFFF    \u200D  \u2642		[🧖🏿‍♂] length:6
+\uD83E\uDDD7    \uD83C\uDFFB    \u200D  \u2640		[🧗🏻‍♀] length:6
+\uD83E\uDDD7    \uD83C\uDFFB    \u200D  \u2642		[🧗🏻‍♂] length:6
+\uD83E\uDDD7    \uD83C\uDFFC    \u200D  \u2640		[🧗🏼‍♀] length:6
+\uD83E\uDDD7    \uD83C\uDFFC    \u200D  \u2642		[🧗🏼‍♂] length:6
+\uD83E\uDDD7    \uD83C\uDFFD    \u200D  \u2640		[🧗🏽‍♀] length:6
+\uD83E\uDDD7    \uD83C\uDFFD    \u200D  \u2642		[🧗🏽‍♂] length:6
+\uD83E\uDDD7    \uD83C\uDFFE    \u200D  \u2640		[🧗🏾‍♀] length:6
+\uD83E\uDDD7    \uD83C\uDFFE    \u200D  \u2642		[🧗🏾‍♂] length:6
+\uD83E\uDDD7    \uD83C\uDFFF    \u200D  \u2640		[🧗🏿‍♀] length:6
+\uD83E\uDDD7    \uD83C\uDFFF    \u200D  \u2642		[🧗🏿‍♂] length:6
+\uD83E\uDDD8    \uD83C\uDFFB    \u200D  \u2640		[🧘🏻‍♀] length:6
+\uD83E\uDDD8    \uD83C\uDFFB    \u200D  \u2642		[🧘🏻‍♂] length:6
+\uD83E\uDDD8    \uD83C\uDFFC    \u200D  \u2640		[🧘🏼‍♀] length:6
+\uD83E\uDDD8    \uD83C\uDFFC    \u200D  \u2642		[🧘🏼‍♂] length:6
+\uD83E\uDDD8    \uD83C\uDFFD    \u200D  \u2640		[🧘🏽‍♀] length:6
+\uD83E\uDDD8    \uD83C\uDFFD    \u200D  \u2642		[🧘🏽‍♂] length:6
+\uD83E\uDDD8    \uD83C\uDFFE    \u200D  \u2640		[🧘🏾‍♀] length:6
+\uD83E\uDDD8    \uD83C\uDFFE    \u200D  \u2642		[🧘🏾‍♂] length:6
+\uD83E\uDDD8    \uD83C\uDFFF    \u200D  \u2640		[🧘🏿‍♀] length:6
+\uD83E\uDDD8    \uD83C\uDFFF    \u200D  \u2642		[🧘🏿‍♂] length:6
+\uD83E\uDDD9    \uD83C\uDFFB    \u200D  \u2640		[🧙🏻‍♀] length:6
+\uD83E\uDDD9    \uD83C\uDFFB    \u200D  \u2642		[🧙🏻‍♂] length:6
+\uD83E\uDDD9    \uD83C\uDFFC    \u200D  \u2640		[🧙🏼‍♀] length:6
+\uD83E\uDDD9    \uD83C\uDFFC    \u200D  \u2642		[🧙🏼‍♂] length:6
+\uD83E\uDDD9    \uD83C\uDFFD    \u200D  \u2640		[🧙🏽‍♀] length:6
+\uD83E\uDDD9    \uD83C\uDFFD    \u200D  \u2642		[🧙🏽‍♂] length:6
+\uD83E\uDDD9    \uD83C\uDFFE    \u200D  \u2640		[🧙🏾‍♀] length:6
+\uD83E\uDDD9    \uD83C\uDFFE    \u200D  \u2642		[🧙🏾‍♂] length:6
+\uD83E\uDDD9    \uD83C\uDFFF    \u200D  \u2640		[🧙🏿‍♀] length:6
+\uD83E\uDDD9    \uD83C\uDFFF    \u200D  \u2642		[🧙🏿‍♂] length:6
+\uD83E\uDDDA    \uD83C\uDFFB    \u200D  \u2640		[🧚🏻‍♀] length:6
+\uD83E\uDDDA    \uD83C\uDFFB    \u200D  \u2642		[🧚🏻‍♂] length:6
+\uD83E\uDDDA    \uD83C\uDFFC    \u200D  \u2640		[🧚🏼‍♀] length:6
+\uD83E\uDDDA    \uD83C\uDFFC    \u200D  \u2642		[🧚🏼‍♂] length:6
+\uD83E\uDDDA    \uD83C\uDFFD    \u200D  \u2640		[🧚🏽‍♀] length:6
+\uD83E\uDDDA    \uD83C\uDFFD    \u200D  \u2642		[🧚🏽‍♂] length:6
+\uD83E\uDDDA    \uD83C\uDFFE    \u200D  \u2640		[🧚🏾‍♀] length:6
+\uD83E\uDDDA    \uD83C\uDFFE    \u200D  \u2642		[🧚🏾‍♂] length:6
+\uD83E\uDDDA    \uD83C\uDFFF    \u200D  \u2640		[🧚🏿‍♀] length:6
+\uD83E\uDDDA    \uD83C\uDFFF    \u200D  \u2642		[🧚🏿‍♂] length:6
+\uD83E\uDDDB    \uD83C\uDFFB    \u200D  \u2640		[🧛🏻‍♀] length:6
+\uD83E\uDDDB    \uD83C\uDFFB    \u200D  \u2642		[🧛🏻‍♂] length:6
+\uD83E\uDDDB    \uD83C\uDFFC    \u200D  \u2640		[🧛🏼‍♀] length:6
+\uD83E\uDDDB    \uD83C\uDFFC    \u200D  \u2642		[🧛🏼‍♂] length:6
+\uD83E\uDDDB    \uD83C\uDFFD    \u200D  \u2640		[🧛🏽‍♀] length:6
+\uD83E\uDDDB    \uD83C\uDFFD    \u200D  \u2642		[🧛🏽‍♂] length:6
+\uD83E\uDDDB    \uD83C\uDFFE    \u200D  \u2640		[🧛🏾‍♀] length:6
+\uD83E\uDDDB    \uD83C\uDFFE    \u200D  \u2642		[🧛🏾‍♂] length:6
+\uD83E\uDDDB    \uD83C\uDFFF    \u200D  \u2640		[🧛🏿‍♀] length:6
+\uD83E\uDDDB    \uD83C\uDFFF    \u200D  \u2642		[🧛🏿‍♂] length:6
+\uD83E\uDDDC    \uD83C\uDFFB    \u200D  \u2640		[🧜🏻‍♀] length:6
+\uD83E\uDDDC    \uD83C\uDFFB    \u200D  \u2642		[🧜🏻‍♂] length:6
+\uD83E\uDDDC    \uD83C\uDFFC    \u200D  \u2640		[🧜🏼‍♀] length:6
+\uD83E\uDDDC    \uD83C\uDFFC    \u200D  \u2642		[🧜🏼‍♂] length:6
+\uD83E\uDDDC    \uD83C\uDFFD    \u200D  \u2640		[🧜🏽‍♀] length:6
+\uD83E\uDDDC    \uD83C\uDFFD    \u200D  \u2642		[🧜🏽‍♂] length:6
+\uD83E\uDDDC    \uD83C\uDFFE    \u200D  \u2640		[🧜🏾‍♀] length:6
+\uD83E\uDDDC    \uD83C\uDFFE    \u200D  \u2642		[🧜🏾‍♂] length:6
+\uD83E\uDDDC    \uD83C\uDFFF    \u200D  \u2640		[🧜🏿‍♀] length:6
+\uD83E\uDDDC    \uD83C\uDFFF    \u200D  \u2642		[🧜🏿‍♂] length:6
+\uD83E\uDDDD    \uD83C\uDFFB    \u200D  \u2640		[🧝🏻‍♀] length:6
+\uD83E\uDDDD    \uD83C\uDFFB    \u200D  \u2642		[🧝🏻‍♂] length:6
+\uD83E\uDDDD    \uD83C\uDFFC    \u200D  \u2640		[🧝🏼‍♀] length:6
+\uD83E\uDDDD    \uD83C\uDFFC    \u200D  \u2642		[🧝🏼‍♂] length:6
+\uD83E\uDDDD    \uD83C\uDFFD    \u200D  \u2640		[🧝🏽‍♀] length:6
+\uD83E\uDDDD    \uD83C\uDFFD    \u200D  \u2642		[🧝🏽‍♂] length:6
+\uD83E\uDDDD    \uD83C\uDFFE    \u200D  \u2640		[🧝🏾‍♀] length:6
+\uD83E\uDDDD    \uD83C\uDFFE    \u200D  \u2642		[🧝🏾‍♂] length:6
+\uD83E\uDDDD    \uD83C\uDFFF    \u200D  \u2640		[🧝🏿‍♀] length:6
+\uD83E\uDDDD    \uD83C\uDFFF    \u200D  \u2642		[🧝🏿‍♂] length:6
+
+
+\uD83C\uDFC3    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🏃🏻‍♀️] length:7
+\uD83C\uDFC3    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🏃🏻‍♂️] length:7
+\uD83C\uDFC3    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🏃🏼‍♀️] length:7
+\uD83C\uDFC3    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🏃🏼‍♂️] length:7
+\uD83C\uDFC3    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🏃🏽‍♀️] length:7
+\uD83C\uDFC3    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🏃🏽‍♂️] length:7
+\uD83C\uDFC3    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🏃🏾‍♀️] length:7
+\uD83C\uDFC3    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🏃🏾‍♂️] length:7
+\uD83C\uDFC3    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🏃🏿‍♀️] length:7
+\uD83C\uDFC3    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🏃🏿‍♂️] length:7
+\uD83C\uDFC4    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🏄🏻‍♀️] length:7
+\uD83C\uDFC4    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🏄🏻‍♂️] length:7
+\uD83C\uDFC4    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🏄🏼‍♀️] length:7
+\uD83C\uDFC4    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🏄🏼‍♂️] length:7
+\uD83C\uDFC4    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🏄🏽‍♀️] length:7
+\uD83C\uDFC4    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🏄🏽‍♂️] length:7
+\uD83C\uDFC4    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🏄🏾‍♀️] length:7
+\uD83C\uDFC4    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🏄🏾‍♂️] length:7
+\uD83C\uDFC4    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🏄🏿‍♀️] length:7
+\uD83C\uDFC4    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🏄🏿‍♂️] length:7
+\uD83C\uDFCA    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🏊🏻‍♀️] length:7
+\uD83C\uDFCA    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🏊🏻‍♂️] length:7
+\uD83C\uDFCA    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🏊🏼‍♀️] length:7
+\uD83C\uDFCA    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🏊🏼‍♂️] length:7
+\uD83C\uDFCA    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🏊🏽‍♀️] length:7
+\uD83C\uDFCA    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🏊🏽‍♂️] length:7
+\uD83C\uDFCA    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🏊🏾‍♀️] length:7
+\uD83C\uDFCA    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🏊🏾‍♂️] length:7
+\uD83C\uDFCA    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🏊🏿‍♀️] length:7
+\uD83C\uDFCA    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🏊🏿‍♂️] length:7
+\uD83C\uDFCB    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🏋🏻‍♀️] length:7
+\uD83C\uDFCB    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🏋🏻‍♂️] length:7
+\uD83C\uDFCB    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🏋🏼‍♀️] length:7
+\uD83C\uDFCB    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🏋🏼‍♂️] length:7
+\uD83C\uDFCB    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🏋🏽‍♀️] length:7
+\uD83C\uDFCB    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🏋🏽‍♂️] length:7
+\uD83C\uDFCB    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🏋🏾‍♀️] length:7
+\uD83C\uDFCB    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🏋🏾‍♂️] length:7
+\uD83C\uDFCB    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🏋🏿‍♀️] length:7
+\uD83C\uDFCB    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🏋🏿‍♂️] length:7
+\uD83C\uDFCC    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🏌🏻‍♀️] length:7
+\uD83C\uDFCC    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🏌🏻‍♂️] length:7
+\uD83C\uDFCC    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🏌🏼‍♀️] length:7
+\uD83C\uDFCC    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🏌🏼‍♂️] length:7
+\uD83C\uDFCC    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🏌🏽‍♀️] length:7
+\uD83C\uDFCC    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🏌🏽‍♂️] length:7
+\uD83C\uDFCC    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🏌🏾‍♀️] length:7
+\uD83C\uDFCC    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🏌🏾‍♂️] length:7
+\uD83C\uDFCC    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🏌🏿‍♀️] length:7
+\uD83C\uDFCC    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🏌🏿‍♂️] length:7
+
+\uD83D\uDC41\uFE0F\u200D\uD83D\uDDE8\uFE0F		[👁️‍🗨️] length:7
+\uD83D\uDC68\u200D\u2764\u200D\uD83D\uDC68		[👨‍❤‍👨] length:7
+
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2695\uFE0F		[👨🏻‍⚕️] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2696\uFE0F		[👨🏻‍⚖️] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \u2708\uFE0F		[👨🏻‍✈️] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDF3E		[👨🏻‍🌾] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDF73		[👨🏻‍🍳] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDF93		[👨🏻‍🎓] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDFA4		[👨🏻‍🎤] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDFA8		[👨🏻‍🎨] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDFEB		[👨🏻‍🏫] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83C\uDFED		[👨🏻‍🏭] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDCBB		[👨🏻‍💻] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDCBC		[👨🏻‍💼] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDD27		[👨🏻‍🔧] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDD2C		[👨🏻‍🔬] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDE80		[👨🏻‍🚀] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83D\uDE92		[👨🏻‍🚒] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83E\uDDB0		[👨🏻‍🦰] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83E\uDDB1		[👨🏻‍🦱] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83E\uDDB2		[👨🏻‍🦲] length:7
+\uD83D\uDC68    \uD83C\uDFFB    \u200D  \uD83E\uDDB3		[👨🏻‍🦳] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2695\uFE0F		[👨🏼‍⚕️] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2696\uFE0F		[👨🏼‍⚖️] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \u2708\uFE0F		[👨🏼‍✈️] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDF3E		[👨🏼‍🌾] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDF73		[👨🏼‍🍳] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDF93		[👨🏼‍🎓] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDFA4		[👨🏼‍🎤] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDFA8		[👨🏼‍🎨] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDFEB		[👨🏼‍🏫] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83C\uDFED		[👨🏼‍🏭] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDCBB		[👨🏼‍💻] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDCBC		[👨🏼‍💼] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDD27		[👨🏼‍🔧] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDD2C		[👨🏼‍🔬] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDE80		[👨🏼‍🚀] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83D\uDE92		[👨🏼‍🚒] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83E\uDDB0		[👨🏼‍🦰] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83E\uDDB1		[👨🏼‍🦱] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83E\uDDB2		[👨🏼‍🦲] length:7
+\uD83D\uDC68    \uD83C\uDFFC    \u200D  \uD83E\uDDB3		[👨🏼‍🦳] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2695\uFE0F		[👨🏽‍⚕️] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2696\uFE0F		[👨🏽‍⚖️] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \u2708\uFE0F		[👨🏽‍✈️] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDF3E		[👨🏽‍🌾] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDF73		[👨🏽‍🍳] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDF93		[👨🏽‍🎓] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDFA4		[👨🏽‍🎤] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDFA8		[👨🏽‍🎨] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDFEB		[👨🏽‍🏫] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83C\uDFED		[👨🏽‍🏭] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDCBB		[👨🏽‍💻] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDCBC		[👨🏽‍💼] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDD27		[👨🏽‍🔧] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDD2C		[👨🏽‍🔬] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDE80		[👨🏽‍🚀] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83D\uDE92		[👨🏽‍🚒] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83E\uDDB0		[👨🏽‍🦰] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83E\uDDB1		[👨🏽‍🦱] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83E\uDDB2		[👨🏽‍🦲] length:7
+\uD83D\uDC68    \uD83C\uDFFD    \u200D  \uD83E\uDDB3		[👨🏽‍🦳] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2695\uFE0F		[👨🏾‍⚕️] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2696\uFE0F		[👨🏾‍⚖️] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \u2708\uFE0F		[👨🏾‍✈️] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDF3E		[👨🏾‍🌾] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDF73		[👨🏾‍🍳] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDF93		[👨🏾‍🎓] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDFA4		[👨🏾‍🎤] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDFA8		[👨🏾‍🎨] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDFEB		[👨🏾‍🏫] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83C\uDFED		[👨🏾‍🏭] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDCBB		[👨🏾‍💻] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDCBC		[👨🏾‍💼] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDD27		[👨🏾‍🔧] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDD2C		[👨🏾‍🔬] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDE80		[👨🏾‍🚀] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83D\uDE92		[👨🏾‍🚒] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83E\uDDB0		[👨🏾‍🦰] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83E\uDDB1		[👨🏾‍🦱] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83E\uDDB2		[👨🏾‍🦲] length:7
+\uD83D\uDC68    \uD83C\uDFFE    \u200D  \uD83E\uDDB3		[👨🏾‍🦳] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2695\uFE0F		[👨🏿‍⚕️] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2696\uFE0F		[👨🏿‍⚖️] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \u2708\uFE0F		[👨🏿‍✈️] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDF3E		[👨🏿‍🌾] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDF73		[👨🏿‍🍳] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDF93		[👨🏿‍🎓] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDFA4		[👨🏿‍🎤] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDFA8		[👨🏿‍🎨] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDFEB		[👨🏿‍🏫] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83C\uDFED		[👨🏿‍🏭] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDCBB		[👨🏿‍💻] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDCBC		[👨🏿‍💼] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDD27		[👨🏿‍🔧] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDD2C		[👨🏿‍🔬] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDE80		[👨🏿‍🚀] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83D\uDE92		[👨🏿‍🚒] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83E\uDDB0		[👨🏿‍🦰] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83E\uDDB1		[👨🏿‍🦱] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83E\uDDB2		[👨🏿‍🦲] length:7
+\uD83D\uDC68    \uD83C\uDFFF    \u200D  \uD83E\uDDB3		[👨🏿‍🦳] length:7
+\uD83D\uDC69    \u200D\u2764    \u200D  \uD83D\uDC68		[👩‍❤‍👨] length:7
+\uD83D\uDC69    \u200D\u2764    \u200D  \uD83D\uDC69		[👩‍❤‍👩] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2695\uFE0F		[👩🏻‍⚕️] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2696\uFE0F		[👩🏻‍⚖️] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \u2708\uFE0F		[👩🏻‍✈️] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDF3E		[👩🏻‍🌾] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDF73		[👩🏻‍🍳] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDF93		[👩🏻‍🎓] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDFA4		[👩🏻‍🎤] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDFA8		[👩🏻‍🎨] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDFEB		[👩🏻‍🏫] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83C\uDFED		[👩🏻‍🏭] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDCBB		[👩🏻‍💻] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDCBC		[👩🏻‍💼] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDD27		[👩🏻‍🔧] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDD2C		[👩🏻‍🔬] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDE80		[👩🏻‍🚀] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83D\uDE92		[👩🏻‍🚒] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83E\uDDB0		[👩🏻‍🦰] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83E\uDDB1		[👩🏻‍🦱] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83E\uDDB2		[👩🏻‍🦲] length:7
+\uD83D\uDC69    \uD83C\uDFFB    \u200D  \uD83E\uDDB3		[👩🏻‍🦳] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2695\uFE0F		[👩🏼‍⚕️] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2696\uFE0F		[👩🏼‍⚖️] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \u2708\uFE0F		[👩🏼‍✈️] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDF3E		[👩🏼‍🌾] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDF73		[👩🏼‍🍳] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDF93		[👩🏼‍🎓] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDFA4		[👩🏼‍🎤] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDFA8		[👩🏼‍🎨] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDFEB		[👩🏼‍🏫] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83C\uDFED		[👩🏼‍🏭] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDCBB		[👩🏼‍💻] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDCBC		[👩🏼‍💼] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDD27		[👩🏼‍🔧] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDD2C		[👩🏼‍🔬] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDE80		[👩🏼‍🚀] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83D\uDE92		[👩🏼‍🚒] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83E\uDDB0		[👩🏼‍🦰] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83E\uDDB1		[👩🏼‍🦱] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83E\uDDB2		[👩🏼‍🦲] length:7
+\uD83D\uDC69    \uD83C\uDFFC    \u200D  \uD83E\uDDB3		[👩🏼‍🦳] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2695\uFE0F		[👩🏽‍⚕️] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2696\uFE0F		[👩🏽‍⚖️] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \u2708\uFE0F		[👩🏽‍✈️] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDF3E		[👩🏽‍🌾] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDF73		[👩🏽‍🍳] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDF93		[👩🏽‍🎓] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDFA4		[👩🏽‍🎤] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDFA8		[👩🏽‍🎨] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDFEB		[👩🏽‍🏫] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83C\uDFED		[👩🏽‍🏭] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDCBB		[👩🏽‍💻] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDCBC		[👩🏽‍💼] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDD27		[👩🏽‍🔧] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDD2C		[👩🏽‍🔬] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDE80		[👩🏽‍🚀] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83D\uDE92		[👩🏽‍🚒] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83E\uDDB0		[👩🏽‍🦰] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83E\uDDB1		[👩🏽‍🦱] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83E\uDDB2		[👩🏽‍🦲] length:7
+\uD83D\uDC69    \uD83C\uDFFD    \u200D  \uD83E\uDDB3		[👩🏽‍🦳] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2695\uFE0F		[👩🏾‍⚕️] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2696\uFE0F		[👩🏾‍⚖️] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \u2708\uFE0F		[👩🏾‍✈️] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDF3E		[👩🏾‍🌾] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDF73		[👩🏾‍🍳] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDF93		[👩🏾‍🎓] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDFA4		[👩🏾‍🎤] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDFA8		[👩🏾‍🎨] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDFEB		[👩🏾‍🏫] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83C\uDFED		[👩🏾‍🏭] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDCBB		[👩🏾‍💻] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDCBC		[👩🏾‍💼] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDD27		[👩🏾‍🔧] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDD2C		[👩🏾‍🔬] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDE80		[👩🏾‍🚀] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83D\uDE92		[👩🏾‍🚒] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83E\uDDB0		[👩🏾‍🦰] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83E\uDDB1		[👩🏾‍🦱] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83E\uDDB2		[👩🏾‍🦲] length:7
+\uD83D\uDC69    \uD83C\uDFFE    \u200D  \uD83E\uDDB3		[👩🏾‍🦳] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2695\uFE0F		[👩🏿‍⚕️] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2696\uFE0F		[👩🏿‍⚖️] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \u2708\uFE0F		[👩🏿‍✈️] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDF3E		[👩🏿‍🌾] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDF73		[👩🏿‍🍳] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDF93		[👩🏿‍🎓] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDFA4		[👩🏿‍🎤] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDFA8		[👩🏿‍🎨] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDFEB		[👩🏿‍🏫] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83C\uDFED		[👩🏿‍🏭] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDCBB		[👩🏿‍💻] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDCBC		[👩🏿‍💼] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDD27		[👩🏿‍🔧] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDD2C		[👩🏿‍🔬] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDE80		[👩🏿‍🚀] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83D\uDE92		[👩🏿‍🚒] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83E\uDDB0		[👩🏿‍🦰] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83E\uDDB1		[👩🏿‍🦱] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83E\uDDB2		[👩🏿‍🦲] length:7
+\uD83D\uDC69    \uD83C\uDFFF    \u200D  \uD83E\uDDB3		[👩🏿‍🦳] length:7
+
+\uD83D\uDC6E    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[👮🏻‍♀️] length:7
+\uD83D\uDC6E    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[👮🏻‍♂️] length:7
+\uD83D\uDC6E    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[👮🏼‍♀️] length:7
+\uD83D\uDC6E    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[👮🏼‍♂️] length:7
+\uD83D\uDC6E    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[👮🏽‍♀️] length:7
+\uD83D\uDC6E    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[👮🏽‍♂️] length:7
+\uD83D\uDC6E    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[👮🏾‍♀️] length:7
+\uD83D\uDC6E    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[👮🏾‍♂️] length:7
+\uD83D\uDC6E    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[👮🏿‍♀️] length:7
+\uD83D\uDC6E    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[👮🏿‍♂️] length:7
+\uD83D\uDC71    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[👱🏻‍♀️] length:7
+\uD83D\uDC71    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[👱🏻‍♂️] length:7
+\uD83D\uDC71    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[👱🏼‍♀️] length:7
+\uD83D\uDC71    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[👱🏼‍♂️] length:7
+\uD83D\uDC71    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[👱🏽‍♀️] length:7
+\uD83D\uDC71    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[👱🏽‍♂️] length:7
+\uD83D\uDC71    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[👱🏾‍♀️] length:7
+\uD83D\uDC71    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[👱🏾‍♂️] length:7
+\uD83D\uDC71    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[👱🏿‍♀️] length:7
+\uD83D\uDC71    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[👱🏿‍♂️] length:7
+\uD83D\uDC73    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[👳🏻‍♀️] length:7
+\uD83D\uDC73    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[👳🏻‍♂️] length:7
+\uD83D\uDC73    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[👳🏼‍♀️] length:7
+\uD83D\uDC73    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[👳🏼‍♂️] length:7
+\uD83D\uDC73    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[👳🏽‍♀️] length:7
+\uD83D\uDC73    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[👳🏽‍♂️] length:7
+\uD83D\uDC73    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[👳🏾‍♀️] length:7
+\uD83D\uDC73    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[👳🏾‍♂️] length:7
+\uD83D\uDC73    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[👳🏿‍♀️] length:7
+\uD83D\uDC73    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[👳🏿‍♂️] length:7
+\uD83D\uDC77    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[👷🏻‍♀️] length:7
+\uD83D\uDC77    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[👷🏻‍♂️] length:7
+\uD83D\uDC77    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[👷🏼‍♀️] length:7
+\uD83D\uDC77    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[👷🏼‍♂️] length:7
+\uD83D\uDC77    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[👷🏽‍♀️] length:7
+\uD83D\uDC77    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[👷🏽‍♂️] length:7
+\uD83D\uDC77    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[👷🏾‍♀️] length:7
+\uD83D\uDC77    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[👷🏾‍♂️] length:7
+\uD83D\uDC77    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[👷🏿‍♀️] length:7
+\uD83D\uDC77    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[👷🏿‍♂️] length:7
+\uD83D\uDC81    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[💁🏻‍♀️] length:7
+\uD83D\uDC81    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[💁🏻‍♂️] length:7
+\uD83D\uDC81    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[💁🏼‍♀️] length:7
+\uD83D\uDC81    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[💁🏼‍♂️] length:7
+\uD83D\uDC81    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[💁🏽‍♀️] length:7
+\uD83D\uDC81    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[💁🏽‍♂️] length:7
+\uD83D\uDC81    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[💁🏾‍♀️] length:7
+\uD83D\uDC81    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[💁🏾‍♂️] length:7
+\uD83D\uDC81    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[💁🏿‍♀️] length:7
+\uD83D\uDC81    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[💁🏿‍♂️] length:7
+\uD83D\uDC82    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[💂🏻‍♀️] length:7
+\uD83D\uDC82    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[💂🏻‍♂️] length:7
+\uD83D\uDC82    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[💂🏼‍♀️] length:7
+\uD83D\uDC82    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[💂🏼‍♂️] length:7
+\uD83D\uDC82    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[💂🏽‍♀️] length:7
+\uD83D\uDC82    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[💂🏽‍♂️] length:7
+\uD83D\uDC82    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[💂🏾‍♀️] length:7
+\uD83D\uDC82    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[💂🏾‍♂️] length:7
+\uD83D\uDC82    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[💂🏿‍♀️] length:7
+\uD83D\uDC82    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[💂🏿‍♂️] length:7
+\uD83D\uDC86    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[💆🏻‍♀️] length:7
+\uD83D\uDC86    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[💆🏻‍♂️] length:7
+\uD83D\uDC86    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[💆🏼‍♀️] length:7
+\uD83D\uDC86    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[💆🏼‍♂️] length:7
+\uD83D\uDC86    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[💆🏽‍♀️] length:7
+\uD83D\uDC86    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[💆🏽‍♂️] length:7
+\uD83D\uDC86    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[💆🏾‍♀️] length:7
+\uD83D\uDC86    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[💆🏾‍♂️] length:7
+\uD83D\uDC86    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[💆🏿‍♀️] length:7
+\uD83D\uDC86    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[💆🏿‍♂️] length:7
+\uD83D\uDC87    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[💇🏻‍♀️] length:7
+\uD83D\uDC87    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[💇🏻‍♂️] length:7
+\uD83D\uDC87    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[💇🏼‍♀️] length:7
+\uD83D\uDC87    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[💇🏼‍♂️] length:7
+\uD83D\uDC87    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[💇🏽‍♀️] length:7
+\uD83D\uDC87    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[💇🏽‍♂️] length:7
+\uD83D\uDC87    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[💇🏾‍♀️] length:7
+\uD83D\uDC87    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[💇🏾‍♂️] length:7
+\uD83D\uDC87    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[💇🏿‍♀️] length:7
+\uD83D\uDC87    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[💇🏿‍♂️] length:7
+\uD83D\uDD75    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🕵🏻‍♀️] length:7
+\uD83D\uDD75    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🕵🏻‍♂️] length:7
+\uD83D\uDD75    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🕵🏼‍♀️] length:7
+\uD83D\uDD75    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🕵🏼‍♂️] length:7
+\uD83D\uDD75    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🕵🏽‍♀️] length:7
+\uD83D\uDD75    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🕵🏽‍♂️] length:7
+\uD83D\uDD75    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🕵🏾‍♀️] length:7
+\uD83D\uDD75    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🕵🏾‍♂️] length:7
+\uD83D\uDD75    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🕵🏿‍♀️] length:7
+\uD83D\uDD75    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🕵🏿‍♂️] length:7
+\uD83D\uDE45    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙅🏻‍♀️] length:7
+\uD83D\uDE45    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙅🏻‍♂️] length:7
+\uD83D\uDE45    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙅🏼‍♀️] length:7
+\uD83D\uDE45    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙅🏼‍♂️] length:7
+\uD83D\uDE45    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙅🏽‍♀️] length:7
+\uD83D\uDE45    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙅🏽‍♂️] length:7
+\uD83D\uDE45    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙅🏾‍♀️] length:7
+\uD83D\uDE45    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙅🏾‍♂️] length:7
+\uD83D\uDE45    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙅🏿‍♀️] length:7
+\uD83D\uDE45    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙅🏿‍♂️] length:7
+\uD83D\uDE46    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙆🏻‍♀️] length:7
+\uD83D\uDE46    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙆🏻‍♂️] length:7
+\uD83D\uDE46    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙆🏼‍♀️] length:7
+\uD83D\uDE46    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙆🏼‍♂️] length:7
+\uD83D\uDE46    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙆🏽‍♀️] length:7
+\uD83D\uDE46    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙆🏽‍♂️] length:7
+\uD83D\uDE46    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙆🏾‍♀️] length:7
+\uD83D\uDE46    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙆🏾‍♂️] length:7
+\uD83D\uDE46    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙆🏿‍♀️] length:7
+\uD83D\uDE46    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙆🏿‍♂️] length:7
+\uD83D\uDE47    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙇🏻‍♀️] length:7
+\uD83D\uDE47    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙇🏻‍♂️] length:7
+\uD83D\uDE47    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙇🏼‍♀️] length:7
+\uD83D\uDE47    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙇🏼‍♂️] length:7
+\uD83D\uDE47    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙇🏽‍♀️] length:7
+\uD83D\uDE47    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙇🏽‍♂️] length:7
+\uD83D\uDE47    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙇🏾‍♀️] length:7
+\uD83D\uDE47    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙇🏾‍♂️] length:7
+\uD83D\uDE47    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙇🏿‍♀️] length:7
+\uD83D\uDE47    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙇🏿‍♂️] length:7
+\uD83D\uDE4B    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙋🏻‍♀️] length:7
+\uD83D\uDE4B    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙋🏻‍♂️] length:7
+\uD83D\uDE4B    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙋🏼‍♀️] length:7
+\uD83D\uDE4B    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙋🏼‍♂️] length:7
+\uD83D\uDE4B    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙋🏽‍♀️] length:7
+\uD83D\uDE4B    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙋🏽‍♂️] length:7
+\uD83D\uDE4B    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙋🏾‍♀️] length:7
+\uD83D\uDE4B    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙋🏾‍♂️] length:7
+\uD83D\uDE4B    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙋🏿‍♀️] length:7
+\uD83D\uDE4B    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙋🏿‍♂️] length:7
+\uD83D\uDE4D    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙍🏻‍♀️] length:7
+\uD83D\uDE4D    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙍🏻‍♂️] length:7
+\uD83D\uDE4D    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙍🏼‍♀️] length:7
+\uD83D\uDE4D    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙍🏼‍♂️] length:7
+\uD83D\uDE4D    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙍🏽‍♀️] length:7
+\uD83D\uDE4D    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙍🏽‍♂️] length:7
+\uD83D\uDE4D    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙍🏾‍♀️] length:7
+\uD83D\uDE4D    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙍🏾‍♂️] length:7
+\uD83D\uDE4D    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙍🏿‍♀️] length:7
+\uD83D\uDE4D    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙍🏿‍♂️] length:7
+\uD83D\uDE4E    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🙎🏻‍♀️] length:7
+\uD83D\uDE4E    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🙎🏻‍♂️] length:7
+\uD83D\uDE4E    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🙎🏼‍♀️] length:7
+\uD83D\uDE4E    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🙎🏼‍♂️] length:7
+\uD83D\uDE4E    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🙎🏽‍♀️] length:7
+\uD83D\uDE4E    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🙎🏽‍♂️] length:7
+\uD83D\uDE4E    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🙎🏾‍♀️] length:7
+\uD83D\uDE4E    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🙎🏾‍♂️] length:7
+\uD83D\uDE4E    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🙎🏿‍♀️] length:7
+\uD83D\uDE4E    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🙎🏿‍♂️] length:7
+\uD83D\uDEA3    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🚣🏻‍♀️] length:7
+\uD83D\uDEA3    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🚣🏻‍♂️] length:7
+\uD83D\uDEA3    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🚣🏼‍♀️] length:7
+\uD83D\uDEA3    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🚣🏼‍♂️] length:7
+\uD83D\uDEA3    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🚣🏽‍♀️] length:7
+\uD83D\uDEA3    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🚣🏽‍♂️] length:7
+\uD83D\uDEA3    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🚣🏾‍♀️] length:7
+\uD83D\uDEA3    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🚣🏾‍♂️] length:7
+\uD83D\uDEA3    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🚣🏿‍♀️] length:7
+\uD83D\uDEA3    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🚣🏿‍♂️] length:7
+\uD83D\uDEB4    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🚴🏻‍♀️] length:7
+\uD83D\uDEB4    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🚴🏻‍♂️] length:7
+\uD83D\uDEB4    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🚴🏼‍♀️] length:7
+\uD83D\uDEB4    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🚴🏼‍♂️] length:7
+\uD83D\uDEB4    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🚴🏽‍♀️] length:7
+\uD83D\uDEB4    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🚴🏽‍♂️] length:7
+\uD83D\uDEB4    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🚴🏾‍♀️] length:7
+\uD83D\uDEB4    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🚴🏾‍♂️] length:7
+\uD83D\uDEB4    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🚴🏿‍♀️] length:7
+\uD83D\uDEB4    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🚴🏿‍♂️] length:7
+\uD83D\uDEB5    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🚵🏻‍♀️] length:7
+\uD83D\uDEB5    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🚵🏻‍♂️] length:7
+\uD83D\uDEB5    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🚵🏼‍♀️] length:7
+\uD83D\uDEB5    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🚵🏼‍♂️] length:7
+\uD83D\uDEB5    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🚵🏽‍♀️] length:7
+\uD83D\uDEB5    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🚵🏽‍♂️] length:7
+\uD83D\uDEB5    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🚵🏾‍♀️] length:7
+\uD83D\uDEB5    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🚵🏾‍♂️] length:7
+\uD83D\uDEB5    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🚵🏿‍♀️] length:7
+\uD83D\uDEB5    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🚵🏿‍♂️] length:7
+\uD83D\uDEB6    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🚶🏻‍♀️] length:7
+\uD83D\uDEB6    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🚶🏻‍♂️] length:7
+\uD83D\uDEB6    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🚶🏼‍♀️] length:7
+\uD83D\uDEB6    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🚶🏼‍♂️] length:7
+\uD83D\uDEB6    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🚶🏽‍♀️] length:7
+\uD83D\uDEB6    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🚶🏽‍♂️] length:7
+\uD83D\uDEB6    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🚶🏾‍♀️] length:7
+\uD83D\uDEB6    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🚶🏾‍♂️] length:7
+\uD83D\uDEB6    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🚶🏿‍♀️] length:7
+\uD83D\uDEB6    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🚶🏿‍♂️] length:7
+\uD83E\uDD26    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤦🏻‍♀️] length:7
+\uD83E\uDD26    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤦🏻‍♂️] length:7
+\uD83E\uDD26    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤦🏼‍♀️] length:7
+\uD83E\uDD26    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤦🏼‍♂️] length:7
+\uD83E\uDD26    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤦🏽‍♀️] length:7
+\uD83E\uDD26    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤦🏽‍♂️] length:7
+\uD83E\uDD26    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤦🏾‍♀️] length:7
+\uD83E\uDD26    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤦🏾‍♂️] length:7
+\uD83E\uDD26    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤦🏿‍♀️] length:7
+\uD83E\uDD26    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤦🏿‍♂️] length:7
+\uD83E\uDD37    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤷🏻‍♀️] length:7
+\uD83E\uDD37    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤷🏻‍♂️] length:7
+\uD83E\uDD37    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤷🏼‍♀️] length:7
+\uD83E\uDD37    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤷🏼‍♂️] length:7
+\uD83E\uDD37    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤷🏽‍♀️] length:7
+\uD83E\uDD37    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤷🏽‍♂️] length:7
+\uD83E\uDD37    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤷🏾‍♀️] length:7
+\uD83E\uDD37    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤷🏾‍♂️] length:7
+\uD83E\uDD37    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤷🏿‍♀️] length:7
+\uD83E\uDD37    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤷🏿‍♂️] length:7
+\uD83E\uDD38    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤸🏻‍♀️] length:7
+\uD83E\uDD38    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤸🏻‍♂️] length:7
+\uD83E\uDD38    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤸🏼‍♀️] length:7
+\uD83E\uDD38    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤸🏼‍♂️] length:7
+\uD83E\uDD38    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤸🏽‍♀️] length:7
+\uD83E\uDD38    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤸🏽‍♂️] length:7
+\uD83E\uDD38    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤸🏾‍♀️] length:7
+\uD83E\uDD38    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤸🏾‍♂️] length:7
+\uD83E\uDD38    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤸🏿‍♀️] length:7
+\uD83E\uDD38    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤸🏿‍♂️] length:7
+\uD83E\uDD39    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤹🏻‍♀️] length:7
+\uD83E\uDD39    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤹🏻‍♂️] length:7
+\uD83E\uDD39    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤹🏼‍♀️] length:7
+\uD83E\uDD39    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤹🏼‍♂️] length:7
+\uD83E\uDD39    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤹🏽‍♀️] length:7
+\uD83E\uDD39    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤹🏽‍♂️] length:7
+\uD83E\uDD39    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤹🏾‍♀️] length:7
+\uD83E\uDD39    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤹🏾‍♂️] length:7
+\uD83E\uDD39    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤹🏿‍♀️] length:7
+\uD83E\uDD39    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤹🏿‍♂️] length:7
+\uD83E\uDD3D    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤽🏻‍♀️] length:7
+\uD83E\uDD3D    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤽🏻‍♂️] length:7
+\uD83E\uDD3D    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤽🏼‍♀️] length:7
+\uD83E\uDD3D    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤽🏼‍♂️] length:7
+\uD83E\uDD3D    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤽🏽‍♀️] length:7
+\uD83E\uDD3D    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤽🏽‍♂️] length:7
+\uD83E\uDD3D    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤽🏾‍♀️] length:7
+\uD83E\uDD3D    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤽🏾‍♂️] length:7
+\uD83E\uDD3D    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤽🏿‍♀️] length:7
+\uD83E\uDD3D    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤽🏿‍♂️] length:7
+\uD83E\uDD3E    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🤾🏻‍♀️] length:7
+\uD83E\uDD3E    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🤾🏻‍♂️] length:7
+\uD83E\uDD3E    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🤾🏼‍♀️] length:7
+\uD83E\uDD3E    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🤾🏼‍♂️] length:7
+\uD83E\uDD3E    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🤾🏽‍♀️] length:7
+\uD83E\uDD3E    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🤾🏽‍♂️] length:7
+\uD83E\uDD3E    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🤾🏾‍♀️] length:7
+\uD83E\uDD3E    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🤾🏾‍♂️] length:7
+\uD83E\uDD3E    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🤾🏿‍♀️] length:7
+\uD83E\uDD3E    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🤾🏿‍♂️] length:7
+\uD83E\uDDB8    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🦸🏻‍♀️] length:7
+\uD83E\uDDB8    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🦸🏻‍♂️] length:7
+\uD83E\uDDB8    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🦸🏼‍♀️] length:7
+\uD83E\uDDB8    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🦸🏼‍♂️] length:7
+\uD83E\uDDB8    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🦸🏽‍♀️] length:7
+\uD83E\uDDB8    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🦸🏽‍♂️] length:7
+\uD83E\uDDB8    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🦸🏾‍♀️] length:7
+\uD83E\uDDB8    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🦸🏾‍♂️] length:7
+\uD83E\uDDB8    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🦸🏿‍♀️] length:7
+\uD83E\uDDB8    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🦸🏿‍♂️] length:7
+\uD83E\uDDB9    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🦹🏻‍♀️] length:7
+\uD83E\uDDB9    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🦹🏻‍♂️] length:7
+\uD83E\uDDB9    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🦹🏼‍♀️] length:7
+\uD83E\uDDB9    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🦹🏼‍♂️] length:7
+\uD83E\uDDB9    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🦹🏽‍♀️] length:7
+\uD83E\uDDB9    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🦹🏽‍♂️] length:7
+\uD83E\uDDB9    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🦹🏾‍♀️] length:7
+\uD83E\uDDB9    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🦹🏾‍♂️] length:7
+\uD83E\uDDB9    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🦹🏿‍♀️] length:7
+\uD83E\uDDB9    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🦹🏿‍♂️] length:7
+\uD83E\uDDD6    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧖🏻‍♀️] length:7
+\uD83E\uDDD6    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧖🏻‍♂️] length:7
+\uD83E\uDDD6    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧖🏼‍♀️] length:7
+\uD83E\uDDD6    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧖🏼‍♂️] length:7
+\uD83E\uDDD6    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧖🏽‍♀️] length:7
+\uD83E\uDDD6    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧖🏽‍♂️] length:7
+\uD83E\uDDD6    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧖🏾‍♀️] length:7
+\uD83E\uDDD6    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧖🏾‍♂️] length:7
+\uD83E\uDDD6    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧖🏿‍♀️] length:7
+\uD83E\uDDD6    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧖🏿‍♂️] length:7
+\uD83E\uDDD7    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧗🏻‍♀️] length:7
+\uD83E\uDDD7    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧗🏻‍♂️] length:7
+\uD83E\uDDD7    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧗🏼‍♀️] length:7
+\uD83E\uDDD7    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧗🏼‍♂️] length:7
+\uD83E\uDDD7    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧗🏽‍♀️] length:7
+\uD83E\uDDD7    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧗🏽‍♂️] length:7
+\uD83E\uDDD7    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧗🏾‍♀️] length:7
+\uD83E\uDDD7    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧗🏾‍♂️] length:7
+\uD83E\uDDD7    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧗🏿‍♀️] length:7
+\uD83E\uDDD7    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧗🏿‍♂️] length:7
+\uD83E\uDDD8    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧘🏻‍♀️] length:7
+\uD83E\uDDD8    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧘🏻‍♂️] length:7
+\uD83E\uDDD8    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧘🏼‍♀️] length:7
+\uD83E\uDDD8    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧘🏼‍♂️] length:7
+\uD83E\uDDD8    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧘🏽‍♀️] length:7
+\uD83E\uDDD8    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧘🏽‍♂️] length:7
+\uD83E\uDDD8    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧘🏾‍♀️] length:7
+\uD83E\uDDD8    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧘🏾‍♂️] length:7
+\uD83E\uDDD8    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧘🏿‍♀️] length:7
+\uD83E\uDDD8    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧘🏿‍♂️] length:7
+\uD83E\uDDD9    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧙🏻‍♀️] length:7
+\uD83E\uDDD9    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧙🏻‍♂️] length:7
+\uD83E\uDDD9    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧙🏼‍♀️] length:7
+\uD83E\uDDD9    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧙🏼‍♂️] length:7
+\uD83E\uDDD9    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧙🏽‍♀️] length:7
+\uD83E\uDDD9    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧙🏽‍♂️] length:7
+\uD83E\uDDD9    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧙🏾‍♀️] length:7
+\uD83E\uDDD9    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧙🏾‍♂️] length:7
+\uD83E\uDDD9    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧙🏿‍♀️] length:7
+\uD83E\uDDD9    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧙🏿‍♂️] length:7
+\uD83E\uDDDA    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧚🏻‍♀️] length:7
+\uD83E\uDDDA    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧚🏻‍♂️] length:7
+\uD83E\uDDDA    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧚🏼‍♀️] length:7
+\uD83E\uDDDA    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧚🏼‍♂️] length:7
+\uD83E\uDDDA    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧚🏽‍♀️] length:7
+\uD83E\uDDDA    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧚🏽‍♂️] length:7
+\uD83E\uDDDA    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧚🏾‍♀️] length:7
+\uD83E\uDDDA    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧚🏾‍♂️] length:7
+\uD83E\uDDDA    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧚🏿‍♀️] length:7
+\uD83E\uDDDA    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧚🏿‍♂️] length:7
+\uD83E\uDDDB    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧛🏻‍♀️] length:7
+\uD83E\uDDDB    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧛🏻‍♂️] length:7
+\uD83E\uDDDB    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧛🏼‍♀️] length:7
+\uD83E\uDDDB    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧛🏼‍♂️] length:7
+\uD83E\uDDDB    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧛🏽‍♀️] length:7
+\uD83E\uDDDB    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧛🏽‍♂️] length:7
+\uD83E\uDDDB    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧛🏾‍♀️] length:7
+\uD83E\uDDDB    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧛🏾‍♂️] length:7
+\uD83E\uDDDB    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧛🏿‍♀️] length:7
+\uD83E\uDDDB    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧛🏿‍♂️] length:7
+\uD83E\uDDDC    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧜🏻‍♀️] length:7
+\uD83E\uDDDC    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧜🏻‍♂️] length:7
+\uD83E\uDDDC    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧜🏼‍♀️] length:7
+\uD83E\uDDDC    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧜🏼‍♂️] length:7
+\uD83E\uDDDC    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧜🏽‍♀️] length:7
+\uD83E\uDDDC    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧜🏽‍♂️] length:7
+\uD83E\uDDDC    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧜🏾‍♀️] length:7
+\uD83E\uDDDC    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧜🏾‍♂️] length:7
+\uD83E\uDDDC    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧜🏿‍♀️] length:7
+\uD83E\uDDDC    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧜🏿‍♂️] length:7
+\uD83E\uDDDD    \uD83C\uDFFB    \u200D  \u2640  \uFE0F		[🧝🏻‍♀️] length:7
+\uD83E\uDDDD    \uD83C\uDFFB    \u200D  \u2642  \uFE0F		[🧝🏻‍♂️] length:7
+\uD83E\uDDDD    \uD83C\uDFFC    \u200D  \u2640  \uFE0F		[🧝🏼‍♀️] length:7
+\uD83E\uDDDD    \uD83C\uDFFC    \u200D  \u2642  \uFE0F		[🧝🏼‍♂️] length:7
+\uD83E\uDDDD    \uD83C\uDFFD    \u200D  \u2640  \uFE0F		[🧝🏽‍♀️] length:7
+\uD83E\uDDDD    \uD83C\uDFFD    \u200D  \u2642  \uFE0F		[🧝🏽‍♂️] length:7
+\uD83E\uDDDD    \uD83C\uDFFE    \u200D  \u2640  \uFE0F		[🧝🏾‍♀️] length:7
+\uD83E\uDDDD    \uD83C\uDFFE    \u200D  \u2642  \uFE0F		[🧝🏾‍♂️] length:7
+\uD83E\uDDDD    \uD83C\uDFFF    \u200D  \u2640  \uFE0F		[🧝🏿‍♀️] length:7
+\uD83E\uDDDD    \uD83C\uDFFF    \u200D  \u2642  \uFE0F		[🧝🏿‍♂️] length:7
+
+
+\uD83D\uDC68 \u200D \u2764\uFE0F \u200D \uD83D\uDC68		[👨‍❤️‍👨] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC66 \u200D \uD83D\uDC66		[👨‍👦‍👦] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC67 \u200D \uD83D\uDC66		[👨‍👧‍👦] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC67 \u200D \uD83D\uDC67		[👨‍👧‍👧] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC68 \u200D \uD83D\uDC66		[👨‍👨‍👦] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC68 \u200D \uD83D\uDC67		[👨‍👨‍👧] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC69 \u200D \uD83D\uDC66		[👨‍👩‍👦] length:8
+\uD83D\uDC68 \u200D \uD83D\uDC69 \u200D \uD83D\uDC67		[👨‍👩‍👧] length:8
+\uD83D\uDC69 \u200D \u2764\uFE0F \u200D \uD83D\uDC68		[👩‍❤️‍👨] length:8
+\uD83D\uDC69 \u200D \u2764\uFE0F \u200D \uD83D\uDC69		[👩‍❤️‍👩] length:8
+\uD83D\uDC69 \u200D \uD83D\uDC66 \u200D \uD83D\uDC66		[👩‍👦‍👦] length:8
+\uD83D\uDC69 \u200D \uD83D\uDC67 \u200D \uD83D\uDC66		[👩‍👧‍👦] length:8
+\uD83D\uDC69 \u200D \uD83D\uDC67 \u200D \uD83D\uDC67		[👩‍👧‍👧] length:8
+\uD83D\uDC69 \u200D \uD83D\uDC69 \u200D \uD83D\uDC66		[👩‍👩‍👦] length:8
+\uD83D\uDC69 \u200D \uD83D\uDC69 \u200D \uD83D\uDC67		[👩‍👩‍👧] length:8
+
+\uD83D\uDC68\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC68		[👨‍❤‍💋‍👨] length:10
+\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC68		[👩‍❤‍💋‍👨] length:10
+\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC69		[👩‍❤‍💋‍👩] length:10
+
+\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68		[👨‍❤️‍💋‍👨] length:11
+\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66		[👨‍👨‍👦‍👦] length:11
+\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66		[👨‍👨‍👧‍👦] length:11
+\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67		[👨‍👨‍👧‍👧] length:11
+\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66		[👨‍👩‍👦‍👦] length:11
+\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66		[👨‍👩‍👧‍👦] length:11
+\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67		[👨‍👩‍👧‍👧] length:11
+\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68		[👩‍❤️‍💋‍👨] length:11
+\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69		[👩‍❤️‍💋‍👩] length:11
+\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66		[👩‍👩‍👦‍👦] length:11
+\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66		[👩‍👩‍👧‍👦] length:11
+\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67		[👩‍👩‍👧‍👧] length:11
+
+\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F		[🏴󠁧󠁢󠁥󠁮󠁧󠁿] length:14
+\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F		[🏴󠁧󠁢󠁳󠁣󠁴󠁿] length:14
+\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F		[🏴󠁧󠁢󠁳󠁣󠁴󠁿] length:14
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

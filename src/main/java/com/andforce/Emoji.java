@@ -1,9 +1,12 @@
+package com.andforce;
+
 public class Emoji {
 
     private String codePoints;
     private String status;
     private String emoji;
     private String name;
+    private String unicode;
 
     public String getCodePoints() {
         return codePoints;
@@ -35,5 +38,13 @@ public class Emoji {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getUnicode() {
+        return unicode;
+    }
+
+    public void setUnicode(String unicode) {
+        this.unicode = unicode;
     }
 }
