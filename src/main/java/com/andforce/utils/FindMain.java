@@ -12,7 +12,7 @@ public class FindMain {
     public static void main(String[] args) {
 
 
-        String s = new EmojiFormParser("./src/main/resources/emoji-compare.txt").parseEmojiString();
+        String s = new EmojiFormParser("./src/main/resources/emoji-list.txt").parseEmojiString();
 
         System.out.println("Find String length : >>> " + s.length());
 

@@ -16,6 +16,10 @@ public class EmojiFinder {
             return list;
         }
 
+        Pattern pattern = Pattern.compile("^[a-zA-Z0-9_\\u4e00-\\u9fa5]+$");
+        if (pattern.matcher(src).find()){
+            return list;
+        }
 
         String[] specialForIndex = {
                 "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F",
