@@ -1,4 +1,10 @@
-package com.andforce;
+package com.andforce.utils;
+
+import com.andforce.EmojiFinder;
+import com.andforce.beans.EmojiBean;
+import com.andforce.utils.Emoji;
+import com.andforce.utils.EmojiFormParser;
+import com.andforce.utils.UnicodeUtils;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -38,7 +44,7 @@ public class Main {
 //
 //        System.out.println("Find String length : >>> " + s.length());
 //
-//        List<RegexEmoji> regexEmojis = RegexUtils.findEmoji(s, null);
+//        List<EmojiBean> regexEmojis = EmojiFinder.find(s, null);
 //
 //        System.out.println("Find emoji count is: >>> " + regexEmojis.size());
 
@@ -58,12 +64,23 @@ public class Main {
             FileWriter writer = new FileWriter(emojiListFile);
 
             for (int i = 0; i < emojis.size() - 1; i++) {
+                int j = i + 1;
 
-                String emoji = emojis.get(i).getEmoji();
-                writer.write(emojis.get(i).getUnicode() + "\t\t");
-                writer.write("[" + emoji + "]\t\t");
-                writer.write(emoji.length() + "\r\n");
+                String unicode0 = emojis.get(i).getUnicode();
+                String unicode1 = emojis.get(j).getUnicode();
 
+                String emoji0 = emojis.get(i).getEmoji();
+                String emoji1 = emojis.get(j).getEmoji();
+
+//                String toWrite = String.format(unicode0 + "%s[%s] length:" + emoji0.length() + "\r\n", addSpace(emoji0), emoji0);
+//                writer.write(/*unicode0 + "\t\t[" + emoji0 + "] length:" + emoji0.length() + "\r\n"*/toWrite);
+                writer.write(unicode0 + "\t\t");
+                writer.write("[" + emoji0 + "]\t\t");
+                writer.write(emoji0.length() + "\r\n");
+
+                if (j == emojis.size() - 1){
+                    writer.write(unicode1 + "\t\t[" + emoji0 + "] length:" + emoji0.length() );
+                }
             }
             writer.close();
         } catch (IOException e) {
@@ -190,13 +207,13 @@ public class Main {
             e.printStackTrace();
         }
 
-        String s = new EmojiFormParser("./src/main/resources/emoji-test.txt").parseEmojiString();
+        String s = new EmojiFormParser("./src/main/resources/emoji-list.txt").parseEmojiString();
 
         System.out.println("Find String length : >>> " + s.length());
 
         Collections.reverse(regex);
 
-        List<RegexEmoji> regexEmojis = RegexUtils.findEmoji(s, regex);
+        List<EmojiBean> regexEmojis = EmojiFinder.find(s);
 
         System.out.println("Find emoji count is: >>> " + regexEmojis.size());
 

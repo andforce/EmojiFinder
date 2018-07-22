@@ -1,6 +1,8 @@
-package com.andforce;
+package com.andforce.beans;
 
-public class RegexEmoji {
+import com.andforce.utils.UnicodeUtils;
+
+public class EmojiBean {
     private int start = -1;
     private int end = -1;
 
@@ -28,5 +30,15 @@ public class RegexEmoji {
 
     public void setEmoji(String emoji) {
         this.emoji = emoji;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof EmojiBean && ((EmojiBean) obj).emoji.equals(emoji);
+    }
+
+    @Override
+    public String toString() {
+        return "[" + emoji + "] -> [" + start + "-" + end + "]\t\t" + UnicodeUtils.convertUnicode(emoji);
     }
 }

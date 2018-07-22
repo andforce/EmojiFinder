@@ -1,4 +1,4 @@
-package com.andforce;
+package com.andforce.utils;
 
 import java.util.Date;
 import java.util.List;

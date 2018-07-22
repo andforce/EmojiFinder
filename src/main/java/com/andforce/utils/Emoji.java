@@ -1,4 +1,4 @@
-package com.andforce;
+package com.andforce.utils;
 
 public class Emoji {
 

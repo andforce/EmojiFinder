@@ -1,4 +1,6 @@
-package com.andforce;
+package com.andforce.utils;
+
+import com.andforce.utils.Emoji;
 
 import java.util.List;
 
