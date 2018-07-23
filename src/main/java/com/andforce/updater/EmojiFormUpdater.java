@@ -6,8 +6,8 @@ import com.andforce.utils.HttpUtils;
 public class EmojiFormUpdater {
 
 
-    private static final String EMOJI_TEST = "./src/main/resources/emoji-LAST_TEST_TEXT.txt";
-    private static final String EMOJI_LAST_URL = "http://unicode.org/Public/emoji/latest/emoji-LAST_TEST_TEXT.txt";
+    private static final String EMOJI_TEST = "./src/main/resources/emoji-test.txt";
+    private static final String EMOJI_LAST_URL = "http://unicode.org/Public/emoji/latest/emoji-test.txt";
 
     private static String LAST_TEST_TEXT;
     private static String LOCAL_TEXT;
@@ -35,7 +35,7 @@ public class EmojiFormUpdater {
             System.out.println("Read local text file error.");
         } else {
             System.out.println("\r\nIt's have new emoji version: " + !LAST_TEST_TEXT.equals(LOCAL_TEXT));
-            FileUtils.writeToFile("./src/main/resources/emoji-LAST_TEST_TEXT.txt", LAST_TEST_TEXT);
+            FileUtils.writeToFile("./src/main/resources/emoji-test.txt", LAST_TEST_TEXT);
         }
     }
 

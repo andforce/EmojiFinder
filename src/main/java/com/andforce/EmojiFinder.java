@@ -11,6 +11,37 @@ public class EmojiFinder {
 
     private static final boolean DEBUG = false;
 
+    /**
+     * @param src 需要查找的字符串
+     * @param regexs 自定义的正则表达式
+     * @return 查找到的结果，如果没有返回空的List，不会返回null
+     */
+    public static List<EmojiBean> find(String src, String[] regexs) {
+        List<EmojiBean> list = new ArrayList<>();
+
+        if (src == null || src.trim().equals("")) {
+            return list;
+        }
+
+        // 先查看所要查找的src是否只是由中文和英文，以及数字组成的，
+        // 如果是的话，就不需要再进行emoji的查找了
+        Pattern pattern = Pattern.compile("^[a-zA-Z0-9_\\u4e00-\\u9fa5]+$");
+        if (pattern.matcher(src).find()) {
+            return list;
+        }
+
+        long startTime = System.currentTimeMillis();
+
+        for (String aRegex : regexs) {
+            src = find(src, aRegex, list);
+        }
+
+        if (DEBUG) {
+            System.out.println("ALL Time Usage: " + (System.currentTimeMillis() - startTime));
+        }
+        return list;
+    }
+
     public static List<EmojiBean> find(String src) {
         List<EmojiBean> list = new ArrayList<>();
 
@@ -104,7 +135,7 @@ public class EmojiFinder {
         // 目前没有找到任何一个正则表达式，能一次查找出所有的emoji。
         // 因此我尝试根据emoji的长度写了下面的正则，可能还需要优化
         // 规则是先查找较长的emoji，原因是长的emoji可能包含短的emoji
-        String[] goodRegex = {
+        String[] regexArr = {
                 "[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF|\\uFE0F]\\u200D[\\u2640-\\u2708|\\uD83C\\uDF3E-\\uD83E\\uDDB3]\\uFE0F?",
                 "\\u26F9?[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF]?\\uFE0F?\\u200D[\\u2640-\\u2708|\\uD83C\\uDF08-\\uD83D\\uDDE8]\\uFE0F?",
                 "[\\uD83C\\uDFF3-\\uD83D\\uDC69|\\u26F9]\\uFE0F?\\u200D[\\uD83C\\uDF08-\\uD83E\\uDDB3|\\u2620-\\u2708]\\uFE0F?",
@@ -119,7 +150,7 @@ public class EmojiFinder {
 
         long startTime = System.currentTimeMillis();
 
-        for (String aRegex : goodRegex) {
+        for (String aRegex : regexArr) {
             src = find(src, aRegex, list);
         }
 
