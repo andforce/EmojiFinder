@@ -287,36 +287,6 @@ public class EmojiFormParser {
         return emojis;
     }
 
-    public String parseEmojiString(){
-        File file = new File(mEmojiFile);
-
-        BufferedReader bufferedReader = null;
-
-        List<Emoji> emojis = new ArrayList<>();
-
-        StringBuilder stringBuilder = new StringBuilder();
-        try {
-            bufferedReader = new BufferedReader(new FileReader(file));
-            String line = null;
-            while ((line = bufferedReader.readLine()) != null) {
-                stringBuilder.append(line).append("\r\n");
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (bufferedReader != null){
-                try {
-                    bufferedReader.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-
-        return stringBuilder.toString();
-    }
-
     private void parseEmoji(List<Emoji> emojis, String line) {
         Emoji emoji = new Emoji();
         String[] tmps = line.split(" ; ");

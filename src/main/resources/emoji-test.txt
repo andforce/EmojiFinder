@@ -3432,11 +3432,11 @@
 1F522                                      ; fully-qualified     # 🔢 input numbers
 1F523                                      ; fully-qualified     # 🔣 input symbols
 1F524                                      ; fully-qualified     # 🔤 input latin letters
-1F170 FE0F                                 ; fully-qualified     # 🅰️ A button (blood subType)
-1F170                                      ; non-fully-qualified # 🅰 A button (blood subType)
-1F18E                                      ; fully-qualified     # 🆎 AB button (blood subType)
-1F171 FE0F                                 ; fully-qualified     # 🅱️ B button (blood subType)
-1F171                                      ; non-fully-qualified # 🅱 B button (blood subType)
+1F170 FE0F                                 ; fully-qualified     # 🅰️ A button (blood type)
+1F170                                      ; non-fully-qualified # 🅰 A button (blood type)
+1F18E                                      ; fully-qualified     # 🆎 AB button (blood type)
+1F171 FE0F                                 ; fully-qualified     # 🅱️ B button (blood type)
+1F171                                      ; non-fully-qualified # 🅱 B button (blood type)
 1F191                                      ; fully-qualified     # 🆑 CL button
 1F192                                      ; fully-qualified     # 🆒 COOL button
 1F193                                      ; fully-qualified     # 🆓 FREE button
@@ -3447,8 +3447,8 @@
 24C2                                       ; non-fully-qualified # Ⓜ circled M
 1F195                                      ; fully-qualified     # 🆕 NEW button
 1F196                                      ; fully-qualified     # 🆖 NG button
-1F17E FE0F                                 ; fully-qualified     # 🅾️ O button (blood subType)
-1F17E                                      ; non-fully-qualified # 🅾 O button (blood subType)
+1F17E FE0F                                 ; fully-qualified     # 🅾️ O button (blood type)
+1F17E                                      ; non-fully-qualified # 🅾 O button (blood type)
 1F197                                      ; fully-qualified     # 🆗 OK button
 1F17F FE0F                                 ; fully-qualified     # 🅿️ P button
 1F17F                                      ; non-fully-qualified # 🅿 P button

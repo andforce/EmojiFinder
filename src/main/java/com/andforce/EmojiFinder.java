@@ -9,6 +9,8 @@ import java.util.regex.Pattern;
 
 public class EmojiFinder {
 
+    private static final boolean DEBUG = false;
+
     public static List<EmojiBean> find(String src){
         List<EmojiBean> list = new ArrayList<>();
 
@@ -90,7 +92,9 @@ public class EmojiFinder {
 
             src = stringBuilder.toString();
 
-            System.out.println("Index Find Time Usage: " + (System.currentTimeMillis() - findLong) + "\t\tfindCount:" + findCount);
+            if (DEBUG) {
+                System.out.println("Index Find Time Usage: " + (System.currentTimeMillis() - findLong) + "\t\tfindCount:" + findCount);
+            }
         }
 
 
@@ -114,7 +118,9 @@ public class EmojiFinder {
             src = find(src, aRegex, list);
         }
 
-        System.out.println("ALL Time Usage: " + (System.currentTimeMillis() - startTime));
+        if (DEBUG) {
+            System.out.println("ALL Time Usage: " + (System.currentTimeMillis() - startTime));
+        }
 
         //FileUtils.writeToFile("./src/main/resources/emoji-removed.txt", src);
 
@@ -143,12 +149,11 @@ public class EmojiFinder {
             regexEmoji.setEnd(end);
             regexEmoji.setEmoji(emoji);
 
-            if (list.contains(regexEmoji)){
+            if (DEBUG && list.contains(regexEmoji)){
                 System.out.println("Error: " + regexEmoji);
-            } else {
-
-                list.add(regexEmoji);
             }
+
+            list.add(regexEmoji);
             count++;
 
             if (stringBuffer == null){
@@ -158,10 +163,14 @@ public class EmojiFinder {
         }
         if (stringBuffer != null) {
             matcher.appendTail(stringBuffer);
-            System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
+            if (DEBUG) {
+                System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
+            }
             return stringBuffer.toString();
         } else {
-            System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
+            if (DEBUG) {
+                System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
+            }
             return src;
         }
     }
