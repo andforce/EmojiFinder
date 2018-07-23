@@ -21,7 +21,9 @@
 
 所以，我查找了unicode的官方网站，http://www.unicode.org/reports/tr51/。
 
-在正则部分（http://www.unicode.org/reports/tr51/#EBNF_and_Regex）找到了相关内容：
+在正则部分 http://www.unicode.org/reports/tr51/#EBNF_and_Regex
+ 
+找到了相关内容：
 
 ```
   \p{RI} \p{RI}
@@ -58,7 +60,7 @@
 
 ```
 
-然后看是尝试写正则表达了
+然后开始尝试写正则表达了
 
 由于emoji的情况非常多，因此不可能一条就覆盖整个情况。
 
