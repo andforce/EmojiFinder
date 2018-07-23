@@ -1,5 +1,12 @@
 # EmojiFinder
 
+## 少罗嗦，现上使用方法：
+```java
+    List<EmojiBean> regexEmojis = EmojiFinder.find("你需要查找emoji的字符串");
+    
+    System.out.println("\r\nFind emoji count is: >>> " + regexEmojis.size());
+```
+
 ## 为什么？
 无论你是前端、后端还是客户端开发，文字处理部分几乎都会遇到，而`emoji`又是一个很让人头疼的问题。
 
@@ -38,7 +45,7 @@
 
 然而，java中根本没有`p{Emoji}`这个表达式。
 
-好在，unicode网站上，对emoji的就诶少很全，他们甚至整理了所有的emoji的列表：http://unicode.org/Public/emoji/latest/emoji-test.txt
+好在，unicode网站上，对emoji的介绍很全，他们甚至整理了所有的emoji的列表：http://unicode.org/Public/emoji/latest/emoji-test.txt
 
 ## 分析
 
@@ -84,6 +91,8 @@
 ## 结果
 把上面的方案，封装到了`EmojiFinder.java`中，直接调用`find()`方法，即可。
 
-经过测试，可以找出http://unicode.org/Public/emoji/latest/emoji-test.txt中列出的3570个emoji。
+经过测试，可以找出http://unicode.org/Public/emoji/latest/emoji-test.txt
+
+中列出的3570个emoji。
 
 并且时间可以控制在100毫秒以内，正则部分也许还有优化的空间。
