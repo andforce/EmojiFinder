@@ -15,14 +15,14 @@ public class EmojiFormParser {
 
     private String mEmojiFile;
 
-    public EmojiFormParser(String emojiFile){
+    public EmojiFormParser(String emojiFile) {
         mEmojiFile = emojiFile;
     }
 
-    public EmojiFormParser(){
+    public EmojiFormParser() {
     }
 
-    public EmojiForm parse(){
+    public EmojiForm parse() {
         File file = new File(mEmojiFile);
 
         BufferedReader bufferedReader = null;
@@ -100,7 +100,7 @@ public class EmojiFormParser {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (bufferedReader != null){
+            if (bufferedReader != null) {
                 try {
                     bufferedReader.close();
                 } catch (IOException e) {
@@ -112,7 +112,7 @@ public class EmojiFormParser {
         return emojiForm;
     }
 
-    public List<List<Emoji>> classifyEmojisByNeighbor(List<Emoji> emojis){
+    public List<List<Emoji>> classifyEmojisByNeighbor(List<Emoji> emojis) {
         List<List<Emoji>> emojiList = new ArrayList<>();
 
         List<Emoji> appendTarget = null;
@@ -120,22 +120,22 @@ public class EmojiFormParser {
         for (Emoji toAppend : emojis) {
 
             // 如果是第一个，直接添加到分类中
-            if (emojiList.isEmpty()){
+            if (emojiList.isEmpty()) {
                 List<Emoji> list = new ArrayList<>();
                 list.add(toAppend);
                 emojiList.add(list);
             } else {
 
                 // 跟已经分类好的数据进行比较，
-                for (List<Emoji> childList : emojiList){
+                for (List<Emoji> childList : emojiList) {
                     appendTarget = null;
-                    for (Emoji s : childList){
-                        if (UnicodeUtils.isNeighbor(s.getEmoji(), toAppend.getEmoji())){
+                    for (Emoji s : childList) {
+                        if (UnicodeUtils.isNeighbor(s.getEmoji(), toAppend.getEmoji())) {
                             appendTarget = childList;
                             break;
                         }
                     }
-                    if (appendTarget != null){
+                    if (appendTarget != null) {
                         break;
                     }
                 }
@@ -152,26 +152,26 @@ public class EmojiFormParser {
         return emojiList;
     }
 
-    public List<List<Emoji>> classifyEmojisByLength(List<Emoji> emojis){
+    public List<List<Emoji>> classifyEmojisByLength(List<Emoji> emojis) {
         List<List<Emoji>> emojiList = new ArrayList<>();
 
         List<Emoji> appendTarget = null;
 
         for (Emoji toAppend : emojis) {
-            if (emojiList.isEmpty()){
+            if (emojiList.isEmpty()) {
                 List<Emoji> list = new ArrayList<>();
                 list.add(toAppend);
                 emojiList.add(list);
             } else {
-                for (List<Emoji> childList : emojiList){
+                for (List<Emoji> childList : emojiList) {
                     appendTarget = null;
-                    for (Emoji s : childList){
-                        if (s.getEmoji().length() == toAppend.getEmoji().length()){
+                    for (Emoji s : childList) {
+                        if (s.getEmoji().length() == toAppend.getEmoji().length()) {
                             appendTarget = childList;
                             break;
                         }
                     }
-                    if (appendTarget != null){
+                    if (appendTarget != null) {
                         break;
                     }
                 }
@@ -186,7 +186,7 @@ public class EmojiFormParser {
             }
         }
 
-        for (List<Emoji> toSort:emojiList){
+        for (List<Emoji> toSort : emojiList) {
             toSort.sort(new Comparator<Emoji>() {
                 @Override
                 public int compare(Emoji emoji, Emoji t1) {
@@ -194,7 +194,7 @@ public class EmojiFormParser {
                     String e1 = t1.getEmoji();
 
 
-                    if (e0.equals(e1)){
+                    if (e0.equals(e1)) {
                         return 0;
                     } else if (e0.length() > e1.length()) {
                         return 1;
@@ -221,7 +221,7 @@ public class EmojiFormParser {
         return emojiList;
     }
 
-    public List<Emoji> parseEmojis(boolean resort){
+    public List<Emoji> parseEmojis(boolean resort) {
         File file = new File(mEmojiFile);
 
         BufferedReader bufferedReader = null;
@@ -244,7 +244,7 @@ public class EmojiFormParser {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (bufferedReader != null){
+            if (bufferedReader != null) {
                 try {
                     bufferedReader.close();
                 } catch (IOException e) {
@@ -290,7 +290,7 @@ public class EmojiFormParser {
     private void parseEmoji(List<Emoji> emojis, String line) {
         Emoji emoji = new Emoji();
         String[] tmps = line.split(" ; ");
-        String codePoints = "\\u" + tmps[0].trim().replace(" " ,"\\u");
+        String codePoints = "\\u" + tmps[0].trim().replace(" ", "\\u");
 
         String[] tmps2 = tmps[1].split(" # ");
         String status = tmps2[0].trim();

@@ -40,7 +40,7 @@ public class HttpUtils {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (inputStream != null){
+            if (inputStream != null) {
                 try {
                     inputStream.close();
                 } catch (IOException e) {
@@ -48,7 +48,7 @@ public class HttpUtils {
                 }
             }
 
-            if (inputStreamReader != null){
+            if (inputStreamReader != null) {
                 try {
                     inputStreamReader.close();
                 } catch (IOException e) {
@@ -56,7 +56,7 @@ public class HttpUtils {
                 }
             }
 
-            if (reader != null){
+            if (reader != null) {
                 try {
                     reader.close();
                 } catch (IOException e) {

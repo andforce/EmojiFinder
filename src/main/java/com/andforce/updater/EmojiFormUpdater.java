@@ -12,7 +12,7 @@ public class EmojiFormUpdater {
     private static String LAST_TEST_TEXT;
     private static String LOCAL_TEXT;
 
-    public static void checkForUpdate(){
+    public static void checkForUpdate() {
 
 
         CheckUpdater checkUpdater = new CheckUpdater();
@@ -20,7 +20,7 @@ public class EmojiFormUpdater {
 
         System.out.println("Start Checking ...");
 
-        while (checkUpdater.isAlive()){
+        while (checkUpdater.isAlive()) {
             System.out.print(".");
             try {
                 Thread.sleep(500);
@@ -29,9 +29,9 @@ public class EmojiFormUpdater {
             }
         }
 
-        if (LAST_TEST_TEXT == null){
+        if (LAST_TEST_TEXT == null) {
             System.out.println("Read remote text file error.");
-        } else if (LOCAL_TEXT == null){
+        } else if (LOCAL_TEXT == null) {
             System.out.println("Read local text file error.");
         } else {
             System.out.println("\r\nIt's have new emoji version: " + !LAST_TEST_TEXT.equals(LOCAL_TEXT));
@@ -39,7 +39,7 @@ public class EmojiFormUpdater {
         }
     }
 
-    static class CheckUpdater extends Thread{
+    static class CheckUpdater extends Thread {
         @Override
         public void run() {
             super.run();

@@ -11,15 +11,17 @@ public class EmojiFinder {
 
     private static final boolean DEBUG = false;
 
-    public static List<EmojiBean> find(String src){
+    public static List<EmojiBean> find(String src) {
         List<EmojiBean> list = new ArrayList<>();
 
-        if (src == null || src.trim().equals("")){
+        if (src == null || src.trim().equals("")) {
             return list;
         }
 
+        // 先查看所要查找的src是否只是由中文和英文，以及数字组成的，
+        // 如果是的话，就不需要再进行emoji的查找了
         Pattern pattern = Pattern.compile("^[a-zA-Z0-9_\\u4e00-\\u9fa5]+$");
-        if (pattern.matcher(src).find()){
+        if (pattern.matcher(src).find()) {
             return list;
         }
 
@@ -99,6 +101,9 @@ public class EmojiFinder {
 
 
         //通过正则表达式查找
+        // 目前没有找到任何一个正则表达式，能一次查找出所有的emoji。
+        // 因此我尝试根据emoji的长度写了下面的正则，可能还需要优化
+        // 规则是先查找较长的emoji，原因是长的emoji可能包含短的emoji
         String[] goodRegex = {
                 "[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF|\\uFE0F]\\u200D[\\u2640-\\u2708|\\uD83C\\uDF3E-\\uD83E\\uDDB3]\\uFE0F?",
                 "\\u26F9?[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF]?\\uFE0F?\\u200D[\\u2640-\\u2708|\\uD83C\\uDF08-\\uD83D\\uDDE8]\\uFE0F?",
@@ -149,14 +154,14 @@ public class EmojiFinder {
             regexEmoji.setEnd(end);
             regexEmoji.setEmoji(emoji);
 
-            if (DEBUG && list.contains(regexEmoji)){
+            if (DEBUG && list.contains(regexEmoji)) {
                 System.out.println("Error: " + regexEmoji);
             }
 
             list.add(regexEmoji);
             count++;
 
-            if (stringBuffer == null){
+            if (stringBuffer == null) {
                 stringBuffer = new StringBuffer(src.length());
             }
             matcher.appendReplacement(stringBuffer, generateEmptyString(end - start));
@@ -175,7 +180,7 @@ public class EmojiFinder {
         }
     }
 
-    private static String generateEmptyString(int len){
+    private static String generateEmptyString(int len) {
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < len; i++) {
             stringBuilder.append(" ");

@@ -2,8 +2,8 @@ package com.andforce.utils;
 
 public class UnicodeUtils {
 
-    public static boolean isNeighbor(String unicode1, String unicode2){
-        if (unicode1 == null || unicode2 == null || unicode1.length() != unicode2.length()){
+    public static boolean isNeighbor(String unicode1, String unicode2) {
+        if (unicode1 == null || unicode2 == null || unicode1.length() != unicode2.length()) {
             return false;
         }
 
@@ -17,16 +17,16 @@ public class UnicodeUtils {
             char c1 = unicode1.charAt(i);
             char c2 = unicode2.charAt(i);
 
-            if (Math.abs( c1 - c2) == 1 && (i == 0 || i == unicode1.length() -1)){
-                neighborCount ++;
+            if (Math.abs(c1 - c2) == 1 && (i == 0 || i == unicode1.length() - 1)) {
+                neighborCount++;
             }
         }
 
         return neighborCount == 1;
     }
 
-    private static char convert(char c){
-        if (c == 'A' || c == 'B' ||c == 'C' ||c == 'D' ||c == 'E' ||c == 'F'){
+    private static char convert(char c) {
+        if (c == 'A' || c == 'B' || c == 'C' || c == 'D' || c == 'E' || c == 'F') {
             return (char) (c - 7);
         } else {
             return c;
@@ -40,11 +40,10 @@ public class UnicodeUtils {
         char c;
         int i, j;
         sb.setLength(0);
-        for (i = 0; i < str.length(); i++)
-        {
+        for (i = 0; i < str.length(); i++) {
             c = str.charAt(i);
             sb.append("\\u");
-            j = (c >>>8); //取出高8位
+            j = (c >>> 8); //取出高8位
             tmp = Integer.toHexString(j).toUpperCase();
             if (tmp.length() == 1)
                 sb.append("0");
@@ -62,7 +61,7 @@ public class UnicodeUtils {
     public static String convertUnicode(char str) {
         StringBuilder sb = new StringBuilder();
         sb.append("\\u");
-        int pos = (str >>>8); //取出高8位
+        int pos = (str >>> 8); //取出高8位
         String tmp = Integer.toHexString(pos).toUpperCase();
         if (tmp.length() == 1) {
             sb.append("0");
