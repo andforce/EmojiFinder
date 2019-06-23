@@ -24,11 +24,11 @@ public class FileUtils {
         StringBuilder stringBuilder = new StringBuilder();
         try {
             bufferedReader = new BufferedReader(new FileReader(file));
-            String line = null;
+            String line;
             while ((line = bufferedReader.readLine()) != null) {
-                stringBuilder.append(line).append("\r\n");
+                stringBuilder.append(line).append('\n');
             }
-            stringBuilder.delete(stringBuilder.length() - 2, stringBuilder.length());
+//            stringBuilder.lastIndexOf("\n");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -42,5 +42,31 @@ public class FileUtils {
         }
 
         return stringBuilder.toString();
+    }
+
+    public static File writeToFile(InputStream inputString, String filePath) {
+        File file = new File(filePath);
+        if (file.exists()) {
+            file.delete();
+        }
+
+        FileOutputStream fos = null;
+        try {
+            fos = new FileOutputStream(file);
+
+            byte[] b = new byte[1024];
+
+            int len;
+            while ((len = inputString.read(b)) != -1) {
+                fos.write(b, 0, len);
+            }
+            inputString.close();
+            fos.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return file;
     }
 }
