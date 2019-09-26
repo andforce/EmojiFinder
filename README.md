@@ -1,5 +1,7 @@
 # EmojiFinder
 
+Emoji总共3836个
+
 ## 少罗嗦，先上使用方法：
 ```java
     List<EmojiBean> regexEmojis = EmojiFinder.find("你需要查找emoji的字符串");
