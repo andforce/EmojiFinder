@@ -29,51 +29,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Set<String> emojies = new HashSet<>();
-//
-//        File file = new File(EMOJI_TEST);
-//
-//        BufferedReader bufferedReader = null;
-//
-//        StringBuilder stringBuilder = new StringBuilder();
-//        int i = 0;
-//        try {
-//            bufferedReader = new BufferedReader(new FileReader(file));
-//            String line;
-//            while ((line = bufferedReader.readLine()) != null) {
-//                if (line.trim().length() != 0 && !line.startsWith("#")) {
-//                    String emojiStart = line.substring(line.indexOf(" # ") + " # ".length());
-//                    String emoji = emojiStart.substring(0, emojiStart.indexOf(" "));
-//                    stringBuilder.append(emoji).append('\n');
-//                    emojies.add(emoji);
-//                    i++;
-//                }
-//            }
-//            stringBuilder.deleteCharAt(stringBuilder.lastIndexOf("\n"));
-//            FileUtils.writeToFile("./src/main/resources/emoji.txt", stringBuilder.toString());
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        } finally {
-//            if (bufferedReader != null) {
-//                try {
-//                    bufferedReader.close();
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//        }
-
-
-//        SensitiveWordMatcher sensitiveWordMatcher = new SensitiveWordMatcher(EmojiSource.map);
-//
-//
-//        String src = FileUtils.readString(EMOJI_TEST);
-//        long start1 = System.currentTimeMillis();
-//        Set<String> set = sensitiveWordMatcher.matches(src, false);
-//        long end1 = System.currentTimeMillis();
-//        System.out.println("\r\nTest Emoji File count: >>> count:" + " time:" + (end1 - start1) + " " + set.size());
-
-
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
         builder.readTimeout(10, TimeUnit.SECONDS);
         builder.connectTimeout(9, TimeUnit.SECONDS);
@@ -154,8 +109,15 @@ public class Main {
                 return downloadService.download(emojiImage.getImage()).flatMap(new Function<ResponseBody, ObservableSource<File>>() {
                     @Override
                     public ObservableSource<File> apply(ResponseBody responseBody) throws Exception {
+
+                        final String dir = System.getProperty("user.dir") + File.separator;
+                        File file = new File(dir, "images");
+                        if (!file.exists()){
+                            file.mkdirs();
+                        }
+
                         return Observable.just(FileUtils.writeToFile(responseBody.byteStream(),
-                                "/Users/diyuanwang/github/EmojiFinder/images/" + emojiImage.getEmoji() + ".png"));
+                                new File(file, emojiImage.getEmoji() + ".png")));
                     }
                 });
             }
@@ -165,57 +127,6 @@ public class Main {
                 System.out.println(file.getAbsoluteFile());
             }
         });
-
-
-//        String url = "https://emojipedia.org/apple/ios-12.2";
-//        OkHttpClient okhttp = new OkHttpClient();
-//        final Request request = new Request.Builder()
-//                .url(url)
-//                .get()//默认就是GET请求，可以不写
-//                .build();
-//        Call call = okhttp.newCall(request);
-//        call.enqueue(new Callback() {
-//            @Override
-//            public void onFailure(Call call, IOException e) {
-//                System.out.println("onFailure: ");
-//            }
-//
-//            @Override
-//            public void onResponse(Call call, Response response) throws IOException {
-//                String html = null;
-//                ResponseBody responseBody = response.body();
-//                if (responseBody != null) {
-//                    html = responseBody.string();
-//                }
-//
-//                if (html == null){
-//                    return;
-//                }
-//
-//                //文档对象，用来接收html页面
-//                Document document = Jsoup.parse(html);
-//
-//                int count = 0;
-//                if (document != null) {
-//                    Elements elements = document.select("ul.emoji-grid");
-//                    Element element = elements.get(0);
-//                    Elements emojiAttr = element.children();
-//                    for (Element emoji : emojiAttr) {
-//                        count++;
-//                        String src = emoji.select("img").attr("data-src");
-//                        if (src == null || src.equals("")){
-//                            src = emoji.select("img").attr("src");
-//                        }
-//
-//                        String imgUrl = src.replace("/72/", "/320/");
-//                        System.out.println(">> " + imgUrl);
-//                    }
-//                    System.out.println(emojiAttr.size() + " real: " + count);
-//
-//                }
-//            }
-//        });
-
 
     }
 

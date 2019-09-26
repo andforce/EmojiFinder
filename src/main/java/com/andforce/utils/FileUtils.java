@@ -46,11 +46,19 @@ public class FileUtils {
 
     public static File writeToFile(InputStream inputString, String filePath) {
         File file = new File(filePath);
+        return write(inputString, file);
+    }
+
+    public static File writeToFile(InputStream inputString, File file) {
+        return write(inputString, file);
+    }
+
+    private static File write(InputStream inputString, File file) {
         if (file.exists()) {
             file.delete();
         }
 
-        FileOutputStream fos = null;
+        FileOutputStream fos;
         try {
             fos = new FileOutputStream(file);
 
