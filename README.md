@@ -1,6 +1,14 @@
 # EmojiFinder
 
+```
+http://unicode.org/Public/emoji/latest/emoji-test.txt
+# Status Counts
+# fully-qualified : 3010
+# minimally-qualified : 571
+# unqualified : 246
+# component : 9
 Emoji总共3836个
+```
 
 ## 少罗嗦，先上使用方法：
 ```java
