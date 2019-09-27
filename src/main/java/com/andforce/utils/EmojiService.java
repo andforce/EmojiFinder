@@ -1,8 +1,10 @@
 package com.andforce.utils;
 
 import com.andforce.beans.EmojiImage;
+import com.andforce.beans.VendorEmojiImage;
 import io.reactivex.Observable;
 import retrofit2.http.GET;
+import retrofit2.http.Url;
 
 import java.util.List;
 
@@ -12,4 +14,7 @@ public interface EmojiService {
 
     @GET("google")
     Observable<List<EmojiImage>> google();
+
+    @GET
+    Observable<List<VendorEmojiImage>> detail(@Url String url);
 }

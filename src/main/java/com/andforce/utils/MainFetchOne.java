@@ -1,6 +1,6 @@
 package com.andforce.utils;
 
-import com.andforce.beans.EmojiImage;
+import com.andforce.beans.VendorEmojiImage;
 import com.google.gson.Gson;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import io.reactivex.Observable;
@@ -22,11 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
-
-
-    private static final String EMOJI_TEST = "./src/main/resources/emoji-test.txt";
-
+public class MainFetchOne {
     public static void main(String[] args) {
 
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
@@ -48,30 +44,33 @@ public class Main {
 
                 String bodyString = response.body().string();
 
-                List<EmojiImage> emojiImages = new ArrayList<>();
+                List<VendorEmojiImage> emojiImages = new ArrayList<>();
 
                 //文档对象，用来接收html页面
                 Document document = Jsoup.parse(bodyString);
                 int count = 0;
                 if (document != null) {
-                    Elements elements = document.select("ul.emoji-grid");
+                    Elements elements = document.select("body > div.container > div.content > article > section.vendor-list");
                     Element element = elements.get(0);
-                    Elements emojiAttr = element.children();
+                    Elements emojiAttr = element.children().get(0).children();
                     for (Element emoji : emojiAttr) {
+
+                        Elements vendorInfos = emoji.select("div.vendor-info");
+                        // 先取出地一个吧
+                        Element vendorInfo = vendorInfos.first();
                         count++;
-                        String src = emoji.select("img").attr("data-src");
+                        String src = emoji.select("img").attr("src");
                         if (src == null || src.equals("")){
-                            src = emoji.select("img").attr("src");
+                            src = emoji.select("img").attr("data-src");
                         }
 
-                        String imgUrl = src.replace("/72/", "/320/");
+                        String imgUrl = src.replace("/120/", "/320/");
                         System.out.println(">> " + imgUrl);
 
-                        EmojiImage image = new EmojiImage();
-                        image.setEmoji("" + count);
-                        image.setName("456");
+                        VendorEmojiImage image = new VendorEmojiImage();
                         image.setVersion("11");
-                        image.setImage(imgUrl);
+                        image.setVendor(vendorInfo.text().trim());
+                        image.setUrl(imgUrl);
 
                         emojiImages.add(image);
                     }
@@ -95,26 +94,26 @@ public class Main {
 
         DownloadService downloadService = DownalodRetrofitManager.getInstance().create(DownloadService.class);
 
-        service.apple().flatMap(new Function<List<EmojiImage>, Observable<EmojiImage>>() {
+        service.detail("https://emojipedia.org/\uD83D\uDE37").flatMap(new Function<List<VendorEmojiImage>, Observable<VendorEmojiImage>>() {
             @Override
-            public Observable<EmojiImage> apply(List<EmojiImage> emojiImages) throws Exception {
+            public Observable<VendorEmojiImage> apply(List<VendorEmojiImage> emojiImages) throws Exception {
                 return Observable.fromIterable(emojiImages);
             }
-        }).flatMap(new Function<EmojiImage, ObservableSource<File>>() {
+        }).flatMap(new Function<VendorEmojiImage, ObservableSource<File>>() {
             @Override
-            public ObservableSource<File> apply(EmojiImage emojiImage) throws Exception {
-                return downloadService.download(emojiImage.getImage()).flatMap(new Function<ResponseBody, ObservableSource<File>>() {
+            public ObservableSource<File> apply(VendorEmojiImage emojiImage) throws Exception {
+                return downloadService.download(emojiImage.getUrl()).flatMap(new Function<ResponseBody, ObservableSource<File>>() {
                     @Override
                     public ObservableSource<File> apply(ResponseBody responseBody) throws Exception {
 
                         final String dir = System.getProperty("user.dir") + File.separator;
-                        File file = new File(dir, "images");
+                        File file = new File(dir, "images_one");
                         if (!file.exists()){
                             file.mkdirs();
                         }
 
                         return Observable.just(FileUtils.writeToFile(responseBody.byteStream(),
-                                new File(file, emojiImage.getEmoji() + ".png")));
+                                new File(file, emojiImage.getVendor() + ".png")));
                     }
                 });
             }
@@ -124,7 +123,5 @@ public class Main {
                 System.out.println(file.getAbsoluteFile());
             }
         });
-
     }
-
 }
