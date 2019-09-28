@@ -1,28 +1,19 @@
-package com.andforce.utils;
+package com.andforce.retrofit.managers;
 
-import com.andforce.beans.EmojiImage;
-import com.google.gson.Gson;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import okhttp3.*;
 import okhttp3.logging.HttpLoggingInterceptor;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class DownalodRetrofitManager {
+public class DownloadRetrofitManager {
 
-    private static DownalodRetrofitManager sRetrofitManager;
+    private static DownloadRetrofitManager sRetrofitManager;
     private Retrofit retrofit;
 
-    private DownalodRetrofitManager() {
+    private DownloadRetrofitManager() {
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
         builder.readTimeout(10, TimeUnit.SECONDS);
         builder.connectTimeout(9, TimeUnit.SECONDS);
@@ -42,9 +33,9 @@ public class DownalodRetrofitManager {
                 .build();
     }
 
-    public static DownalodRetrofitManager getInstance() {
+    public static DownloadRetrofitManager getInstance() {
         if (sRetrofitManager == null) {
-            sRetrofitManager = new DownalodRetrofitManager();
+            sRetrofitManager = new DownloadRetrofitManager();
         }
         return sRetrofitManager;
     }

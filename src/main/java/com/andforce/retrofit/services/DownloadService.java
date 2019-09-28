@@ -1,4 +1,4 @@
-package com.andforce.utils;
+package com.andforce.retrofit.services;
 
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;

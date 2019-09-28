@@ -1,4 +1,4 @@
-package com.andforce.utils;
+package com.andforce.retrofit.managers;
 
 import com.andforce.beans.EmojiImage;
 import com.google.gson.Gson;

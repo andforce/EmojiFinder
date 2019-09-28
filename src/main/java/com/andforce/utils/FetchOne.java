@@ -1,6 +1,9 @@
 package com.andforce.utils;
 
 import com.andforce.beans.VendorEmojiImage;
+import com.andforce.retrofit.managers.DownloadRetrofitManager;
+import com.andforce.retrofit.services.DownloadService;
+import com.andforce.retrofit.services.EmojiService;
 import com.google.gson.Gson;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import io.reactivex.Observable;
@@ -22,9 +25,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class MainFetchOne {
-    public static void main(String[] args) {
+public class FetchOne {
 
+
+    private EmojiService service;
+
+    private DownloadService downloadService;
+
+    public FetchOne() {
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder();
         builder.readTimeout(10, TimeUnit.SECONDS);
         builder.connectTimeout(9, TimeUnit.SECONDS);
@@ -60,7 +68,7 @@ public class MainFetchOne {
                         Element vendorInfo = vendorInfos.first();
                         count++;
                         String src = emoji.select("img").attr("src");
-                        if (src == null || src.equals("")){
+                        if (src == null || src.equals("")) {
                             src = emoji.select("img").attr("data-src");
                         }
 
@@ -90,11 +98,14 @@ public class MainFetchOne {
                 .client(okHttpClient)
                 .build();
 
-        EmojiService service = retrofit.create(EmojiService.class);
+        service = retrofit.create(EmojiService.class);
 
-        DownloadService downloadService = DownalodRetrofitManager.getInstance().create(DownloadService.class);
+        downloadService = DownloadRetrofitManager.getInstance().create(DownloadService.class);
+    }
 
-        service.detail("https://emojipedia.org/\uD83D\uDE37").flatMap(new Function<List<VendorEmojiImage>, Observable<VendorEmojiImage>>() {
+    public void fetchOneEmpji(String emoji) {
+
+        service.fetchOne("https://emojipedia.org/" + emoji.trim()).flatMap(new Function<List<VendorEmojiImage>, Observable<VendorEmojiImage>>() {
             @Override
             public Observable<VendorEmojiImage> apply(List<VendorEmojiImage> emojiImages) throws Exception {
                 return Observable.fromIterable(emojiImages);
@@ -108,7 +119,7 @@ public class MainFetchOne {
 
                         final String dir = System.getProperty("user.dir") + File.separator;
                         File file = new File(dir, "images_one");
-                        if (!file.exists()){
+                        if (!file.exists()) {
                             file.mkdirs();
                         }
 

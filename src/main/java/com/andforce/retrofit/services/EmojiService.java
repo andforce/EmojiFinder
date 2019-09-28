@@ -1,4 +1,4 @@
-package com.andforce.utils;
+package com.andforce.retrofit.services;
 
 import com.andforce.beans.EmojiImage;
 import com.andforce.beans.VendorEmojiImage;
@@ -16,5 +16,5 @@ public interface EmojiService {
     Observable<List<EmojiImage>> google();
 
     @GET
-    Observable<List<VendorEmojiImage>> detail(@Url String url);
+    Observable<List<VendorEmojiImage>> fetchOne(@Url String url);
 }

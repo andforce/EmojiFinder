@@ -4,29 +4,72 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MainNew {
     public static void main(String[] args) {
 
-        String mkTable = "| Emoji | Length |  UTF-16 |Summary|\n" +
-                         "| :---: | :----: | ------ | ------ |\n";
-        String template = "| [%s] | %d | %s | %s |\n";
+        //# subgroup: face-smiling
+        //1F600                                      ; fully-qualified     # 😀 grinning face
+        //1F603                                      ; fully-qualified     # 😃 grinning face with big eyes
+        //1F604                                      ; fully-qualified     # 😄 grinning face with smiling eyes
+        //1F601                                      ; fully-qualified     # 😁 beaming face with smiling eyes
+        //1F606                                      ; fully-qualified     # 😆 grinning squinting face
+        //1F605                                      ; fully-qualified     # 😅 grinning face with sweat
+        //1F923                                      ; fully-qualified     # 🤣 rolling on the floor laughing
+        //1F602                                      ; fully-qualified     # 😂 face with tears of joy
+        //1F642                                      ; fully-qualified     # 🙂 slightly smiling face
+        //1F643                                      ; fully-qualified     # 🙃 upside-down face
+        //1F609                                      ; fully-qualified     # 😉 winking face
+        //1F60A                                      ; fully-qualified     # 😊 smiling face with smiling eyes
+        //1F607                                      ; fully-qualified     # 😇 smiling face with halo
+
+        String mkTable = "| Emoji | Length |  UTF-16 | quality | Summary |\n" +
+                "| :---: | :----: |  ------ |  ------ |  ------ |\n";
+        String template = "| [%s] |   %d   |    %s   |    %s   |   %s    |\n";
 
         File file = new File("./src/main/resources/emoji-test.txt");
 
         BufferedReader bufferedReader = null;
 
         StringBuilder stringBuilder = new StringBuilder(mkTable);
+
+        int i = 0;
         try {
             bufferedReader = new BufferedReader(new FileReader(file));
             String line;
             while ((line = bufferedReader.readLine()) != null) {
                 if (line.trim().length() != 0 && !line.startsWith("#")) {
-                    String emojiStart = line.substring(line.indexOf(" # ") + " # ".length());
-                    String emoji = emojiStart.substring(0, emojiStart.indexOf(" ")).trim();
-                    stringBuilder.append(String.format(template, emoji, emoji.length(),UnicodeUtils.convertUnicode(emoji),  "Summary"));
+
+                    i++;
+
+                    //找出CodePoints
+                    Pattern pattern = Pattern.compile("[\\S{4}\\s{1}]+(?=\\s+;)");
+                    Matcher matcher = pattern.matcher(line);
+                    String codePoints = "\\u" + (matcher.find() ? line.substring(matcher.start(), matcher.end()) : "").trim().replace(" ", "\\u");
+
+
+                    // 找出画质
+                    Pattern qualityPattern = Pattern.compile("fully-qualified|minimally-qualified|unqualified|component");
+                    Matcher qualityMatcher = qualityPattern.matcher(line);
+                    String quality = qualityMatcher.find() ? line.substring(qualityMatcher.start(), qualityMatcher.end()) : "";
+
+                    // 找出Emoji
+                    Pattern emojiPattern = Pattern.compile("(?<=\\s#\\s)\\S+");
+                    Matcher emojiMatcher = emojiPattern.matcher(line);
+                    String emoji = emojiMatcher.find() ? line.substring(emojiMatcher.start(), emojiMatcher.end()) : "";
+
+                    // 找出描述
+                    Pattern desPattern = Pattern.compile("(?<=\\s#\\s\\S{1,14}\\s).*");
+                    Matcher desMatcher = desPattern.matcher(line);
+                    String des = desMatcher.find() ? line.substring(desMatcher.start(), desMatcher.end()) : "";
+
+                    stringBuilder.append(String.format(template, emoji, emoji.length(),/*UnicodeUtils.convertUnicode(emoji)*/codePoints, quality, des));
                 }
             }
+
+            System.out.println("Total: " + i);
             stringBuilder.deleteCharAt(stringBuilder.lastIndexOf("\n"));
             FileUtils.writeToFile("./src/main/resources/emoji.md", stringBuilder.toString());
         } catch (IOException e) {
