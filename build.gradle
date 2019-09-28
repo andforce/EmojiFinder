@@ -37,4 +37,7 @@ dependencies {
     compile group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '3.14.2'
 
 
+    compile('com.github.ihsanbal:LoggingInterceptor:3.0.0') {
+        exclude group: 'org.json', module: 'json'
+    }
 }
