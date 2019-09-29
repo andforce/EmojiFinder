@@ -1,56 +1,24 @@
 package com.andforce.utils;
 
-import com.andforce.beans.EmojiImage;
-import com.andforce.retrofit.managers.DownloadRetrofitManager;
-import com.andforce.retrofit.managers.GetRetrofitManager;
+import com.andforce.retrofit.JsonFormatInterceptor;
 import com.andforce.retrofit.managers.InterceptorRetrofitManager;
-import com.andforce.retrofit.managers.RetrofitManager;
 import com.andforce.retrofit.services.DownloadService;
-import com.andforce.retrofit.services.EmojiService;
-import com.andforce.updater.EmojiTest;
-import com.andforce.updater.TextJsonConverter;
-import com.google.gson.Gson;
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
-import okhttp3.*;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import okhttp3.ResponseBody;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainNew {
     public static void main(String[] args) {
 
-        new TextJsonConverter().convert("");
-
-        InterceptorRetrofitManager customRetrofitManager = new InterceptorRetrofitManager("http://unicode.org", new Interceptor() {
-            @Override
-            public Response intercept(Chain chain) throws IOException {
-                Request request = chain.request();
-
-                Response response = chain.proceed(request);
-
-                String bodyString = null;
-                MediaType mediaType = MediaType.parse("application/json;charset=uft-8");
-                ResponseBody responseBody = response.body();
-                if (responseBody != null) {
-                    bodyString = responseBody.string();
-                    TextJsonConverter jsonConverter = new TextJsonConverter();
-                    return response.newBuilder().body(ResponseBody.create(mediaType, jsonConverter.convert(bodyString))).build();
-                } else {
-                    return response.newBuilder().body(ResponseBody.create(mediaType, new Gson().toJson(new EmojiTest()))).build();
-                }
-            }
-        });
+        InterceptorRetrofitManager customRetrofitManager = new InterceptorRetrofitManager(
+                "http://unicode.org", new JsonFormatInterceptor());
 
         DownloadService service = customRetrofitManager.create(DownloadService.class);
         service.emoji_test().map(new Function<ResponseBody, String>() {
