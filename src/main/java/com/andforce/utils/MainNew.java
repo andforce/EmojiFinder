@@ -7,6 +7,7 @@ import com.andforce.retrofit.managers.InterceptorRetrofitManager;
 import com.andforce.retrofit.managers.RetrofitManager;
 import com.andforce.retrofit.services.DownloadService;
 import com.andforce.retrofit.services.EmojiService;
+import com.andforce.updater.EmojiTest;
 import com.andforce.updater.TextJsonConverter;
 import com.google.gson.Gson;
 import io.reactivex.functions.Consumer;
@@ -38,12 +39,16 @@ public class MainNew {
 
                 Response response = chain.proceed(request);
 
-                String bodyString = response.body().string();
-
-                TextJsonConverter jsonConverter = new TextJsonConverter();
-
+                String bodyString = null;
                 MediaType mediaType = MediaType.parse("application/json;charset=uft-8");
-                return response.newBuilder().body(ResponseBody.create(mediaType, jsonConverter.convert(bodyString))).build();
+                ResponseBody responseBody = response.body();
+                if (responseBody != null) {
+                    bodyString = responseBody.string();
+                    TextJsonConverter jsonConverter = new TextJsonConverter();
+                    return response.newBuilder().body(ResponseBody.create(mediaType, jsonConverter.convert(bodyString))).build();
+                } else {
+                    return response.newBuilder().body(ResponseBody.create(mediaType, new Gson().toJson(new EmojiTest()))).build();
+                }
             }
         });
 

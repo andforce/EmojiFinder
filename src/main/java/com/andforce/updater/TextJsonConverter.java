@@ -55,7 +55,9 @@ public class TextJsonConverter {
                 emojiItem.setUtf16(utf16);
                 emojiItem.setLength(emoji.length());
 
-                emojiItems.add(emojiItem);
+                if (emojiItems.size() < 5) {
+                    emojiItems.add(emojiItem);
+                }
 
             } else if (line.startsWith("#")) {
                 if (emojiTest.getDate() == null) {
