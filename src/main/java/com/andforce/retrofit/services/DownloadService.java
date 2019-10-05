@@ -1,5 +1,6 @@
 package com.andforce.retrofit.services;
 
+import com.andforce.updater.EmojiTest;
 import io.reactivex.Observable;
 import okhttp3.ResponseBody;
 import retrofit2.http.GET;
@@ -12,5 +13,5 @@ public interface DownloadService {
     Observable<ResponseBody> download(@Url String url);
 
     @GET("http://unicode.org/Public/emoji/latest/emoji-test.txt")
-    Observable<ResponseBody> emoji_test();
+    Observable<EmojiTest> emoji_test();
 }

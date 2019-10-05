@@ -5,7 +5,13 @@ import java.io.*;
 public class FileUtils {
 
     public static void writeToFile(String file, String str) {
+
         try {
+            File file1 = new File(file);
+            if (!file1.exists()){
+                file1.createNewFile();
+            }
+
             FileWriter writer = new FileWriter(file);
 
             writer.write(str);

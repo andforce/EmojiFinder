@@ -1,9 +1,8 @@
 package com.andforce.utils;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import com.andforce.beans.EmojiBean;
+
+import java.util.*;
 
 public class SensitiveWordMatcher {
     @SuppressWarnings({"rawtypes", "unchecked"})
@@ -27,47 +26,96 @@ public class SensitiveWordMatcher {
         sensitiveWordMap = makeSensitiveWordToHashMap(fixed);
     }
 
+    public static int serachWord(String str,String key) {
+        //记录查找次数
+        int count = 0;
+        //记录每次查找的下标位置,初始化
+        int index = -1;
+        //定义循环,如果index的位置不是-1,就一值查找
+        while ((index = str.indexOf(key, index)) != -1) {
+            index = index + key.length();
+        }
+        return count;
+    }
 
     /**
      * @param txt      文字
      * @param minMatch 匹配规则: 1：最小匹配规则，2：最大匹配规则
      * @return 查找到的敏感词
      */
-    public Set<String> matches(String txt, boolean minMatch) {
+    public ArrayList<EmojiBean> matches(String txt, boolean minMatch) {
 
-        Set<String> sensitiveWordList = new HashSet<>();
+
+        ArrayList<EmojiBean> len1 = new ArrayList<>();
 
         for (String key : mAllEmojies) {
             if (minMatch) {
+
                 int index = txt.indexOf(key);
                 if (index != -1) {
                     String word = txt.substring(index, index + key.length());
-                    sensitiveWordList.add(word);
-                    return sensitiveWordList;
+                    EmojiBean emojiBean = new EmojiBean();
+                    emojiBean.setEmoji(word);
+                    emojiBean.setStart(index);
+                    emojiBean.setEnd(index + word.length());
+                    len1.add(emojiBean);
+                    return len1;
                 }
             } else {
-                int index = txt.indexOf(key);
-                if (index != -1) {
+                int index = -1;
+                int fromIndex = 0;
+                while ((index = txt.indexOf(key, fromIndex)) != -1) {
+                    fromIndex = index + key.length();
                     String word = txt.substring(index, index + key.length());
-                    sensitiveWordList.add(word);
+                    EmojiBean emojiBean = new EmojiBean();
+                    emojiBean.setEmoji(word);
+                    emojiBean.setStart(index);
+                    emojiBean.setEnd(index + word.length());
+                    len1.add(emojiBean);
                 }
             }
         }
 
+        Set<Integer> starts = new HashSet<>();
 
+        ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
         for (int i = 0; i < txt.length(); i++) {
             //判断是否包含敏感字符
             int length = find(txt, i, minMatch);
             if (minMatch && length > 0) {
-                sensitiveWordList.add(txt.substring(i, i + length));
+                String word = txt.substring(i, i + length);
+                EmojiBean emojiBean = new EmojiBean();
+                emojiBean.setEmoji(word);
+                emojiBean.setStart(i);
+                emojiBean.setEnd(i + word.length());
+                sensitiveWordList.add(emojiBean);
+                starts.add(i);
                 return sensitiveWordList;
             }
             if (length > 0) {    //存在,加入list中
-                sensitiveWordList.add(txt.substring(i, i + length));
+                String word = txt.substring(i, i + length);
+                EmojiBean emojiBean = new EmojiBean();
+                emojiBean.setEmoji(word);
+                emojiBean.setStart(i);
+                emojiBean.setEnd(i + word.length());
+                sensitiveWordList.add(emojiBean);
+                starts.add(i);
                 i = i + length - 1;    //减1的原因，是因为for会自增
             }
         }
 
+        for (EmojiBean emojiBean : len1) {
+            if (!starts.contains(emojiBean.getStart())){
+                sensitiveWordList.add(emojiBean);
+            }
+        }
+
+        sensitiveWordList.sort(new Comparator<EmojiBean>() {
+            @Override
+            public int compare(EmojiBean o1, EmojiBean o2) {
+                return o1.getStart() - o2.getStart();
+            }
+        });
         return sensitiveWordList;
     }
 
@@ -113,36 +161,35 @@ public class SensitiveWordMatcher {
     }
 
 
-    /**
-     * 读取敏感词库，将敏感词放入HashSet中，构建一个DFA算法模型：<br>
-     * 中 = {
-     * isEnd = 0
-     * 国 = {<br>
-     * isEnd = 1
-     * 人 = {isEnd = 0
-     * 民 = {isEnd = 1}
-     * }
-     * 男  = {
-     * isEnd = 0
-     * 人 = {
-     * isEnd = 1
-     * }
-     * }
-     * }
-     * }
-     * 五 = {
-     * isEnd = 0
-     * 星 = {
-     * isEnd = 0
-     * 红 = {
-     * isEnd = 0
-     * 旗 = {
-     * isEnd = 1
-     * }
-     * }
-     * }
-     * }
-     */
+//  读取敏感词库，将敏感词放入HashSet中，构建一个DFA算法模型：<br>
+//  中 ={
+//     isEnd = 0
+//  国 =   {
+//  isEnd = 1
+//  人 =      {
+//           isEnd = 0
+//  民 =         {
+//              isEnd = 1
+//           }
+//        }      男  =      {
+//           isEnd = 0
+//  人 =         {
+//              isEnd = 1
+//           }
+//        }
+//     }
+//  }五 ={
+//     isEnd = 0
+//  星 =   {
+//        isEnd = 0
+//  红 =      {
+//           isEnd = 0
+//  旗 =         {
+//              isEnd = 1
+//           }
+//        }
+//     }
+//  }
     @SuppressWarnings({"rawtypes", "unchecked"})
     private Map makeSensitiveWordToHashMap(Set<String> keyWordSet) {
         //初始化敏感词容器，减少扩容操作
