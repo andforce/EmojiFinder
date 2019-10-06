@@ -49,8 +49,11 @@ public class Main {
                 @Override
                 public void accept(EmojiTest emojiTest) throws Exception {
                     Gson mGson = new GsonBuilder().setPrettyPrinting().create();
+
                     FileUtils.writeToFile("src/main/resources/emoji-test.json", mGson.toJson(emojiTest));
+
                     System.out.println(emojiTest.getEmojis().size());
+
                     for (int i = 0; i < emojiTest.getEmojis().size(); i++) {
                         emojiSet.add(emojiTest.getEmojis().get(i).getContent());
                     }
@@ -61,9 +64,11 @@ public class Main {
 
         System.out.println("Dic: " + emojiSet.size());
 
+        long start = System.currentTimeMillis();
         SensitiveWordMatcher sensitiveWordMatcher = new SensitiveWordMatcher(emojiSet);
-        ArrayList<EmojiBean> set = sensitiveWordMatcher.matches(FileUtils.readString("/Users/diyuanwang/github/EmojiFinder/src/main/resources/emoji-test.json"), false);
+        ArrayList<EmojiBean> set = sensitiveWordMatcher.matches(FileUtils.readString("/Users/diyuanwang/github/EmojiFinder/src/main/resources/emoji-test.txt"), false);
 
+        System.out.println("Use Time: " + (System.currentTimeMillis() - start));
         System.out.println("Find Result : " + set);
 
         System.out.println("Find Result Count : " + set.size());

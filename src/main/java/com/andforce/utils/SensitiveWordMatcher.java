@@ -46,6 +46,62 @@ public class SensitiveWordMatcher {
     public ArrayList<EmojiBean> matches(String txt, boolean minMatch) {
 
 
+        Set<Integer> starts = new HashSet<>();
+
+        ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
+        for (int i = 0; i < txt.length(); i++) {
+            //判断是否包含敏感字符
+            int length = find(txt, i, minMatch);
+            if (minMatch && length > 0) {
+                String word = txt.substring(i, i + length);
+                EmojiBean emojiBean = new EmojiBean();
+                emojiBean.setEmoji(word);
+                emojiBean.setStart(i);
+                emojiBean.setEnd(i + word.length());
+                if (!starts.contains(i)){
+                    sensitiveWordList.add(emojiBean);
+                } else {
+                    for (EmojiBean bean : sensitiveWordList) {
+                        if (bean.getStart() == i){
+                            if (bean.getEmoji().length() < emojiBean.getEmoji().length()){
+                                bean.setStart(i);
+                                bean.setEnd(emojiBean.getEnd());
+                                bean.setEmoji(emojiBean.getEmoji());
+                            }
+                        }
+                    }
+                }
+                for (int start = i; start < i + length; start++){
+                    starts.add(start);
+                }
+                return sensitiveWordList;
+            }
+            if (length > 0) {    //存在,加入list中
+                String word = txt.substring(i, i + length);
+                EmojiBean emojiBean = new EmojiBean();
+                emojiBean.setEmoji(word);
+                emojiBean.setStart(i);
+                emojiBean.setEnd(i + word.length());
+                if (!starts.contains(i)){
+                    sensitiveWordList.add(emojiBean);
+                } else {
+                    for (EmojiBean bean : sensitiveWordList) {
+                        if (bean.getStart() == i){
+                            if (bean.getEmoji().length() < emojiBean.getEmoji().length()){
+                                bean.setStart(i);
+                                bean.setEnd(emojiBean.getEnd());
+                                bean.setEmoji(emojiBean.getEmoji());
+                            }
+                        }
+                    }
+                }
+                for (int start = i; start < i + length; start++){
+                    starts.add(start);
+                }
+                i = i + length - 1;    //减1的原因，是因为for会自增
+            }
+        }
+
         ArrayList<EmojiBean> len1 = new ArrayList<>();
 
         for (String key : mAllEmojies) {
@@ -62,53 +118,30 @@ public class SensitiveWordMatcher {
                     return len1;
                 }
             } else {
-                int index = -1;
+                int index;
                 int fromIndex = 0;
                 while ((index = txt.indexOf(key, fromIndex)) != -1) {
                     fromIndex = index + key.length();
-                    String word = txt.substring(index, index + key.length());
-                    EmojiBean emojiBean = new EmojiBean();
-                    emojiBean.setEmoji(word);
-                    emojiBean.setStart(index);
-                    emojiBean.setEnd(index + word.length());
-                    len1.add(emojiBean);
+                    if (!starts.contains(index)){
+                        String word = txt.substring(index, index + key.length());
+                        EmojiBean emojiBean = new EmojiBean();
+                        emojiBean.setEmoji(word);
+                        emojiBean.setStart(index);
+                        emojiBean.setEnd(index + word.length());
+                        len1.add(emojiBean);
+                    }
+
                 }
             }
         }
 
-        Set<Integer> starts = new HashSet<>();
+        sensitiveWordList.addAll(len1);
 
-        ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
-        for (int i = 0; i < txt.length(); i++) {
-            //判断是否包含敏感字符
-            int length = find(txt, i, minMatch);
-            if (minMatch && length > 0) {
-                String word = txt.substring(i, i + length);
-                EmojiBean emojiBean = new EmojiBean();
-                emojiBean.setEmoji(word);
-                emojiBean.setStart(i);
-                emojiBean.setEnd(i + word.length());
-                sensitiveWordList.add(emojiBean);
-                starts.add(i);
-                return sensitiveWordList;
-            }
-            if (length > 0) {    //存在,加入list中
-                String word = txt.substring(i, i + length);
-                EmojiBean emojiBean = new EmojiBean();
-                emojiBean.setEmoji(word);
-                emojiBean.setStart(i);
-                emojiBean.setEnd(i + word.length());
-                sensitiveWordList.add(emojiBean);
-                starts.add(i);
-                i = i + length - 1;    //减1的原因，是因为for会自增
-            }
-        }
-
-        for (EmojiBean emojiBean : len1) {
-            if (!starts.contains(emojiBean.getStart())){
-                sensitiveWordList.add(emojiBean);
-            }
-        }
+//        for (EmojiBean emojiBean : len1) {
+//            if (!starts.contains(emojiBean.getStart())){
+//                sensitiveWordList.add(emojiBean);
+//            }
+//        }
 
         sensitiveWordList.sort(new Comparator<EmojiBean>() {
             @Override
