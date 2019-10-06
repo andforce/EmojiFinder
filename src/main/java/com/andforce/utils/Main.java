@@ -66,7 +66,7 @@ public class Main {
 
         long start = System.currentTimeMillis();
         SensitiveWordMatcher sensitiveWordMatcher = new SensitiveWordMatcher(emojiSet);
-        ArrayList<EmojiBean> set = sensitiveWordMatcher.matches(FileUtils.readString("/Users/diyuanwang/github/EmojiFinder/src/main/resources/emoji-test.txt"), false);
+        ArrayList<EmojiBean> set = sensitiveWordMatcher.matches(FileUtils.readString("/Users/diyuanwang/github/EmojiFinder/src/main/resources/emoji-test.txt"));
 
         System.out.println("Use Time: " + (System.currentTimeMillis() - start));
         System.out.println("Find Result : " + set);
