@@ -13,33 +13,30 @@ public class EmojiFinder {
     }
 
     //  构建一个DFA算法模型：<br>
-    //  中 ={
-    //     isEnd = 0
-    //  国 =   {
-    //      isEnd = 1
-    //      人 = {
-    //           isEnd = 0
-    //  民 = {
-    //              isEnd = 1
-    //           }
-    //        }      男  = {
-    //           isEnd = 0
-    //  人 = {
-    //              isEnd = 1
-    //           }
-    //        }
-    //     }
-    //  }五 ={
-    //     isEnd = 0
-    //  星 =   {
-    //        isEnd = 0
-    //  红 = {
-    //           isEnd = 0
-    //  旗 = {
-    //              isEnd = 1
-    //           }
-    //        }
-    //     }
+    //  中 = {
+    //      isEnd = 0
+    //      国 = {
+    //          isEnd = 1
+    //          人 = {
+    //              isEnd = 0
+    //              民 = { isEnd = 1 }
+    //          }
+    //          男 = {
+    //              isEnd = 0
+    //              人 = { isEnd = 1 }
+    //          }
+    //      }
+    //  }
+    //
+    //  五 = {
+    //      isEnd = 0
+    //      星 = {
+    //          isEnd = 0
+    //          红 = {
+    //              isEnd = 0
+    //              旗 = { isEnd = 1 }
+    //          }
+    //      }
     //  }
     @SuppressWarnings({"rawtypes", "unchecked"})
     private HashMap makeMatchHashMap(Set<String> emojiSet) {
