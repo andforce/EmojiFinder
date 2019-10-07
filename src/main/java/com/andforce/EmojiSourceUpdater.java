@@ -1,23 +1,17 @@
-package com.andforce.utils;
+package com.andforce;
 
-import com.andforce.EmojiFinder;
-import com.andforce.EmojiSource;
-import com.andforce.beans.EmojiBean;
 import com.andforce.retrofit.JsonFormatInterceptor;
 import com.andforce.retrofit.managers.InterceptorRetrofitManager;
 import com.andforce.retrofit.services.DownloadService;
 import com.andforce.updater.EmojiTest;
+import com.andforce.utils.FileUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.reactivex.functions.Consumer;
 
-import java.util.ArrayList;
+public class EmojiSourceUpdater {
 
-public class Main {
-
-
-    public static void main(String[] args) {
-
+    public void update() {
         InterceptorRetrofitManager customRetrofitManager = new InterceptorRetrofitManager(
                 "http://unicode.org", new JsonFormatInterceptor());
 
@@ -61,19 +55,11 @@ public class Main {
                 }
 
                 String java = String.format(tmp, stringBuilder.toString());
-                FileUtils.writeToFile("src/main/java/com/andforce/EmojiSource.java", java);
+                FileUtils.writeToFile("emoji-finder/src/main/java/com/andforce/EmojiSource.java", java);
                 System.out.println(String.format("Version:[%s], Date:[%s], Total-Count:[%s], Parse-Count:[%s]",
                         emojiTest.getVersion(), emojiTest.getDate(), emojiTest.getCount(), emojiTest.getEmojis().size()));
             }
         });
-
-        long start = System.currentTimeMillis();
-        EmojiFinder emojiFinder = new EmojiFinder(EmojiSource.getInstance().getEmojiSet());
-        ArrayList<EmojiBean> findResult = emojiFinder.find(FileUtils.readString("src/main/resources/emoji-test.txt"));
-
-        System.out.println("Use Time: " + (System.currentTimeMillis() - start) + ", Find Count : " + findResult.size());
-        System.out.println("Find Result : " + findResult);
-
     }
 
 }
