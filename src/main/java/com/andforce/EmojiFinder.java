@@ -5,14 +5,14 @@ import com.andforce.beans.EmojiBean;
 import java.util.*;
 
 public class EmojiFinder {
-    @SuppressWarnings({"rawtypes", "unchecked"})
-    private Map sensitiveWordMap;
+    @SuppressWarnings({"rawtypes"})
+    private HashMap mMatchHashMap;
 
-    public EmojiFinder(Set<String> keyWordSet) {
-        sensitiveWordMap = makeSensitiveWordToHashMap(keyWordSet);
+    public EmojiFinder(Set<String> emojiSet) {
+        mMatchHashMap = makeMatchHashMap(emojiSet);
     }
 
-    //  读取敏感词库，将敏感词放入HashSet中，构建一个DFA算法模型：<br>
+    //  构建一个DFA算法模型：<br>
     //  中 ={
     //     isEnd = 0
     //  国 =   {
@@ -42,16 +42,16 @@ public class EmojiFinder {
     //     }
     //  }
     @SuppressWarnings({"rawtypes", "unchecked"})
-    private Map makeSensitiveWordToHashMap(Set<String> keyWordSet) {
+    private HashMap makeMatchHashMap(Set<String> emojiSet) {
         //初始化敏感词容器，减少扩容操作
-        Map sensitiveWordMap = new HashMap(keyWordSet.size());
+        HashMap hashMap = new HashMap(emojiSet.size());
         String key;
         Map nowMap;
         Map<String, String> newWorMap;
         //迭代keyWordSet
-        for (String aKeyWordSet : keyWordSet) {
-            key = aKeyWordSet;    //关键字
-            nowMap = sensitiveWordMap;
+        for (String oneKey : emojiSet) {
+            key = oneKey;    //关键字
+            nowMap = hashMap;
             for (int i = 0; i < key.length(); i++) {
                 //转换成char型
                 char keyChar = key.charAt(i);
@@ -75,17 +75,17 @@ public class EmojiFinder {
                 }
             }
         }
-        return sensitiveWordMap;
+        return hashMap;
     }
 
 
-    public ArrayList<EmojiBean> find(String txt) {
+    public ArrayList<EmojiBean> find(String toFindText) {
         ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
-        for (int i = 0; i < txt.length(); i++) {
+        for (int i = 0; i < toFindText.length(); i++) {
             //判断是否包含敏感字符
-            int length = find(txt, i, false);
+            int length = find(toFindText, i, false);
             if (length > 0) {    //存在,加入list中
-                String word = txt.substring(i, i + length);
+                String word = toFindText.substring(i, i + length);
                 EmojiBean emojiBean = new EmojiBean();
                 emojiBean.setEmoji(word);
                 emojiBean.setStart(i);
@@ -129,7 +129,7 @@ public class EmojiFinder {
         boolean flag = false;    //敏感词结束标识位：用于敏感词只有1位的情况
         int matchFlag = 0;     //匹配标识数默认为0
         char word;
-        Map nowMap = sensitiveWordMap;
+        Map nowMap = mMatchHashMap;
         for (int i = beginIndex; i < txt.length(); i++) {
             word = txt.charAt(i);
             nowMap = (Map) nowMap.get(word);     //获取指定key
