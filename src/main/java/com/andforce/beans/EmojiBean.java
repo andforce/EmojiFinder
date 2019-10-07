@@ -39,6 +39,6 @@ public class EmojiBean {
 
     @Override
     public String toString() {
-        return "[" + emoji + "] -> [" + start + "-" + end + "]\t\t" + UnicodeUtils.convertUnicode(emoji);
+        return emoji + ":[" + start + "-" + end + "]-" + UnicodeUtils.convertUnicode(emoji);
     }
 }

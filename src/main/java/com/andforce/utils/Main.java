@@ -27,7 +27,7 @@ public class Main {
             public void accept(EmojiTest emojiTest) throws Exception {
                 Gson mGson = new GsonBuilder().setPrettyPrinting().create();
 
-                String tmp = "package com.andforce.utils;\n" +
+                String tmp = "package com.andforce;\n" +
                         "\n" +
                         "import java.util.HashSet;\n" +
                         "import java.util.Set;\n" +
@@ -40,7 +40,7 @@ public class Main {
                         "        super();\n" +
                         "    }\n" +
                         "\n" +
-                        "    private static final EmojiSource getInstance() {\n" +
+                        "    public static EmojiSource getInstance() {\n" +
                         "        return sEmojiSource;\n" +
                         "    }\n" +
                         "\n" +
@@ -62,7 +62,8 @@ public class Main {
 
                 String java = String.format(tmp, stringBuilder.toString());
                 FileUtils.writeToFile("src/main/java/com/andforce/EmojiSource.java", java);
-                System.out.println(emojiTest.getEmojis().size());
+                System.out.println(String.format("Version:[%s], Date:[%s], Total-Count:[%s], Parse-Count:[%s]",
+                        emojiTest.getVersion(), emojiTest.getDate(), emojiTest.getCount(), emojiTest.getEmojis().size()));
             }
         });
 
@@ -70,7 +71,7 @@ public class Main {
         EmojiFinder emojiFinder = new EmojiFinder(EmojiSource.getInstance().getEmojiSet());
         ArrayList<EmojiBean> findResult = emojiFinder.find(FileUtils.readString("src/main/resources/emoji-test.txt"));
 
-        System.out.println("Use Time: " + (System.currentTimeMillis() - start) + "Find Count : " + findResult.size());
+        System.out.println("Use Time: " + (System.currentTimeMillis() - start) + ", Find Count : " + findResult.size());
         System.out.println("Find Result : " + findResult);
 
     }

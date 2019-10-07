@@ -5,8 +5,7 @@ import com.andforce.beans.EmojiBean;
 import java.util.*;
 
 public class EmojiFinder {
-    @SuppressWarnings({"rawtypes"})
-    private HashMap mMatchHashMap;
+    private CharHashMap mMatchHashMap;
 
     public EmojiFinder(Set<String> emojiSet) {
         mMatchHashMap = makeMatchHashMap(emojiSet);
@@ -38,13 +37,12 @@ public class EmojiFinder {
     //          }
     //      }
     //  }
-    @SuppressWarnings({"rawtypes", "unchecked"})
-    private HashMap makeMatchHashMap(Set<String> emojiSet) {
+    private CharHashMap makeMatchHashMap(Set<String> emojiSet) {
         //初始化敏感词容器，减少扩容操作
-        HashMap hashMap = new HashMap(emojiSet.size());
+        CharHashMap hashMap = new CharHashMap(emojiSet.size());
         String key;
-        Map nowMap;
-        Map<String, String> newWorMap;
+        CharHashMap nowMap;
+        CharHashMap newWorMap;
         //迭代keyWordSet
         for (String oneKey : emojiSet) {
             key = oneKey;    //关键字
@@ -58,23 +56,31 @@ public class EmojiFinder {
 
                 if (wordMap != null) {
                     //如果存在该key，直接赋值
-                    nowMap = (Map) wordMap;
+                    nowMap = (CharHashMap) wordMap;
                 } else {
                     //不存在则，则构建一个map，同时将isEnd设置为0，因为他不是最后一个
-                    newWorMap = new HashMap<>();
-                    newWorMap.put("isEnd", "0");     //不是最后一个
+                    newWorMap = new CharHashMap();
+                    newWorMap.put('\0', false);     //不是最后一个
                     nowMap.put(keyChar, newWorMap);
                     nowMap = newWorMap;
                 }
 
                 if (i == key.length() - 1) {
-                    nowMap.put("isEnd", "1");    //最后一个
+                    nowMap.put('\0', true);    //最后一个
                 }
             }
         }
         return hashMap;
     }
 
+    static class CharHashMap extends HashMap<Character, Object> {
+        CharHashMap(int i) {
+            super(i);
+        }
+
+        CharHashMap() {
+        }
+    }
 
     public ArrayList<EmojiBean> find(String toFindText) {
         ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
@@ -121,7 +127,6 @@ public class EmojiFinder {
      * @param minMatch
      * @return 如果存在，则返回敏感词字符的长度，不存在返回0
      */
-    @SuppressWarnings({"rawtypes"})
     private int find(String txt, int beginIndex, boolean minMatch) {
         boolean flag = false;    //敏感词结束标识位：用于敏感词只有1位的情况
         int matchFlag = 0;     //匹配标识数默认为0
@@ -132,7 +137,9 @@ public class EmojiFinder {
             nowMap = (Map) nowMap.get(word);     //获取指定key
             if (nowMap != null) {     //存在，则判断是否为最后一个
                 matchFlag++;     //找到相应key，匹配标识+1
-                if ("1".equals(nowMap.get("isEnd"))) {       //如果为最后一个匹配规则,结束循环，返回匹配标识数
+
+                boolean isEnd = (boolean) nowMap.get('\0');
+                if (isEnd) {       //如果是最后一个匹配规则,结束循环，返回匹配标识数
                     flag = true;       //结束标志位为true
                     if (minMatch) {    //最小规则，直接返回,最大规则还需继续查找
                         break;
