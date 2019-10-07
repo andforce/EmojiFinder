@@ -7,8 +7,14 @@ import java.util.*;
 public class EmojiFinder {
     private CharHashMap mMatchHashMap;
 
-    public EmojiFinder(Set<String> emojiSet) {
-        mMatchHashMap = makeMatchHashMap(emojiSet);
+    private static EmojiFinder sEmojiFinder = new EmojiFinder();
+
+    private EmojiFinder() {
+        mMatchHashMap = makeMatchHashMap(EmojiSource.getInstance().getEmojiSet());
+    }
+
+    public static EmojiFinder getInstance() {
+        return sEmojiFinder;
     }
 
     //  构建一个DFA算法模型：<br>

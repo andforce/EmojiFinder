@@ -42,8 +42,8 @@ public class Main {
                 "1F971                                      ; fully-qualified     # \uD83E\uDD71 yawning face";
 
         long start = System.currentTimeMillis();
-        EmojiFinder emojiFinder = new EmojiFinder(EmojiSource.getInstance().getEmojiSet());
-        ArrayList<EmojiBean> findResult = emojiFinder.find(toFind);
+
+        ArrayList<EmojiBean> findResult = EmojiFinder.getInstance().find(toFind);
 
         System.out.println("Use Time: " + (System.currentTimeMillis() - start) + ", Find Count : " + findResult.size());
         System.out.println("Find Result : " + findResult);
