@@ -2,220 +2,158 @@ package com.andforce;
 
 import com.andforce.beans.EmojiBean;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
 public class EmojiFinder {
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    private Map sensitiveWordMap;
 
-    private static final boolean DEBUG = false;
+    public EmojiFinder(Set<String> keyWordSet) {
+        sensitiveWordMap = makeSensitiveWordToHashMap(keyWordSet);
+    }
+
+    //  读取敏感词库，将敏感词放入HashSet中，构建一个DFA算法模型：<br>
+    //  中 ={
+    //     isEnd = 0
+    //  国 =   {
+    //      isEnd = 1
+    //      人 = {
+    //           isEnd = 0
+    //  民 = {
+    //              isEnd = 1
+    //           }
+    //        }      男  = {
+    //           isEnd = 0
+    //  人 = {
+    //              isEnd = 1
+    //           }
+    //        }
+    //     }
+    //  }五 ={
+    //     isEnd = 0
+    //  星 =   {
+    //        isEnd = 0
+    //  红 = {
+    //           isEnd = 0
+    //  旗 = {
+    //              isEnd = 1
+    //           }
+    //        }
+    //     }
+    //  }
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    private Map makeSensitiveWordToHashMap(Set<String> keyWordSet) {
+        //初始化敏感词容器，减少扩容操作
+        Map sensitiveWordMap = new HashMap(keyWordSet.size());
+        String key;
+        Map nowMap;
+        Map<String, String> newWorMap;
+        //迭代keyWordSet
+        for (String aKeyWordSet : keyWordSet) {
+            key = aKeyWordSet;    //关键字
+            nowMap = sensitiveWordMap;
+            for (int i = 0; i < key.length(); i++) {
+                //转换成char型
+                char keyChar = key.charAt(i);
+
+                //获取
+                Object wordMap = nowMap.get(keyChar);
+
+                if (wordMap != null) {
+                    //如果存在该key，直接赋值
+                    nowMap = (Map) wordMap;
+                } else {
+                    //不存在则，则构建一个map，同时将isEnd设置为0，因为他不是最后一个
+                    newWorMap = new HashMap<>();
+                    newWorMap.put("isEnd", "0");     //不是最后一个
+                    nowMap.put(keyChar, newWorMap);
+                    nowMap = newWorMap;
+                }
+
+                if (i == key.length() - 1) {
+                    nowMap.put("isEnd", "1");    //最后一个
+                }
+            }
+        }
+        return sensitiveWordMap;
+    }
+
+
+    public ArrayList<EmojiBean> find(String txt) {
+        ArrayList<EmojiBean> sensitiveWordList = new ArrayList<>();
+        for (int i = 0; i < txt.length(); i++) {
+            //判断是否包含敏感字符
+            int length = find(txt, i, false);
+            if (length > 0) {    //存在,加入list中
+                String word = txt.substring(i, i + length);
+                EmojiBean emojiBean = new EmojiBean();
+                emojiBean.setEmoji(word);
+                emojiBean.setStart(i);
+                emojiBean.setEnd(i + word.length());
+                sensitiveWordList.add(emojiBean);
+                i = i + length - 1;    //减1的原因，是因为for会自增
+            }
+        }
+
+        sensitiveWordList.sort(new Comparator<EmojiBean>() {
+            @Override
+            public int compare(EmojiBean o1, EmojiBean o2) {
+                return o1.getStart() - o2.getStart();
+            }
+        });
+        return sensitiveWordList;
+    }
+
+    public boolean isContainsEmoji(String txt) {
+        for (int i = 0; i < txt.length(); i++) {
+            //判断是否包含敏感字符
+            int length = find(txt, i, true);
+            if (length > 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     /**
-     * @param src 需要查找的字符串
-     * @param regexs 自定义的正则表达式
-     * @return 查找到的结果，如果没有返回空的List，不会返回null
+     * 检查文字中是否包含敏感字符，检查规则如下：<br>
+     *
+     * @param txt
+     * @param beginIndex
+     * @param minMatch
+     * @return 如果存在，则返回敏感词字符的长度，不存在返回0
      */
-    public static List<EmojiBean> find(String src, String[] regexs) {
-        List<EmojiBean> list = new ArrayList<>();
-
-        if (src == null || src.trim().equals("")) {
-            return list;
-        }
-
-        // 先查看所要查找的src是否只是由中文和英文，以及数字组成的，
-        // 如果是的话，就不需要再进行emoji的查找了
-        Pattern pattern = Pattern.compile("^[a-zA-Z0-9_\\u4e00-\\u9fa5]+$");
-        if (pattern.matcher(src).find()) {
-            return list;
-        }
-
-        long startTime = System.currentTimeMillis();
-
-        for (String aRegex : regexs) {
-            src = find(src, aRegex, list);
-        }
-
-        if (DEBUG) {
-            System.out.println("ALL Time Usage: " + (System.currentTimeMillis() - startTime));
-        }
-        return list;
-    }
-
-    public static List<EmojiBean> find(String src) {
-        List<EmojiBean> list = new ArrayList<>();
-
-        if (src == null || src.trim().equals("")) {
-            return list;
-        }
-
-        // 先查看所要查找的src是否只是由中文和英文，以及数字组成的，
-        // 如果是的话，就不需要再进行emoji的查找了
-        Pattern pattern = Pattern.compile("^[a-zA-Z0-9_\\u4e00-\\u9fa5]+$");
-        if (pattern.matcher(src).find()) {
-            return list;
-        }
-
-        String[] specialForIndex = {
-                "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F",
-                "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F",
-                "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F",
-                "\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68",
-                "\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67",
-                "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67",
-                "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69",
-                "\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66",
-                "\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66",
-                "\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67",
-                "\uD83D\uDC68\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC8B\u200D\uD83D\uDC69",
-                "\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC68",
-                "\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67",
-                "\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67",
-                "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66",
-                "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67",
-                "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC69",
-                "\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66",
-                "\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66",
-                "\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67",
-                "\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66",
-                "\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67",
-                "\uD83D\uDC68\u200D\u2764\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC68",
-                "\uD83D\uDC69\u200D\u2764\u200D\uD83D\uDC69"
-        };
-
-        if (src.length() >= 7) {
-            StringBuilder stringBuilder = new StringBuilder(src);
-            long findLong = System.currentTimeMillis();
-            int findCount = 0;
-            for (String toFind : specialForIndex) {
-                int index = stringBuilder.indexOf(toFind);
-                if (index == -1) {
-                    continue;
+    @SuppressWarnings({"rawtypes"})
+    private int find(String txt, int beginIndex, boolean minMatch) {
+        boolean flag = false;    //敏感词结束标识位：用于敏感词只有1位的情况
+        int matchFlag = 0;     //匹配标识数默认为0
+        char word;
+        Map nowMap = sensitiveWordMap;
+        for (int i = beginIndex; i < txt.length(); i++) {
+            word = txt.charAt(i);
+            nowMap = (Map) nowMap.get(word);     //获取指定key
+            if (nowMap != null) {     //存在，则判断是否为最后一个
+                matchFlag++;     //找到相应key，匹配标识+1
+                if ("1".equals(nowMap.get("isEnd"))) {       //如果为最后一个匹配规则,结束循环，返回匹配标识数
+                    flag = true;       //结束标志位为true
+                    if (minMatch) {    //最小规则，直接返回,最大规则还需继续查找
+                        break;
+                    }
                 }
-                do {
-                    stringBuilder.replace(index, index + toFind.length(), generateEmptyString(toFind.length()));
-
-                    EmojiBean regexEmoji = new EmojiBean();
-
-                    int end = index + toFind.length();
-
-                    String emoji = src.substring(index, end);
-
-                    regexEmoji.setStart(index);
-                    regexEmoji.setEnd(end);
-                    regexEmoji.setEmoji(emoji);
-
-                    list.add(regexEmoji);
-
-                    findCount++;
-                } while ((index = stringBuilder.indexOf(toFind, index + toFind.length())) != -1);
-            }
-
-            src = stringBuilder.toString();
-
-            if (DEBUG) {
-                System.out.println("Index Find Time Usage: " + (System.currentTimeMillis() - findLong) + "\t\tfindCount:" + findCount);
+            } else {     //不存在，直接返回
+                break;
             }
         }
-
-
-        //通过正则表达式查找
-        // 目前没有找到任何一个正则表达式，能一次查找出所有的emoji。
-        // 因此我尝试根据emoji的长度写了下面的正则，可能还需要优化
-        // 规则是先查找较长的emoji，原因是长的emoji可能包含短的emoji
-        String[] regexArr = {
-                "[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF|\\uFE0F]\\u200D[\\u2640-\\u2708|\\uD83C\\uDF3E-\\uD83E\\uDDB3]\\uFE0F?",
-                "\\u26F9?[\\uD83C\\uDFC3-\\uD83E\\uDDDD][\\uD83C\\uDFFB-\\uD83C\\uDFFF]?\\uFE0F?\\u200D[\\u2640-\\u2708|\\uD83C\\uDF08-\\uD83D\\uDDE8]\\uFE0F?",
-                "[\\uD83C\\uDFF3-\\uD83D\\uDC69|\\u26F9]\\uFE0F?\\u200D[\\uD83C\\uDF08-\\uD83E\\uDDB3|\\u2620-\\u2708]\\uFE0F?",
-                "[\\uD83C\\uDFC3-\\uD83E\\uDDDF]\\uFE0F?\\u200D[\\u2640-\\u2642]\\uFE0F?",
-                "[\\uD83C\\uDF85-\\uD83E\\uDDDF][\\uD83C\\uDFFB-\\uD83C\\uDFFF|\\u200D[\\u2620-\\u2642]]",
-                "[\\uD83C\\uDDE6-\\uD83C\\uDDFF][\\uD83C\\uDDE6-\\uD83C\\uDDFF]",
-                "[\\u261D-\\u270D]?[\\uD83C\\uDC04-\\uD83E\\uDEF9]\\uFE0F?",
-                "[\\u0023-\\u0039]\\uFE0F?\\u20E3|\\u00A9\\uFE0F?|\\u00AE\\uFE0F?",
-                "[\\u203C-\\u3299]\\uFE0F?"
-        };
-
-
-        long startTime = System.currentTimeMillis();
-
-        for (String aRegex : regexArr) {
-            src = find(src, aRegex, list);
+        /*“粉饰”匹配词库：“粉饰太平”竟然说是敏感词
+         * “个人”匹配词库：“个人崇拜”竟然说是敏感词
+         * if(matchFlag < 2 && !flag){
+            matchFlag = 0;
+        }*/
+        if (!flag) {
+            matchFlag = 0;
         }
-
-        if (DEBUG) {
-            System.out.println("ALL Time Usage: " + (System.currentTimeMillis() - startTime));
-        }
-
-        //FileUtils.writeToFile("./src/main/resources/emoji-removed.txt", src);
-
-        return list;
+        return matchFlag;
     }
 
-    private static String find(String src, String patternStr, List<EmojiBean> list) {
-
-        StringBuffer stringBuffer = null;
-
-        Pattern pattern = Pattern.compile(patternStr);
-        Matcher matcher = pattern.matcher(src);
-
-        long startTime = System.currentTimeMillis();
-
-        int count = 0;
-        while (matcher.find()) {
-            EmojiBean regexEmoji = new EmojiBean();
-
-            int start = matcher.start();
-            int end = matcher.end();
-
-            String emoji = src.substring(start, end);
-
-            regexEmoji.setStart(start);
-            regexEmoji.setEnd(end);
-            regexEmoji.setEmoji(emoji);
-
-            if (DEBUG && list.contains(regexEmoji)) {
-                System.out.println("Error: " + regexEmoji);
-            }
-
-            list.add(regexEmoji);
-            count++;
-
-            if (stringBuffer == null) {
-                stringBuffer = new StringBuffer(src.length());
-            }
-            matcher.appendReplacement(stringBuffer, generateEmptyString(end - start));
-        }
-        if (stringBuffer != null) {
-            matcher.appendTail(stringBuffer);
-            if (DEBUG) {
-                System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
-            }
-            return stringBuffer.toString();
-        } else {
-            if (DEBUG) {
-                System.out.println("Time Usage: " + (System.currentTimeMillis() - startTime) + "\t\tfindCount:" + count);
-            }
-            return src;
-        }
-    }
-
-    private static String generateEmptyString(int len) {
-        StringBuilder stringBuilder = new StringBuilder();
-        for (int i = 0; i < len; i++) {
-            stringBuilder.append(" ");
-        }
-        return stringBuilder.toString();
-    }
 }
