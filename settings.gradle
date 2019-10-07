@@ -1,2 +1,3 @@
 rootProject.name = 'EmojiFinder'
+include 'emoji-finder'
 
