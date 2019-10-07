@@ -9,6 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
 
+        EmojiSourceUpdater updater = new EmojiSourceUpdater();
+        updater.update();
+
         //Test String from
         //http://unicode.org/Public/emoji/latest/emoji-test.txt
         String toFind = "# subgroup: face-concerned\n" +
