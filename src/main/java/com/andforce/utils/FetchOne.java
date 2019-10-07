@@ -103,7 +103,7 @@ public class FetchOne {
         downloadService = DownloadRetrofitManager.getInstance().create(DownloadService.class);
     }
 
-    public void fetchOneEmpji(String emoji) {
+    public void fetchOneEmoji(String emoji) {
 
         service.fetchOne("https://emojipedia.org/" + emoji.trim()).flatMap(new Function<List<VendorEmojiImage>, Observable<VendorEmojiImage>>() {
             @Override

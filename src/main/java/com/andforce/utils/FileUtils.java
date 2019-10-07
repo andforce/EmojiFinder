@@ -34,7 +34,6 @@ public class FileUtils {
             while ((line = bufferedReader.readLine()) != null) {
                 stringBuilder.append(line).append('\n');
             }
-//            stringBuilder.lastIndexOf("\n");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
