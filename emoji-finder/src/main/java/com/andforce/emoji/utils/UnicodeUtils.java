@@ -1,4 +1,4 @@
-package com.andforce.utils;
+package com.andforce.emoji.utils;
 
 public class UnicodeUtils {
 

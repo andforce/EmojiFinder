@@ -1,6 +1,7 @@
 package com.andforce;
 
-import com.andforce.beans.EmojiBean;
+import com.andforce.emoji.EmojiFinder;
+import com.andforce.emoji.beans.EmojiBean;
 
 import java.util.ArrayList;
 

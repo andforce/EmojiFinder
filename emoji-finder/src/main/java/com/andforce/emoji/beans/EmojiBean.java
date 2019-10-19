@@ -1,6 +1,6 @@
-package com.andforce.beans;
+package com.andforce.emoji.beans;
 
-import com.andforce.utils.UnicodeUtils;
+import com.andforce.emoji.utils.UnicodeUtils;
 
 public class EmojiBean {
     private int start = -1;

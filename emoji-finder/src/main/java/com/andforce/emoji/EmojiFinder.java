@@ -1,6 +1,6 @@
-package com.andforce;
+package com.andforce.emoji;
 
-import com.andforce.beans.EmojiBean;
+import com.andforce.emoji.beans.EmojiBean;
 
 import java.util.*;
 
