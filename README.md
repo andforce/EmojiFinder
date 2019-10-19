@@ -1,5 +1,10 @@
 # EmojiFinder
 
+## 如何使用
+```
+compile 'com.andforce.emoji.finder:emoji-finder:12.0'
+```
+## 一些介绍
 无论你是前端、后端还是客户端开发，文字处理部分几乎都会遇到，而`emoji`又是一个很让人头疼的问题。
 
 原因在于：
