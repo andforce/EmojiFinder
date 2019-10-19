@@ -35,4 +35,10 @@ dependencies {
 
     // https://mvnrepository.com/artifact/com.squareup.okhttp3/logging-interceptor
     compile group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '3.14.2'
+
+//    //https://mvnrepository.com/artifact/com.jfrog.bintray.gradle/gradle-bintray-plugin?repo=gradle-plugins
+//    classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+//
+//    //https://mvnrepository.com/artifact/com.github.dcendents/android-maven-gradle-plugin
+//    classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
 }
